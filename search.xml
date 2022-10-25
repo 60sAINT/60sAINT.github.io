@@ -11,8 +11,7 @@
 <h2 id="经典问题"><a class="anchor" href="#经典问题">#</a> 经典问题</h2>
 <details class="primary"><summary>1.1 组合问题</summary><div>
 <div class="note info">
-<pre>Error: Evaluation failed: TypeError: Cannot read property 'initialize' of undefined
-    at __puppeteer_evaluation_script__:3:32</pre></div>
+<pre class="mermaid graph"><svg id="mermaid-1666685821432" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="87.1875" style="max-width: 371.1875px;" viewBox="0 0 371.1875 87.1875"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M79.1875,43.59375L172.3828125,43.59375L265.578125,43.59375" marker-end="url(#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(172.3828125,43.59375)" style="opacity: 1;"><g transform="translate(-68.1953125,-9.5)" class="label"><rect rx="0" ry="0" width="136.390625" height="19"></rect><text><tspan xml:space="preserve" dy="1em" x="1">找出大小为2的组合</tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-2" transform="translate(43.59375,43.59375)" style="opacity: 1;"><circle x="-35.59375" y="-19.5" r="35.59375" class="label-container"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-25.59375,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2,3,4</tspan></text></g></g></g><g class="node default" id="flowchart-B-3" transform="translate(314.3828125,43.59375)" style="opacity: 1;"><rect rx="0" ry="0" x="-48.8046875" y="-35.5" width="97.609375" height="71" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-38.8046875,-25.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2 1,3 1,4</tspan><tspan xml:space="preserve" dy="1em" x="1">2,3 2,4</tspan><tspan xml:space="preserve" dy="1em" x="1">3,4</tspan></text></g></g></g></g></g></g></svg></pre></div>
 </div></details>
 <details class="primary"><summary>1.2 切割问题</summary><div>
 <div class="note default">
@@ -29,8 +28,7 @@
 </div></details>
 <details class="primary"><summary>1.4排列问题</summary><div>
 <div class="note info">
-<pre>Error: Evaluation failed: TypeError: Cannot read property 'initialize' of undefined
-    at __puppeteer_evaluation_script__:3:32</pre></div>
+<pre class="mermaid graph"><svg id="mermaid-1666685822812" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="71" style="max-width: 237.3125px;" viewBox="0 0 237.3125 71"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M50.65625,35.5L118.65625,35.5L186.65625,35.5" marker-end="url(#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(118.65625,35.5)" style="opacity: 1;"><g transform="translate(-43,-9.5)" class="label"><rect rx="0" ry="0" width="86" height="19"></rect><text><tspan xml:space="preserve" dy="1em" x="1">有几种排列?</tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-2" transform="translate(29.328125,35.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-21.328125" y="-19.5" width="42.65625" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-11.328125,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2</tspan></text></g></g></g><g class="node default" id="flowchart-B-3" transform="translate(207.984375,35.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-21.328125" y="-27.5" width="42.65625" height="55" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-11.328125,-17.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2</tspan><tspan xml:space="preserve" dy="1em" x="1">2,1</tspan></text></g></g></g></g></g></g></svg></pre></div>
 </div></details>
 <details class="primary"><summary>1.5 N皇后</summary><div>
 </div></details>
@@ -911,6 +909,8 @@ else:
 <p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h798y955pvj30pa09edgd.jpg" alt="" /></p>
 <p><strong>步骤 2 - 创建基本的 web 服务器</strong></p>
 <p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h798yjtzioj30om0dg0tq.jpg" alt="" /></p>
+<p><strong>步骤 3 - 将资源的请求 url 地址映射为文件的存放路径</strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7gmk33ckzj30p90760t7.jpg" alt="" /></p>
 <p><strong>步骤 4 - 读取文件的内容并响应给客户端</strong></p>
 <p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7991kvmuoj30pa0abt9k.jpg" alt="" /></p>
 <p><strong>步骤 5 - 优化资源的请求路径</strong></p>
@@ -941,10 +941,10 @@ else:
 <p>例如：</p>
 <ul>
 <li>
-<p>使用什么样的语法格式来<em>引用模块</em></p>
+<p>使用什么样的语法格式来<span class="blue">引用模块</span></p>
 </li>
 <li>
-<p>在模块中使用什么样的语法格式<em>向外暴露成员</em></p>
+<p>在模块中使用什么样的语法格式<span class="blue">向外暴露成员</span></p>
 </li>
 </ul>
 <p><strong>模块化规范的好处</strong>：大家都遵守同样的模块化规范写代码，降低了沟通的成本，极大方便了各个模块之间的相互调用，利人利己。</p>
@@ -953,27 +953,32 @@ else:
 <p>Node.js 中根据模块来源的不同，将模块分为了 3 大类，分别是：</p>
 <ul>
 <li>
-<p>内置模块（内置模块是由 Node.js 官方提供的，例如 fs、path、http 等）</p>
+<p><span class="red">内置模块</span>（内置模块是由 Node.js 官方提供的，例如 fs、path、http 等）</p>
 </li>
 <li>
-<p>自定义模块（用户创建的每个 .js 文件，都是自定义模块）</p>
+<p><span class="red">自定义模块</span>（用户创建的每个 .js 文件，都是自定义模块）</p>
 </li>
 <li>
-<p>第三方模块（由第三方开发出来的模块，并非官方提供的内置模块，也不是用户创建的自定义模块，使用前需要先下载）</p>
+<p><span class="red">第三方模块</span>（<span class="blue">由第三方开发出来的模块</span>，并非官方提供的内置模块，也不是用户创建的自定义模块，<span class="blue">使用前需要先下载</span>）</p>
 </li>
 </ul>
 <h3 id="加载模块"><a class="anchor" href="#加载模块">#</a> 加载模块</h3>
 <p>使用强大的 require () 方法，可以加载需要的内置模块、用户自定义模块、第三方模块进行使用。例如：</p>
 <p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h79929ptwdj30p90bnaay.jpg" alt="" /></p>
-<p>注意：</p>
+<p>⚠️：</p>
 <ul>
 <li>使用 require () 方法加载其它模块时，会执行被加载模块中的代码。</li>
 <li>在使用 requires 加载用户自定义模块期间，可以省略.js 的后缀名</li>
 </ul>
 <h3 id="nodejs中的模块作用域"><a class="anchor" href="#nodejs中的模块作用域">#</a> Node.js 中的模块作用域</h3>
-<p><strong>1. 什么是模块作用域</strong></p>
+<ol>
+<li>
+<p><strong>什么是模块作用域</strong></p>
 <p>和函数作用域类似，在自定义模块中定义的变量、方法等成员，只能在当前模块内被访问，这种模块级别的访问限制，叫做<strong>模块作用域</strong>。</p>
 <p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7992lmxyuj30t8077gmc.jpg" alt="" /></p>
+</li>
+<li></li>
+</ol>
 <p><strong>2. 模块作用域的好处</strong></p>
 <p>防止了全局变量污染的问题</p>
 <p><img data-src="https://s3.bmp.ovh/imgs/2022/10/18/f1a7bacebef2f34d.png" alt="" /></p>
@@ -1203,15 +1208,497 @@ else:
 <p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7d9uppndej30p909edgk.jpg" alt="" /></p>
 </li>
 <li>
-<p>nrm</p>
+<p><strong>nrm</strong></p>
 <p>为了更方便的切换下包的镜像源，我们可以安装 <strong>nrm</strong> 这个小工具，利用 nrm 提供的终端命令，可以快速查看和切换下包的镜像源。</p>
 <p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7da4v9dfej30p909e0t7.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="包的分类"><a class="anchor" href="#包的分类">#</a> 包的分类</h3>
+<p>使用 npm 包管理工具下载的包，共分为两大类，分别是：</p>
+<ul>
+<li>
+<p>项目包</p>
+</li>
+<li>
+<p>全局包</p>
+</li>
+</ul>
+<ol>
+<li>
+<p><strong>项目包</strong></p>
+<p>那些被安装到<span class="red">项目</span>的 <span class="blue">node_modules 目录</span>中的包，都是项目包。</p>
+<p>项目包又分为两类，分别是：</p>
+<ul>
+<li>
+<p><span class="red">开发依赖包</span>（被记录到 <span class="blue">devDependencies</span> 节点中的包，只在开发期间会用到）</p>
+</li>
+<li>
+<p><span class="red">核心依赖包</span>（被记录到 <span class="blue">dependencies</span> 节点中的包，在开发期间和项目上线之后都会用到）</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>全局包</strong></p>
+<p>在执行 npm install 命令时，如果提供了 <span class="red">-g</span> 参数，则会把包安装为<span class="red">全局包</span>。</p>
+<p>全局包会被安装到 <span class="blue">C:\Users\ 用户目录 \AppData\Roaming\npm\node_modules</span> 目录下。</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7g9xsp0d0j30p9050q32.jpg" alt="" /></p>
+<p>⚠️</p>
+<ol>
+<li>只有<span class="red">工具性质的包</span>，才有全局安装的必要性。因为它们提供了好用的终端命令。</li>
+<li>判断某个包是否需要全局安装后才能使用，可以<span class="red">参考官方提供的使用说明</span>即可。</li>
+</ol>
+</li>
+<li>
+<p><strong> <code>i5ting_toc</code> </strong></p>
+<p>i5ting_toc 是一个可以把 md 文档转为 html 页面的小工具，使用步骤如下：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7gaggkfcsj30p9077t95.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="规范的包结构"><a class="anchor" href="#规范的包结构">#</a> 规范的包结构</h3>
+<p>在清楚了包的概念、以及如何下载和使用包之后，接下来，我们深入了解一下<span class="red">包的内部结构</span>。</p>
+<p>一个规范的包，它的组成结构，必须符合以下 3 点要求：</p>
+<ol>
+<li>包必须以<span class="red">单独的目录</span>而存在</li>
+<li>包的顶级目录下要必须包含 <span class="red">package.json</span> 这个包管理配置文件</li>
+<li>package.json 中必须包含 <span class="red">name，version，main</span> 这三个属性，分别代表<span class="blue">包的名字、版本号、包的入口</span>。</li>
+</ol>
+<p>⚠️：以上 3 点要求是一个规范的包结构必须遵守的格式，关于更多的约束，可以参考如下网址：</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly95YXJucGtnLmNvbS96aC1IYW5zL2RvY3MvcGFja2FnZS1qc29u">https://yarnpkg.com/zh-Hans/docs/package-json</span></p>
+<h3 id="开发属于自己的包"><a class="anchor" href="#开发属于自己的包">#</a> 开发属于自己的包</h3>
+<ol>
+<li>
+<p><strong>需要实现的功能</strong></p>
+<ol>
+<li>
+<p><span class="red">格式化日期</span></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7gaswhi7vj30p90ajgm8.jpg" alt="" /></p>
+</li>
+<li>
+<p><span class="red">转义</span> HTML 中的<span class="red">特殊字符</span></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7gatbdc7zj30wm0bdjss.jpg" alt="" /></p>
+</li>
+<li>
+<p><span class="red">还原</span> HTML 中的<span class="red">特殊字符</span></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7gathucyij30pa0aj754.jpg" alt="" /></p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>初始化包的基本结构</strong></p>
+<ol>
+<li>
+<p>新建  <code>tools</code>  文件夹，作为<span class="red">包的根目录</span></p>
+</li>
+<li>
+<p>在  <code>tools</code>  文件夹中，新建如下三个文件：</p>
+<ul>
+<li>
+<p>package.json （包管理配置文件）</p>
+</li>
+<li>
+<p>index.js     （包的入口文件）</p>
+</li>
+<li>
+<p><span class="exturl" data-url="aHR0cDovL1JFQURNRS5tZA==">README.md</span> （包的说明文档）</p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>初始化 <code>package.json</code> </strong></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7gbasus1mj30pa0bnaau.jpg" alt="" /></p>
+<p>关于更多 license 许可协议相关的内容，可参考 <span class="exturl" data-url="aHR0cHM6Ly93d3cuamlhbnNodS5jb20vcC84NjI1MTUyM2U4OTg=">https://www.jianshu.com/p/86251523e898</span></p>
+</li>
+<li>
+<p><strong>在 index.js 中定义格式化时间的方法</strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7gbpcd64mj30mt0diaan.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>在 index.js 中定义转义 HYML 的方法</strong></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7gc65per0j30in0dhwf0.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>在 index.js 中定义还原 HTML 方法</strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7gcfj1fkcj30ip0dhdge.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>将不同的功能进行模块化拆分</strong></p>
+<ol>
+<li>将格式化时间的功能，拆分到 src -&gt;  <code>dateFormat.js</code>  中</li>
+<li>将处理 HTML 字符串的功能，拆分到 src -&gt;  <code>htmlEscape.js</code>  中</li>
+<li>在 index.js 中，导入两个模块，得到需要向外共享的方法</li>
+<li>在 index.js 中，使用 module.exports 把对应的方法共享出去</li>
+</ol>
+</li>
+<li>
+<p><strong>编写包的说明文档</strong></p>
+<ul>
+<li>
+<p>包根目录中的  <code>README.md</code>  文件，是<span class="red">包的使用说明文档</span>。通过它，我们可以事先把包的使用说明，以 markdown 的格式写出来，方便用户参考。</p>
+</li>
+<li>
+<p>README 文件中具体写什么内容，没有强制性的要求；只要能够清晰地把包的作用、用法、注意事项等描述清楚即可。</p>
+</li>
+<li>
+<p>我们所创建的这个包的 <span class="exturl" data-url="aHR0cDovL1JFQURNRS5tZA==">README.md</span> 文档中，会包含以下 6 项内容：</p>
+</li>
+<li>
+<p>安装方式、导入方式、格式化时间、转义 HTML 中的特殊字符、还原 HTML 中的特殊字符、开源协议</p>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="发布包"><a class="anchor" href="#发布包">#</a> 发布包</h3>
+<ol>
+<li>
+<p><strong>注册 npm 账号</strong></p>
+<ol>
+<li>访问 <span class="exturl" data-url="aHR0cHM6Ly93d3cubnBtanMuY29tLw==">https://www.npmjs.com/</span> 网站，点击 <span class="kbd">sign up</span> 按钮，进入注册用户界面</li>
+<li>填写账号相关的信息：Full Name、<span class="red">Public Email、Username、Password</span></li>
+<li>点击 <span class="kbd">Create an Account</span> 按钮，注册账号</li>
+<li>登录邮箱，<span class="red">点击验证链接</span>，进行账号的验证</li>
+</ol>
+</li>
+<li>
+<p><strong>登录 npm 账号</strong></p>
+<p>npm 账号注册完成后，可以在终端中执行  <code>npm login</code>  命令，依次输入用户名、密码、邮箱后，即可登录成功。</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7gk6xer7uj30ku0awmxd.jpg" alt="" /></p>
+<p>⚠️：在运行 npm login 命令之前，必须先把<span class="red">下包的服务器</span>地址切换为 <span class="red">npm 的官方服务器</span>。否则会导致发布包失败！</p>
+</li>
+<li>
+<p><strong>把包发布到 npm 上</strong></p>
+<p>将终端切换到包的根目录之后，运行  <code>npm publish</code>  命令，即可将包发布到 npm 上（注意：<span class="red">包名不能雷同</span>）。</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7gk990co4j30kf0bejt6.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>删除已发布的包</strong></p>
+<p>运行  <code>npm unpublish 包名 --force</code>  命令，即可从 npm 删除已发布的包。</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7gkfbqfrbj30pa031dg9.jpg" alt="" /></p>
+<p>⚠️</p>
+<ol>
+<li>npm unpublish 命令只能删除 <span class="red">72 小时以内</span>发布的包</li>
+<li>npm unpublish 删除的包，在 <span class="red">24 小时内</span>不允许重复发布</li>
+<li>发布包的时候要慎重，<span class="red">尽量不要往 npm 上发布没有意义的包</span>！</li>
+</ol>
+</li>
+</ol>
+<h2 id="模块的加载机制"><a class="anchor" href="#模块的加载机制">#</a> 模块的加载机制</h2>
+<h3 id="优先从缓存中加载"><a class="anchor" href="#优先从缓存中加载">#</a> 优先从缓存中加载</h3>
+<p><strong>模块在第一次加载后会被缓存</strong>。 这也意味着多次调用  <code>require()</code>  不会导致模块的代码被执行多次。</p>
+<p>注意：不论是内置模块、用户自定义模块、还是第三方模块，它们都会优先从缓存中加载，从而<span class="red">提高模块的加载效率</span>。</p>
+<h3 id="内置模块的加载机制"><a class="anchor" href="#内置模块的加载机制">#</a> <span class="red">内置模块</span>的加载机制</h3>
+<p>内置模块是由 Node.js 官方提供的模块，<span class="red">内置模块的加载优先级最高</span>。</p>
+<p>📗例如，require ('fs') 始终返回内置的 fs 模块，即使在 node_modules 目录下有名字相同的包也叫做 fs。</p>
+<h3 id="自定义模块的加载机制"><a class="anchor" href="#自定义模块的加载机制">#</a> 自定义模块的加载机制</h3>
+<p>使用 require () 加载自定义模块时，必须指定以  <code>./</code>  或  <code>../</code>  开头的<span class="red">路径标识符</span>。在加载自定义模块时，如果没有指定 ./ 或 ../ 这样的路径标识符，则 node 会把它当作<span class="blue">内置模块</span>或<span class="blue">第三方模块</span>进行加载。</p>
+<p>同时，在使用 require () 导入自定义模块时，如果省略了文件的扩展名，则 Node.js 会<span class="red">按顺序</span>分别尝试加载以下的文件：</p>
+<ol>
+<li>按照<span class="red">确切的文件名</span>进行加载</li>
+<li>补全  <code>.js</code>  扩展名进行加载</li>
+<li>补全  <code>.json</code>  扩展名进行加载</li>
+<li>补全  <code>.node</code>  扩展名进行加载</li>
+<li>加载失败，终端报错</li>
+</ol>
+<h3 id="第三方模块的加载机制"><a class="anchor" href="#第三方模块的加载机制">#</a> <span class="red">第三方模块</span>的加载机制</h3>
+<p>如果传递给 require () 的模块标识符不是一个内置模块，也没有以 ‘./’ 或 ‘../’ 开头，则 Node.js 会从当前模块的父目录开始，尝试从 /node_modules 文件夹中加载第三方模块。</p>
+<p><span class="red">如果没有找到对应的第三方模块，则移动到再上一层父目录中，进行加载，直到文件系统的根目录。</span></p>
+<p>📗例如，假设在' <code>C:\Users\itheima\project\</code> foo.js' 文件里调用了  <code>require('tools')</code> ，则 Node.js 会按以下顺序查找：</p>
+<ol>
+<li><code>C:\Users\itheima\project\node_modules\</code> tools</li>
+<li><code>C:\Users\itheima\node_modules\</code> tools</li>
+<li><code>C:\Users\node_modules\</code> tools</li>
+<li><code>C:\node_modules\</code> tools</li>
+</ol>
+<h3 id="目录作为模块"><a class="anchor" href="#目录作为模块">#</a> <span class="red">目录</span>作为模块</h3>
+<p>当把目录作为模块标识符，传递给 require () 进行加载的时候，有三种加载方式：</p>
+<ol>
+<li>在被加载的目录下查找一个叫做 package.json 的文件，并寻找 main 属性，作为 require () 加载的入口</li>
+<li>如果目录里没有 package.json 文件，或者 main 入口不存在或无法解析，则 Node.js 将会试图加载目录下的  <code>index.js</code>  文件。</li>
+<li>如果以上两步都失败了，则 Node.js 会在终端打印错误消息，报告模块的缺失：Error: Cannot find module 'xxx'</li>
+</ol>
+<h1 id="express"><a class="anchor" href="#express">#</a> Express</h1>
+<h2 id="初识express"><a class="anchor" href="#初识express">#</a> 初识 Express</h2>
+<h3 id="express简介"><a class="anchor" href="#express简介">#</a> Express 简介</h3>
+<ol>
+<li>
+<p><strong>什么是 Express</strong></p>
+<p>官方给出的概念：Express 是<span class="red">基于 Node.js 平台</span>，<span class="blue">快速、开放、极简</span>的 <span class="red">Web 开发框架</span>。</p>
+<p>通俗的理解：Express 的作用和 Node.js 内置的 http 模块类似，<span class="red">是专门用来创建 Web 服务器的</span>。</p>
+<p><strong>Express</strong> <strong>的本质</strong>：就是一个 npm 上的第三方包，提供了快速创建 Web 服务器的便捷方法。</p>
+<p>Express 的中文官网：<span class="exturl" data-url="aHR0cDovL3d3dy5leHByZXNzanMuY29tLmNuLw=="> http://www.expressjs.com.cn/</span></p>
+</li>
+<li>
+<p><strong>进一步理解 Express</strong></p>
+<p>❓：不使用 Express 能否创建 Web 服务器？</p>
+<p>📘：能，使用 Node.js 提供的原生 http 模块即可。</p>
+<p>❓：既生瑜何生亮（有了 http 内置模块，为什么还有用 Express）？</p>
+<p>📘：http 内置模块用起来很复杂，开发效率低；Express 是基于内置的 http 模块进一步封装出来的，能够极大的提高开发效率。</p>
+<p>❓：http 内置模块与 Express 是什么关系？</p>
+<p>📘：类似于浏览器中 Web API 和 jQuery 的关系。后者是基于前者进一步封装出来的。</p>
+</li>
+<li>
+<p><strong>Express 能做什么</strong></p>
+<p>对于前端程序员来说，最常见的<span class="blue">两种</span>服务器，分别是：</p>
+<ul>
+<li>
+<p><span class="red">Web 网站服务器</span>：专门对外提供 Web 网页资源的服务器。</p>
+</li>
+<li>
+<p><span class="red">API 接口服务器</span>：专门对外提供 API 接口的服务器。</p>
+</li>
+</ul>
+<p>使用 Express，我们可以方便、快速的创建 <span class="blue">Web 网站</span>的服务器或 <span class="blue">API 接口</span>的服务器。</p>
+</li>
+</ol>
+<h3 id="express的基本使用"><a class="anchor" href="#express的基本使用">#</a> Express 的基本使用</h3>
+<ol>
+<li>
+<p><strong>安装</strong></p>
+<p>在项目所处的目录中，运行如下的终端命令，即可将 express 安装到项目中使用：</p>
+<figure class="highlight raw"><figcaption data-lang=""></figcaption><table><tr><td data-num="1"></td><td><pre>npm i express@4.17.1</pre></td></tr></table></figure></li>
+<li>
+<p><strong>创建基本的 Web 服务器</strong></p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">// 1. 导入 express</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment">// 2. 创建 web 服务器</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token comment">// 3. 启动 web 服务器</span></pre></td></tr><tr><td data-num="6"></td><td><pre>app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">80</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'express server running at http://127.0.0.1'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure></li>
+<li>
+<p><strong>监听<span class="red"> GET 请求</span></strong></p>
+<p>通过 app.get () 方法，可以监听客户端的 GET 请求，具体的语法格式如下：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7gm6wlhpzj30p908a751.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>监听<span class="red"> POST 请求</span></strong></p>
+<p>通过 app.post () 方法，可以监听客户端的 POST 请求，具体的语法格式如下：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7gm9ogkn0j30p908a751.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>把内容<span class="red">响应</span>给客户端</strong></p>
+<p>通过  <code>res.send()</code>  方法，可以把处理好的内容，发送给客户端：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7gmbz667nj30ng0bjt9c.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>获取 URL 中携带的查询参数</strong></p>
+<p>通过  <code>req.query</code>  对象，可以访问到客户端通过查询字符串的形式，发送到服务器的参数：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7gn7yuw2zj30p90aiwfb.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>获取 URL 中的<span class="red">动态参数</span></strong></p>
+<p>通过  <code>req.params</code>  对象，可以访问到 URL 中，通过 <strong> <code>:</code> </strong> 匹配到的<span class="red">动态参数</span>：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7gnk0a2pjj30p909eaaq.jpg" alt="" /></p>
+<p>⚠️</p>
+<ol>
+<li><code>:</code>  后的字符串名称是自己任意写的，只要合法就行</li>
+<li>可以有多个动态参数</li>
+</ol>
+</li>
+</ol>
+<h3 id="托管静态资源"><a class="anchor" href="#托管静态资源">#</a> 托管静态资源</h3>
+<ol>
+<li>
+<p><code>express.static()</code></p>
+<p>express 提供了一个非常好用的函数，叫做  <code>express.static()</code> ，通过它，我们可以非<span class="red">常方便地创建</span>一个<span class="red">静态资源服务器</span></p>
+<p>📗例如，通过如下代码就可以将 public 目录下的图片、CSS 文件、JavaScript 文件对外开放访问了：</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre>app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">static</span><span class="token punctuation">(</span><span class="token string">'public'</span><span class="token punctuation">)</span><span class="token punctuation">)</span></pre></td></tr></table></figure><p>现在，你就可以访问 public 目录中的所有文件了：</p>
+<p><span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDozMDAwL2ltYWdlcy9iZy5qcGc=">http://localhost:3000/images/bg.jpg</span></p>
+<p><span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDozMDAwL2Nzcy9zdHlsZS5jc3M=">http://localhost:3000/css/style.css</span></p>
+<p><span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDozMDAwL2pzL2xvZ2luLmpz">http://localhost:3000/js/login.js</span></p>
+<p>⚠️：Express 在<span class="red">指定的</span>静态目录中查找文件，并对外提供资源的访问路径。因此，<span class="red">存放静态文件的目录名不会出现在 URL 中</span>。</p>
+</li>
+<li>
+<p><strong>托管多个静态资源目录</strong></p>
+<p>如果要托管多个静态资源目录，请多次调用 express.static () 函数：</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre>app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">static</span><span class="token punctuation">(</span><span class="token string">'public'</span><span class="token punctuation">)</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="2"></td><td><pre>app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">static</span><span class="token punctuation">(</span><span class="token string">'files'</span><span class="token punctuation">)</span><span class="token punctuation">)</span></pre></td></tr></table></figure><p>访问静态资源文件时，express.static () 函数会根据目录的添加顺序查找所需的文件。</p>
+</li>
+<li>
+<p><strong>挂载<span class="red">路径前缀</span></strong></p>
+<p>如果希望在托管的<span class="red">静态资源访问路径</span>之前，<span class="red">挂载路径前缀</span>，则可以使用如下的方式：</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre>app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token string">'/public'</span><span class="token punctuation">,</span> express<span class="token punctuation">.</span><span class="token function">static</span><span class="token punctuation">(</span><span class="token string">'public'</span><span class="token punctuation">)</span><span class="token punctuation">)</span></pre></td></tr></table></figure><p>现在，你就可以通过带有  <code>/public</code>  前缀地址来访问 public 目录中的文件了：</p>
+<p><span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDozMDAwL3B1YmxpYy9pbWFnZXMva2l0dGVuLmpwZw==">http://localhost:3000/public/images/kitten.jpg</span></p>
+<p><span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDozMDAwL3B1YmxpYy9jc3Mvc3R5bGUuY3Nz">http://localhost:3000/public/css/style.css</span></p>
+<p><span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDozMDAwL3B1YmxpYy9qcy9hcHAuanM=">http://localhost:3000/public/js/app.js</span></p>
+</li>
+</ol>
+<h3 id="nodemon"><a class="anchor" href="#nodemon">#</a> nodemon</h3>
+<ol>
+<li>
+<p><strong>为什么要使用 nodemon</strong></p>
+<ul>
+<li>
+<p>在编写调试 Node.js 项目的时候，如果修改了项目的代码，则需要频繁的手动 close 掉，然后再重新启动，非常繁琐。</p>
+</li>
+<li>
+<p>现在，我们可以使用 nodemon（<span class="exturl" data-url="aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2Uvbm9kZW1vbiVFRiVCQyU4OQ==">https://www.npmjs.com/package/nodemon）</span> 这个工具，它能够<span class="red">监听项目文件的变动</span>，当代码被修改后，nodemon 会<span class="red">自动帮我们重启项目</span>，极大方便了开发和调试。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>安装 nodemon</strong></p>
+<p>在终端中，运行如下命令，即可将 nodemon 安装为全局可用的工具：</p>
+<figure class="highlight raw"><figcaption data-lang=""></figcaption><table><tr><td data-num="1"></td><td><pre>npm install -g nodemon</pre></td></tr></table></figure></li>
+<li>
+<p><strong>使用 nodemon</strong></p>
+<ul>
+<li>
+<p>当基于 Node.js 编写了一个网站应用的时候，传统的方式，是运行  <code>node app.js</code>  命令，来启动项目。这样做的坏处是：代码被修改之后，需要手动重启项目。</p>
+</li>
+<li>
+<p>现在，我们可以将 node 命令替换为 nodemon 命令，使用  <code>nodemon app.js</code>  来启动项目。这样做的好处是：代码被修改之后，会被 nodemon 监听到，从而实现自动重启项目的效果。</p>
+</li>
+</ul>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7gq463ephj30pa062wer.jpg" alt="" /></p>
 </li>
 </ol>
 ]]></content>
       <categories>
         <category>Web前端</category>
       </categories>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/softwareengineering/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h1 id="软件工程概述"><a class="anchor" href="#软件工程概述">#</a> 软件工程概述</h1>
+<h2 id="软件的概念与特点"><a class="anchor" href="#软件的概念与特点">#</a> 软件的概念与特点</h2>
+<p><strong><span class="red">软件的定义</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hjbon3g3j30ip0aogml.jpg" alt="" /></p>
+<p><strong><span class="red">软件的特征</span></strong></p>
+<ul>
+<li>软件是开发的或者是工程化的，并不是制造的</li>
+<li>软件生产是简单的拷贝</li>
+<li>软件会多次修改</li>
+<li>软件开发的环境对产品影响较大</li>
+<li>软件开发的时间和工作量难以估计</li>
+<li>软件的开发进度几乎没有客观衡量标准</li>
+<li>软件测试非常困难</li>
+<li>软件不会磨损和老化</li>
+<li>软件维护易产生新的问题</li>
+</ul>
+<p><strong><span class="red">软件双重作用</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hjhua2ksj30jd07c0tc.jpg" alt="" /></p>
+<p><strong><span class="red">软件的分类</span></strong></p>
+<ol>
+<li><strong>按软件功能</strong>
+<ul>
+<li>系统软件
+<ul>
+<li>操作系统</li>
+<li>数据库管理系统</li>
+<li>设备驱动程序</li>
+<li>通信处理程序等</li>
+</ul>
+</li>
+<li>支撑软件
+<ul>
+<li>文本编辑程序</li>
+<li>文件格式化程序</li>
+<li>磁盘或磁带间数据传输的程序</li>
+<li>程序库系统</li>
+<li>支持需求分析、设计、实现、测试和支持管理的软件</li>
+</ul>
+</li>
+<li>应用软件
+<ul>
+<li>商业数据处理软件</li>
+<li>工程与科学计算软件</li>
+<li>计算机辅助设计 / 制造软件</li>
+<li>系统仿真软件</li>
+<li>只能产品嵌入软件</li>
+<li>医疗、制药软件</li>
+<li>事务管理、办公自动化软件</li>
+<li>计算机辅助教学软件</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>按服务对象</strong>
+<ul>
+<li>项目软件：服务对象来自于一个具体项目范围内的客户集合。📗比如某高校的教务管理系统</li>
+<li>产品软件：服务对象有可能面临数量更为庞大的客户群体。📗如各类互联网软件，它们的目标服务对象都是全国乃至全世界的网民</li>
+</ul>
+</li>
+</ol>
+<p><strong><span class="red">软件的发展</span></strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7hjuo5n57j30je087wf6.jpg" alt="" /></p>
+<p><strong><span class="red">软件规模越来越大</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hjvzacyfj30jv08raaq.jpg" alt="" /></p>
+<p>应用软件系统也越来越复杂，规模迅速增长，动辄数百万行代码已是常见现象（谷歌：20 亿行）</p>
+<p><strong><span class="red">为什么软件发展如此之快？</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hk0hf3iqj30ld074t9f.jpg" alt="" /></p>
+<h2 id="软件危机的产生"><a class="anchor" href="#软件危机的产生">#</a> 软件危机的产生</h2>
+<p><strong><span class="red">什么是软件危机</span></strong></p>
+<p>1968 年 NATO 会议（Garmisch, Germany）提出 “软件危机”</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hk4fia8nj30hm046aa8.jpg" alt="" /></p>
+<ul>
+<li>项目超出预算</li>
+<li>项目超过计划完成时间</li>
+<li>软件运行效率很低</li>
+<li>软件质量差</li>
+<li>软件通常不符合要求</li>
+<li>项目难以管理并且代码难以维护</li>
+<li>软件不能交付</li>
+</ul>
+<p>📗<strong><span class="red">软件危机案例</span></strong></p>
+<ul>
+<li>
+<p>1961-1964 年，IBM 公司的 OS/360，共约 100 万条指令，花费了 5000 个人年，开发总投资 5 亿美元，达到当时美国研究原子弹的曼哈顿计划投资 20 亿美元的 1/4，而结果却令人沮丧，错误多达 2000 个以上，系统根本无法正常运行</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7hk8m7rp7j309k07pt91.jpg" alt="" /></p>
+</li>
+</ul>
+<p><strong><span class="red">软件成本日益增加</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hkd3z41wj30ca07kt98.jpg" alt="" /></p>
+<p><strong><span class="red">软件技术进步 &lt; 需求增长</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hke0wmzoj30cv07xwek.jpg" alt="" /></p>
+<p><strong>❓<span class="red">为什么会发生软件危机</span></strong></p>
+<ul>
+<li>客观：软件本身特点
+<ul>
+<li>逻辑部件</li>
+<li>规模庞大</li>
+</ul>
+</li>
+<li>主观：不正确的开发方法
+<ul>
+<li>忽略需求分析</li>
+<li>错误认为：软件开发 = 程序编写</li>
+<li>轻视软件维护</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">消除软件危机的途径：软件工程！</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hkh64a7cj30iw05zgmh.jpg" alt="" /></p>
+<h2 id="软件工程的概念与知识体系"><a class="anchor" href="#软件工程的概念与知识体系">#</a> 软件工程的概念与知识体系</h2>
+<h3 id="软件工程的概念与发展过程"><a class="anchor" href="#软件工程的概念与发展过程">#</a> 软件工程的概念与发展过程</h3>
+<p><strong><span class="red">软件工程有什么用？</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hkkg2l57j30cq077t8s.jpg" alt="" /></p>
+<p><strong><span class="red">软件工程的定义</span></strong></p>
+<p><span class="label danger">定义</span> IEEE 计算机协会将软件工程定义为：</p>
+<ol>
+<li>应用系统化的、学科化的、定量的方法，来开发、运行和维护软件，即，<mark>将工程应用到软件</mark></li>
+<li>对上述各种方法的研究</li>
+</ol>
+<p><span class="label danger">目标</span>软件工程的目标是在给定的时间和预算内，按照用户的需求，开发易修改、高效、可靠、可维护、适应力强、可移动、可重用的软件</p>
+<p><strong><span class="red">软件工程三要素：方法、工具、过程</span></strong></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7hku9m09kj30p80kdmz0.jpg" alt="" /></p>
+<ol>
+<li>工具：为软件工程的过程和方法提供了自动化或半自动化的工具支持。将若干工具集成起来，与软件工程数据库和计算机系统构成一个支持软件开发的系统称 “计算机辅助软件工程（CASE）”，系统中某一工具的信息加工结果可以作为另一工具的输入。集成的软件工程工具加上人的因素构成了软件工程环境。📗比如编程工具 Visual Studio、测试工具 Node Runner 等</li>
+<li>方法：为软件开发提供了” 如何做 “的技术。分为两类：面向过程方法和面向对象方法</li>
+<li>过程：贯穿软件开发的各个环节，在各环节之间建立里程碑；管理者在软件工程过程中对软件开发的质量、进度、成本进行评估、管理和控制；技术人员采用相应的方法和工具生成软件工程产品（模型、文档、数据、报告、表格等）</li>
+</ol>
+<p><strong><span class="red">软件工程的发展已经历了四个重要阶段</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlaxkoglj30jg02raag.jpg" alt="" /></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlcz0orkj30g00ahjsg.jpg" alt="" /></p>
+<p><strong><span class="red">软件工程的 7 个原则（B.W.Boehm, 1983）</span></strong></p>
+<ol>
+<li>使用阶段性生命周期计划的管理</li>
+<li>进行连续的验证</li>
+<li>保证严格的产品控制</li>
+<li>使用现代编程工具 / 工程实践</li>
+<li>保持清晰的责任分配</li>
+<li>用更好更少的人</li>
+<li>保持过程改进</li>
+</ol>
+<h3 id="软件工程知识体系与职业道德"><a class="anchor" href="#软件工程知识体系与职业道德">#</a> 软件工程知识体系与职业道德</h3>
+<p><strong><span class="red">软件工程知识体系（SWEBOK, 1983）</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlh264c4j30k608jgmi.jpg" alt="" /></p>
+]]></content>
   </entry>
   <entry>
     <title>主题特殊功能</title>
@@ -1618,9 +2105,7 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 <p>本功能基于  <code>markdown-it-mermaid</code></p>
 <p>在 Front Matter 中添加  <code>mermaid: true</code>  以支持 Mermaid</p>
 <figure class="highlight raw"><figcaption data-lang=""></figcaption><table><tr><td data-num="1"></td><td><pre>---</pre></td></tr><tr><td data-num="2"></td><td><pre>title: 流程图显示</pre></td></tr><tr><td data-num="3"></td><td><pre>mermaid: true</pre></td></tr><tr><td data-num="4"></td><td><pre>---</pre></td></tr><tr><td data-num="5"></td><td><pre></pre></td></tr><tr><td data-num="6"></td><td><pre>&#96;&#96;&#96;Mermaid</pre></td></tr><tr><td data-num="7"></td><td><pre>graph LR</pre></td></tr><tr><td data-num="8"></td><td><pre>    A [Square Rect] -- Link text --&gt; B ((Circle))</pre></td></tr><tr><td data-num="9"></td><td><pre>    A --&gt; C (Round Rect)</pre></td></tr><tr><td data-num="10"></td><td><pre>    B --&gt; D &#123;Rhombus&#125;</pre></td></tr><tr><td data-num="11"></td><td><pre>    C --&gt; D</pre></td></tr><tr><td data-num="12"></td><td><pre>&#96;&#96;&#96;</pre></td></tr><tr><td data-num="13"></td><td><pre></pre></td></tr><tr><td data-num="14"></td><td><pre>&#96;&#96;&#96;Mermaid</pre></td></tr><tr><td data-num="15"></td><td><pre>sequenceDiagram</pre></td></tr><tr><td data-num="16"></td><td><pre>    loop Daily query</pre></td></tr><tr><td data-num="17"></td><td><pre>        Alice-&gt;&gt;Bob: Hello Bob, how are you?</pre></td></tr><tr><td data-num="18"></td><td><pre>        alt is sick</pre></td></tr><tr><td data-num="19"></td><td><pre>            Bob-&gt;&gt;Alice: Not so good :(</pre></td></tr><tr><td data-num="20"></td><td><pre>        else is well</pre></td></tr><tr><td data-num="21"></td><td><pre>            Bob-&gt;&gt;Alice: Feeling fresh like a daisy</pre></td></tr><tr><td data-num="22"></td><td><pre>        end</pre></td></tr><tr><td data-num="23"></td><td><pre></pre></td></tr><tr><td data-num="24"></td><td><pre>        opt Extra response</pre></td></tr><tr><td data-num="25"></td><td><pre>            Bob-&gt;&gt;Alice: Thanks for asking</pre></td></tr><tr><td data-num="26"></td><td><pre>        end</pre></td></tr><tr><td data-num="27"></td><td><pre>    end</pre></td></tr><tr><td data-num="28"></td><td><pre>&#96;&#96;&#96;</pre></td></tr></table></figure><p>⚠️第一个流程图的代码中，A、B、C、D 与其后的括号之间均无空格</p>
-<pre>Error: Evaluation failed: TypeError: Cannot read property 'initialize' of undefined
-    at __puppeteer_evaluation_script__:3:32</pre><pre>Error: Evaluation failed: TypeError: Cannot read property 'initialize' of undefined
-    at __puppeteer_evaluation_script__:3:32</pre><h4 id="流程图mermaid不能正常渲染解决方案"><a class="anchor" href="#流程图mermaid不能正常渲染解决方案">#</a> 🐱流程图 mermaid 不能正常渲染解决方案</h4>
+<pre class="mermaid graph"><svg id="mermaid-1666685824285" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="167" style="max-width: 497.7718811035156px;" viewBox="0 0 497.7718811035156 167"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M103.65391791044776,69.75L171.0390625,39L247.625,39" marker-end="url(#arrowhead15)" style="fill:none"></path><defs><marker id="arrowhead15" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-A LE-C" id="L-A-C" style="opacity: 1;"><path class="path" d="M103.65391791044776,108.75L171.0390625,139.5L228.234375,139.5" marker-end="url(#arrowhead16)" style="fill:none"></path><defs><marker id="arrowhead16" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-B LE-D" id="L-B-D" style="opacity: 1;"><path class="path" d="M309.625,39L354.015625,39L400.8184709260876,68.44715483685182" marker-end="url(#arrowhead17)" style="fill:none"></path><defs><marker id="arrowhead17" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-C LE-D" id="L-C-D" style="opacity: 1;"><path class="path" d="M329.015625,139.5L354.015625,139.5L400.81846998718345,111.05284575012297" marker-end="url(#arrowhead18)" style="fill:none"></path><defs><marker id="arrowhead18" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(171.0390625,39)" style="opacity: 1;"><g transform="translate(-32.1953125,-9.5)" class="label"><rect rx="0" ry="0" width="64.359375" height="19.03125"></rect><text><tspan xml:space="preserve" dy="1em" x="1">Link text</tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-8" transform="translate(60.921875,89.25)" style="opacity: 1;"><rect rx="0" ry="0" x="-52.921875" y="-19.5" width="105.84375" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-42.921875,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Square Rect</tspan></text></g></g></g><g class="node default" id="flowchart-B-9" transform="translate(278.625,39)" style="opacity: 1;"><circle x="-31" y="-19.5" r="31" class="label-container"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-21,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Circle</tspan></text></g></g></g><g class="node default" id="flowchart-C-11" transform="translate(278.625,139.5)" style="opacity: 1;"><rect rx="5" ry="5" x="-50.390625" y="-19.5" width="100.78125" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-40.390625,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Round Rect</tspan></text></g></g></g><g class="node default" id="flowchart-D-13" transform="translate(434.39374923706055,89.25)" style="opacity: 1;"><polygon points="55.378125000000004,0 110.75625000000001,-55.378125000000004 55.378125000000004,-110.75625000000001 0,-55.378125000000004" transform="translate(-55.378125000000004,55.378125000000004)" class="label-container"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-32.03125,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Rhombus</tspan></text></g></g></g></g></g></g></svg></pre><pre class="mermaid"><svg id="mermaid-1666685825378" width="100%" xmlns="http://www.w3.org/2000/svg" height="563" style="max-width: 498px;" viewBox="-50 -10 498 563"><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="552" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Alice</tspan></text></g><g><line id="actor1" x1="323" y1="5" x2="323" y2="552" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="248" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="323" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="323" dy="0">Bob</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><defs><marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"><circle cx="15" cy="15" r="6"></circle></marker></defs><text x="199" y="125" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Hello Bob, how are you?</text><line x1="75" y1="158" x2="323" y2="158" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="199" y="218" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Not so good :(</text><line x1="323" y1="251" x2="75" y2="251" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="199" y="311" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Feeling fresh like a daisy</text><line x1="323" y1="344" x2="75" y2="344" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><g><line x1="65" y1="168" x2="333" y2="168" class="loopLine"></line><line x1="333" y1="168" x2="333" y2="354" class="loopLine"></line><line x1="65" y1="354" x2="333" y2="354" class="loopLine"></line><line x1="65" y1="168" x2="65" y2="354" class="loopLine"></line><line x1="65" y1="266" x2="333" y2="266" class="loopLine" style="stroke-dasharray: 3, 3;"></line><polygon points="65,168 115,168 115,181 106.6,188 65,188" class="labelBox"></polygon><text x="90" y="181" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">alt</text><text x="224" y="186" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[is sick]</tspan></text><text x="199" y="284" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">[is well]</text></g><text x="199" y="414" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Thanks for asking</text><line x1="323" y1="447" x2="75" y2="447" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><g><line x1="65" y1="364" x2="333" y2="364" class="loopLine"></line><line x1="333" y1="364" x2="333" y2="457" class="loopLine"></line><line x1="65" y1="457" x2="333" y2="457" class="loopLine"></line><line x1="65" y1="364" x2="65" y2="457" class="loopLine"></line><polygon points="65,364 115,364 115,377 106.6,384 65,384" class="labelBox"></polygon><text x="90" y="377" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">opt</text><text x="224" y="382" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[Extra response]</tspan></text></g><g><line x1="55" y1="75" x2="343" y2="75" class="loopLine"></line><line x1="343" y1="75" x2="343" y2="467" class="loopLine"></line><line x1="55" y1="467" x2="343" y2="467" class="loopLine"></line><line x1="55" y1="75" x2="55" y2="467" class="loopLine"></line><polygon points="55,75 105,75 105,88 96.6,95 55,95" class="labelBox"></polygon><text x="80" y="88" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">loop</text><text x="224" y="93" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[Daily query]</tspan></text></g><g><rect x="0" y="487" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="519.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Alice</tspan></text></g><g><rect x="248" y="487" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="323" y="519.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="323" dy="0">Bob</tspan></text></g></svg></pre><h4 id="流程图mermaid不能正常渲染解决方案"><a class="anchor" href="#流程图mermaid不能正常渲染解决方案">#</a> 🐱流程图 mermaid 不能正常渲染解决方案</h4>
 <ol>
 <li>打开 <code>node_modules\hexo-renderer-multi-markdown-it\lib\renderer\markdown-it-mermaid</code>  文件</li>
 <li>在第 61 行的 <code>if</code>  语句前加一行： <code>console.log(token.info + '&lt;------' + (token.info === 'Mermaid'))</code></li>
