@@ -11,7 +11,7 @@
 <h2 id="经典问题"><a class="anchor" href="#经典问题">#</a> 经典问题</h2>
 <details class="primary"><summary>1.1 组合问题</summary><div>
 <div class="note info">
-<pre class="mermaid graph"><svg id="mermaid-1666711349226" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="87.1875" style="max-width: 371.1875px;" viewBox="0 0 371.1875 87.1875"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M79.1875,43.59375L172.3828125,43.59375L265.578125,43.59375" marker-end="url(#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(172.3828125,43.59375)" style="opacity: 1;"><g transform="translate(-68.1953125,-9.5)" class="label"><rect rx="0" ry="0" width="136.390625" height="19"></rect><text><tspan xml:space="preserve" dy="1em" x="1">找出大小为2的组合</tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-2" transform="translate(43.59375,43.59375)" style="opacity: 1;"><circle x="-35.59375" y="-19.5" r="35.59375" class="label-container"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-25.59375,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2,3,4</tspan></text></g></g></g><g class="node default" id="flowchart-B-3" transform="translate(314.3828125,43.59375)" style="opacity: 1;"><rect rx="0" ry="0" x="-48.8046875" y="-35.5" width="97.609375" height="71" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-38.8046875,-25.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2 1,3 1,4</tspan><tspan xml:space="preserve" dy="1em" x="1">2,3 2,4</tspan><tspan xml:space="preserve" dy="1em" x="1">3,4</tspan></text></g></g></g></g></g></g></svg></pre></div>
+<pre class="mermaid graph"><svg id="mermaid-1666718759286" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="87.1875" style="max-width: 371.1875px;" viewBox="0 0 371.1875 87.1875"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M79.1875,43.59375L172.3828125,43.59375L265.578125,43.59375" marker-end="url(#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(172.3828125,43.59375)" style="opacity: 1;"><g transform="translate(-68.1953125,-9.5)" class="label"><rect rx="0" ry="0" width="136.390625" height="19"></rect><text><tspan xml:space="preserve" dy="1em" x="1">找出大小为2的组合</tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-2" transform="translate(43.59375,43.59375)" style="opacity: 1;"><circle x="-35.59375" y="-19.5" r="35.59375" class="label-container"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-25.59375,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2,3,4</tspan></text></g></g></g><g class="node default" id="flowchart-B-3" transform="translate(314.3828125,43.59375)" style="opacity: 1;"><rect rx="0" ry="0" x="-48.8046875" y="-35.5" width="97.609375" height="71" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-38.8046875,-25.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2 1,3 1,4</tspan><tspan xml:space="preserve" dy="1em" x="1">2,3 2,4</tspan><tspan xml:space="preserve" dy="1em" x="1">3,4</tspan></text></g></g></g></g></g></g></svg></pre></div>
 </div></details>
 <details class="primary"><summary>1.2 切割问题</summary><div>
 <div class="note default">
@@ -28,7 +28,7 @@
 </div></details>
 <details class="primary"><summary>1.4排列问题</summary><div>
 <div class="note info">
-<pre class="mermaid graph"><svg id="mermaid-1666711352692" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="71" style="max-width: 237.3125px;" viewBox="0 0 237.3125 71"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M50.65625,35.5L118.65625,35.5L186.65625,35.5" marker-end="url(#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(118.65625,35.5)" style="opacity: 1;"><g transform="translate(-43,-9.5)" class="label"><rect rx="0" ry="0" width="86" height="19"></rect><text><tspan xml:space="preserve" dy="1em" x="1">有几种排列?</tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-2" transform="translate(29.328125,35.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-21.328125" y="-19.5" width="42.65625" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-11.328125,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2</tspan></text></g></g></g><g class="node default" id="flowchart-B-3" transform="translate(207.984375,35.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-21.328125" y="-27.5" width="42.65625" height="55" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-11.328125,-17.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2</tspan><tspan xml:space="preserve" dy="1em" x="1">2,1</tspan></text></g></g></g></g></g></g></svg></pre></div>
+<pre class="mermaid graph"><svg id="mermaid-1666718760499" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="71" style="max-width: 237.3125px;" viewBox="0 0 237.3125 71"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M50.65625,35.5L118.65625,35.5L186.65625,35.5" marker-end="url(#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(118.65625,35.5)" style="opacity: 1;"><g transform="translate(-43,-9.5)" class="label"><rect rx="0" ry="0" width="86" height="19"></rect><text><tspan xml:space="preserve" dy="1em" x="1">有几种排列?</tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-2" transform="translate(29.328125,35.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-21.328125" y="-19.5" width="42.65625" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-11.328125,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2</tspan></text></g></g></g><g class="node default" id="flowchart-B-3" transform="translate(207.984375,35.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-21.328125" y="-27.5" width="42.65625" height="55" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-11.328125,-17.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2</tspan><tspan xml:space="preserve" dy="1em" x="1">2,1</tspan></text></g></g></g></g></g></g></svg></pre></div>
 </div></details>
 <details class="primary"><summary>1.5 N皇后</summary><div>
 </div></details>
@@ -445,6 +445,157 @@ else:
 <figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">class</span> <span class="token class-name">GetSkyline</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token keyword">public</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">List</span><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">></span><span class="token punctuation">></span></span> <span class="token function">getSkyline</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">]</span> buildings<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>        <span class="token comment">// 扫描线问题：只看起点和终点的位置，不需要看每个位置</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre>        <span class="token comment">// 定义一个 result 集合，存放所有天际线点</span></pre></td></tr><tr><td data-num="6"></td><td><pre>        <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">List</span><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">></span><span class="token punctuation">></span></span> result <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">List</span><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">></span><span class="token punctuation">></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre></pre></td></tr><tr><td data-num="8"></td><td><pre>        <span class="token comment">// 把 buildings 每个建筑的起点和终点都提取出来，放入一个集合 high</span></pre></td></tr><tr><td data-num="9"></td><td><pre>        <span class="token class-name">List</span><span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token operator">></span> high <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre>        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> building <span class="token operator">:</span> buildings<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="11"></td><td><pre>            <span class="token comment">// 注意向 high 中加入数组，要在内存开辟数组的空间</span></pre></td></tr><tr><td data-num="12"></td><td><pre>            high<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">&#123;</span> building<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token operator">-</span>building<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 加入每个建筑的起点，记其高度为负数，以便从小到大排序时排在终点之前</span></pre></td></tr><tr><td data-num="13"></td><td><pre>            high<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">&#123;</span> building<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> building<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 加入每个建筑的终点，数组中第一个元素为横坐标，第二个元素为高度</span></pre></td></tr><tr><td data-num="14"></td><td><pre>        <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="15"></td><td><pre></pre></td></tr><tr><td data-num="16"></td><td><pre>        <span class="token comment">// 把集合 high 中的数组进行排序</span></pre></td></tr><tr><td data-num="17"></td><td><pre>        <span class="token class-name">Collections</span><span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span>high<span class="token punctuation">,</span> <span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span> <span class="token operator">-></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="18"></td><td><pre>            <span class="token keyword">return</span> a<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">==</span> b<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">?</span> a<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">-</span> b<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">:</span> a<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">-</span> b<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="19"></td><td><pre>            <span class="token comment">// 如果某两点横坐标重合，那么把起点放在前面。因为如果把终点放在前面，那么扫描到终点时，终点先出队列，此时队列中的最大高度就改变了，直到后面同高度的起点入队列后最大高度才恢复原来的值，达不到保持最大高度的效果</span></pre></td></tr><tr><td data-num="20"></td><td><pre>        <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="21"></td><td><pre></pre></td></tr><tr><td data-num="22"></td><td><pre>        <span class="token comment">// 创建一个优先队列，用来存放当前的高度，高度最大的最优先</span></pre></td></tr><tr><td data-num="23"></td><td><pre>        <span class="token class-name">PriorityQueue</span> currentHigh <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">PriorityQueue</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">></span></span><span class="token punctuation">(</span>buildings<span class="token punctuation">.</span>length<span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">Comparator</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="24"></td><td><pre>            <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">compare</span><span class="token punctuation">(</span><span class="token keyword">final</span> <span class="token class-name">Integer</span> a<span class="token punctuation">,</span> <span class="token keyword">final</span> <span class="token class-name">Integer</span> b<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="25"></td><td><pre>                <span class="token keyword">return</span> b <span class="token operator">-</span> a<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="26"></td><td><pre>            <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="27"></td><td><pre>        <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="28"></td><td><pre></pre></td></tr><tr><td data-num="29"></td><td><pre>        <span class="token comment">// 用 curr 存放现在的最大高度，last 存放上一个点的最大高度，这样才能比较随着点的改变最大高度是否改变</span></pre></td></tr><tr><td data-num="30"></td><td><pre>        <span class="token keyword">int</span> curr <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="31"></td><td><pre>        <span class="token keyword">int</span> last <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="32"></td><td><pre></pre></td></tr><tr><td data-num="33"></td><td><pre>        <span class="token comment">// 因为 high 中没有包含平地的点，所以我们要手动把高度 “0” 加入 currentHigh</span></pre></td></tr><tr><td data-num="34"></td><td><pre>        currentHigh<span class="token punctuation">.</span><span class="token function">offer</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="35"></td><td><pre></pre></td></tr><tr><td data-num="36"></td><td><pre>        <span class="token comment">// 从小到大遍历 high 中每一个点</span></pre></td></tr><tr><td data-num="37"></td><td><pre>        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> point <span class="token operator">:</span> high<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="38"></td><td><pre>            <span class="token comment">// 遇到起始点，就向优先队列加入高度</span></pre></td></tr><tr><td data-num="39"></td><td><pre>            <span class="token keyword">if</span> <span class="token punctuation">(</span>point<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="40"></td><td><pre>                currentHigh<span class="token punctuation">.</span><span class="token function">offer</span><span class="token punctuation">(</span><span class="token operator">-</span>point<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="41"></td><td><pre>            <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="42"></td><td><pre>            <span class="token comment">// 遇到终点，就向优先队列移除高度</span></pre></td></tr><tr><td data-num="43"></td><td><pre>            <span class="token keyword">else</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="44"></td><td><pre>                currentHigh<span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span>point<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="45"></td><td><pre>            <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="46"></td><td><pre></pre></td></tr><tr><td data-num="47"></td><td><pre>            <span class="token comment">// 把现在优先队列中的最高点赋给 curr</span></pre></td></tr><tr><td data-num="48"></td><td><pre>            curr <span class="token operator">=</span> <span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">parseInt</span><span class="token punctuation">(</span>currentHigh<span class="token punctuation">.</span><span class="token function">peek</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="49"></td><td><pre></pre></td></tr><tr><td data-num="50"></td><td><pre>            <span class="token comment">// 观察发现只有在最大高度改变后，起始点或终点才会加入结果集合</span></pre></td></tr><tr><td data-num="51"></td><td><pre>            <span class="token keyword">if</span> <span class="token punctuation">(</span>curr <span class="token operator">!=</span> last<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="52"></td><td><pre>                <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">></span></span> skyline <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//skyline 为高度改变后的坐标</span></pre></td></tr><tr><td data-num="53"></td><td><pre>                skyline<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> point<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="54"></td><td><pre>                skyline<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> curr<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="55"></td><td><pre>                result<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>skyline<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="56"></td><td><pre></pre></td></tr><tr><td data-num="57"></td><td><pre>                <span class="token comment">// 把这次的最大高度赋给 last，进入下一次循环</span></pre></td></tr><tr><td data-num="58"></td><td><pre>                last <span class="token operator">=</span> curr<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="59"></td><td><pre>            <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="60"></td><td><pre>        <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="61"></td><td><pre>        <span class="token keyword">return</span> result<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="62"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>算法</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>软件工程基础</title>
+    <url>/softwareengineering/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h1 id="软件工程概述"><a class="anchor" href="#软件工程概述">#</a> 软件工程概述</h1>
+<h2 id="软件的概念与特点"><a class="anchor" href="#软件的概念与特点">#</a> 软件的概念与特点</h2>
+<p><strong><span class="red">软件的定义</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hjbon3g3j30ip0aogml.jpg" alt="" /></p>
+<p><strong><span class="red">软件的特征</span></strong></p>
+<ul>
+<li>软件是开发的或者是工程化的，并不是制造的</li>
+<li>软件生产是简单的拷贝</li>
+<li>软件会多次修改</li>
+<li>软件开发的环境对产品影响较大</li>
+<li>软件开发的时间和工作量难以估计</li>
+<li>软件的开发进度几乎没有客观衡量标准</li>
+<li>软件测试非常困难</li>
+<li>软件不会磨损和老化</li>
+<li>软件维护易产生新的问题</li>
+</ul>
+<p><strong><span class="red">软件双重作用</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hjhua2ksj30jd07c0tc.jpg" alt="" /></p>
+<p><strong><span class="red">软件的分类</span></strong></p>
+<ol>
+<li><strong>按软件功能</strong>
+<ul>
+<li>系统软件
+<ul>
+<li>操作系统</li>
+<li>数据库管理系统</li>
+<li>设备驱动程序</li>
+<li>通信处理程序等</li>
+</ul>
+</li>
+<li>支撑软件
+<ul>
+<li>文本编辑程序</li>
+<li>文件格式化程序</li>
+<li>磁盘或磁带间数据传输的程序</li>
+<li>程序库系统</li>
+<li>支持需求分析、设计、实现、测试和支持管理的软件</li>
+</ul>
+</li>
+<li>应用软件
+<ul>
+<li>商业数据处理软件</li>
+<li>工程与科学计算软件</li>
+<li>计算机辅助设计 / 制造软件</li>
+<li>系统仿真软件</li>
+<li>只能产品嵌入软件</li>
+<li>医疗、制药软件</li>
+<li>事务管理、办公自动化软件</li>
+<li>计算机辅助教学软件</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>按服务对象</strong>
+<ul>
+<li>项目软件：服务对象来自于一个具体项目范围内的客户集合。📗比如某高校的教务管理系统</li>
+<li>产品软件：服务对象有可能面临数量更为庞大的客户群体。📗如各类互联网软件，它们的目标服务对象都是全国乃至全世界的网民</li>
+</ul>
+</li>
+</ol>
+<p><strong><span class="red">软件的发展</span></strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7hjuo5n57j30je087wf6.jpg" alt="" /></p>
+<p><strong><span class="red">软件规模越来越大</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hjvzacyfj30jv08raaq.jpg" alt="" /></p>
+<p>应用软件系统也越来越复杂，规模迅速增长，动辄数百万行代码已是常见现象（谷歌：20 亿行）</p>
+<p><strong><span class="red">为什么软件发展如此之快？</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hk0hf3iqj30ld074t9f.jpg" alt="" /></p>
+<h2 id="软件危机的产生"><a class="anchor" href="#软件危机的产生">#</a> 软件危机的产生</h2>
+<p><strong><span class="red">什么是软件危机</span></strong></p>
+<p>1968 年 NATO 会议（Garmisch, Germany）提出 “软件危机”</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hk4fia8nj30hm046aa8.jpg" alt="" /></p>
+<ul>
+<li>项目超出预算</li>
+<li>项目超过计划完成时间</li>
+<li>软件运行效率很低</li>
+<li>软件质量差</li>
+<li>软件通常不符合要求</li>
+<li>项目难以管理并且代码难以维护</li>
+<li>软件不能交付</li>
+</ul>
+<p>📗<strong><span class="red">软件危机案例</span></strong></p>
+<ul>
+<li>
+<p>1961-1964 年，IBM 公司的 OS/360，共约 100 万条指令，花费了 5000 个人年，开发总投资 5 亿美元，达到当时美国研究原子弹的曼哈顿计划投资 20 亿美元的 1/4，而结果却令人沮丧，错误多达 2000 个以上，系统根本无法正常运行</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7hk8m7rp7j309k07pt91.jpg" alt="" /></p>
+</li>
+</ul>
+<p><strong><span class="red">软件成本日益增加</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hkd3z41wj30ca07kt98.jpg" alt="" /></p>
+<p><strong><span class="red">软件技术进步 &lt; 需求增长</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hke0wmzoj30cv07xwek.jpg" alt="" /></p>
+<p><strong>❓<span class="red">为什么会发生软件危机</span></strong></p>
+<ul>
+<li>客观：软件本身特点
+<ul>
+<li>逻辑部件</li>
+<li>规模庞大</li>
+</ul>
+</li>
+<li>主观：不正确的开发方法
+<ul>
+<li>忽略需求分析</li>
+<li>错误认为：软件开发 = 程序编写</li>
+<li>轻视软件维护</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">消除软件危机的途径：软件工程！</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hkh64a7cj30iw05zgmh.jpg" alt="" /></p>
+<h2 id="软件工程的概念与知识体系"><a class="anchor" href="#软件工程的概念与知识体系">#</a> 软件工程的概念与知识体系</h2>
+<h3 id="软件工程的概念与发展过程"><a class="anchor" href="#软件工程的概念与发展过程">#</a> 软件工程的概念与发展过程</h3>
+<p><strong><span class="red">软件工程有什么用？</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hkkg2l57j30cq077t8s.jpg" alt="" /></p>
+<p><strong><span class="red">软件工程的定义</span></strong></p>
+<p><span class="label danger">定义</span> IEEE 计算机协会将软件工程定义为：</p>
+<ol>
+<li>应用系统化的、学科化的、定量的方法，来开发、运行和维护软件，即，<mark>将工程应用到软件</mark></li>
+<li>对上述各种方法的研究</li>
+</ol>
+<p><span class="label danger">目标</span>软件工程的目标是在给定的时间和预算内，按照用户的需求，开发易修改、高效、可靠、可维护、适应力强、可移动、可重用的软件</p>
+<p><strong><span class="red">软件工程三要素：方法、工具、过程</span></strong></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7hku9m09kj30p80kdmz0.jpg" alt="" /></p>
+<ol>
+<li>工具：为软件工程的过程和方法提供了自动化或半自动化的工具支持。将若干工具集成起来，与软件工程数据库和计算机系统构成一个支持软件开发的系统称 “计算机辅助软件工程（CASE）”，系统中某一工具的信息加工结果可以作为另一工具的输入。集成的软件工程工具加上人的因素构成了软件工程环境。📗比如编程工具 Visual Studio、测试工具 Node Runner 等</li>
+<li>方法：为软件开发提供了” 如何做 “的技术。分为两类：面向过程方法和面向对象方法</li>
+<li>过程：贯穿软件开发的各个环节，在各环节之间建立里程碑；管理者在软件工程过程中对软件开发的质量、进度、成本进行评估、管理和控制；技术人员采用相应的方法和工具生成软件工程产品（模型、文档、数据、报告、表格等）</li>
+</ol>
+<p><strong><span class="red">软件工程的发展已经历了四个重要阶段</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlaxkoglj30jg02raag.jpg" alt="" /></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlcz0orkj30g00ahjsg.jpg" alt="" /></p>
+<p><strong><span class="red">软件工程的 7 个原则（B.W.Boehm, 1983）</span></strong></p>
+<ol>
+<li>使用阶段性生命周期计划的管理</li>
+<li>进行连续的验证</li>
+<li>保证严格的产品控制</li>
+<li>使用现代编程工具 / 工程实践</li>
+<li>保持清晰的责任分配</li>
+<li>用更好更少的人</li>
+<li>保持过程改进</li>
+</ol>
+<h3 id="软件工程知识体系与职业道德"><a class="anchor" href="#软件工程知识体系与职业道德">#</a> 软件工程知识体系与职业道德</h3>
+<p><strong><span class="red">软件工程知识体系（SWEBOK, 1983）</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlh264c4j30k608jgmi.jpg" alt="" /></p>
+]]></content>
+      <categories>
+        <category>软件工程</category>
       </categories>
   </entry>
   <entry>
@@ -1957,7 +2108,7 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 <p>本功能基于  <code>markdown-it-mermaid</code></p>
 <p>在 Front Matter 中添加  <code>mermaid: true</code>  以支持 Mermaid</p>
 <figure class="highlight raw"><figcaption data-lang=""></figcaption><table><tr><td data-num="1"></td><td><pre>---</pre></td></tr><tr><td data-num="2"></td><td><pre>title: 流程图显示</pre></td></tr><tr><td data-num="3"></td><td><pre>mermaid: true</pre></td></tr><tr><td data-num="4"></td><td><pre>---</pre></td></tr><tr><td data-num="5"></td><td><pre></pre></td></tr><tr><td data-num="6"></td><td><pre>&#96;&#96;&#96;Mermaid</pre></td></tr><tr><td data-num="7"></td><td><pre>graph LR</pre></td></tr><tr><td data-num="8"></td><td><pre>    A [Square Rect] -- Link text --&gt; B ((Circle))</pre></td></tr><tr><td data-num="9"></td><td><pre>    A --&gt; C (Round Rect)</pre></td></tr><tr><td data-num="10"></td><td><pre>    B --&gt; D &#123;Rhombus&#125;</pre></td></tr><tr><td data-num="11"></td><td><pre>    C --&gt; D</pre></td></tr><tr><td data-num="12"></td><td><pre>&#96;&#96;&#96;</pre></td></tr><tr><td data-num="13"></td><td><pre></pre></td></tr><tr><td data-num="14"></td><td><pre>&#96;&#96;&#96;Mermaid</pre></td></tr><tr><td data-num="15"></td><td><pre>sequenceDiagram</pre></td></tr><tr><td data-num="16"></td><td><pre>    loop Daily query</pre></td></tr><tr><td data-num="17"></td><td><pre>        Alice-&gt;&gt;Bob: Hello Bob, how are you?</pre></td></tr><tr><td data-num="18"></td><td><pre>        alt is sick</pre></td></tr><tr><td data-num="19"></td><td><pre>            Bob-&gt;&gt;Alice: Not so good :(</pre></td></tr><tr><td data-num="20"></td><td><pre>        else is well</pre></td></tr><tr><td data-num="21"></td><td><pre>            Bob-&gt;&gt;Alice: Feeling fresh like a daisy</pre></td></tr><tr><td data-num="22"></td><td><pre>        end</pre></td></tr><tr><td data-num="23"></td><td><pre></pre></td></tr><tr><td data-num="24"></td><td><pre>        opt Extra response</pre></td></tr><tr><td data-num="25"></td><td><pre>            Bob-&gt;&gt;Alice: Thanks for asking</pre></td></tr><tr><td data-num="26"></td><td><pre>        end</pre></td></tr><tr><td data-num="27"></td><td><pre>    end</pre></td></tr><tr><td data-num="28"></td><td><pre>&#96;&#96;&#96;</pre></td></tr></table></figure><p>⚠️第一个流程图的代码中，A、B、C、D 与其后的括号之间均无空格</p>
-<pre class="mermaid graph"><svg id="mermaid-1666711354343" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="167" style="max-width: 497.7718811035156px;" viewBox="0 0 497.7718811035156 167"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M103.65391791044776,69.75L171.0390625,39L247.625,39" marker-end="url(#arrowhead15)" style="fill:none"></path><defs><marker id="arrowhead15" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-A LE-C" id="L-A-C" style="opacity: 1;"><path class="path" d="M103.65391791044776,108.75L171.0390625,139.5L228.234375,139.5" marker-end="url(#arrowhead16)" style="fill:none"></path><defs><marker id="arrowhead16" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-B LE-D" id="L-B-D" style="opacity: 1;"><path class="path" d="M309.625,39L354.015625,39L400.8184709260876,68.44715483685182" marker-end="url(#arrowhead17)" style="fill:none"></path><defs><marker id="arrowhead17" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-C LE-D" id="L-C-D" style="opacity: 1;"><path class="path" d="M329.015625,139.5L354.015625,139.5L400.81846998718345,111.05284575012297" marker-end="url(#arrowhead18)" style="fill:none"></path><defs><marker id="arrowhead18" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(171.0390625,39)" style="opacity: 1;"><g transform="translate(-32.1953125,-9.5)" class="label"><rect rx="0" ry="0" width="64.359375" height="19.03125"></rect><text><tspan xml:space="preserve" dy="1em" x="1">Link text</tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-8" transform="translate(60.921875,89.25)" style="opacity: 1;"><rect rx="0" ry="0" x="-52.921875" y="-19.5" width="105.84375" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-42.921875,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Square Rect</tspan></text></g></g></g><g class="node default" id="flowchart-B-9" transform="translate(278.625,39)" style="opacity: 1;"><circle x="-31" y="-19.5" r="31" class="label-container"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-21,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Circle</tspan></text></g></g></g><g class="node default" id="flowchart-C-11" transform="translate(278.625,139.5)" style="opacity: 1;"><rect rx="5" ry="5" x="-50.390625" y="-19.5" width="100.78125" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-40.390625,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Round Rect</tspan></text></g></g></g><g class="node default" id="flowchart-D-13" transform="translate(434.39374923706055,89.25)" style="opacity: 1;"><polygon points="55.378125000000004,0 110.75625000000001,-55.378125000000004 55.378125000000004,-110.75625000000001 0,-55.378125000000004" transform="translate(-55.378125000000004,55.378125000000004)" class="label-container"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-32.03125,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Rhombus</tspan></text></g></g></g></g></g></g></svg></pre><pre class="mermaid"><svg id="mermaid-1666711355823" width="100%" xmlns="http://www.w3.org/2000/svg" height="563" style="max-width: 498px;" viewBox="-50 -10 498 563"><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="552" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Alice</tspan></text></g><g><line id="actor1" x1="323" y1="5" x2="323" y2="552" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="248" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="323" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="323" dy="0">Bob</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><defs><marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"><circle cx="15" cy="15" r="6"></circle></marker></defs><text x="199" y="125" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Hello Bob, how are you?</text><line x1="75" y1="158" x2="323" y2="158" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="199" y="218" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Not so good :(</text><line x1="323" y1="251" x2="75" y2="251" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="199" y="311" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Feeling fresh like a daisy</text><line x1="323" y1="344" x2="75" y2="344" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><g><line x1="65" y1="168" x2="333" y2="168" class="loopLine"></line><line x1="333" y1="168" x2="333" y2="354" class="loopLine"></line><line x1="65" y1="354" x2="333" y2="354" class="loopLine"></line><line x1="65" y1="168" x2="65" y2="354" class="loopLine"></line><line x1="65" y1="266" x2="333" y2="266" class="loopLine" style="stroke-dasharray: 3, 3;"></line><polygon points="65,168 115,168 115,181 106.6,188 65,188" class="labelBox"></polygon><text x="90" y="181" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">alt</text><text x="224" y="186" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[is sick]</tspan></text><text x="199" y="284" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">[is well]</text></g><text x="199" y="414" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Thanks for asking</text><line x1="323" y1="447" x2="75" y2="447" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><g><line x1="65" y1="364" x2="333" y2="364" class="loopLine"></line><line x1="333" y1="364" x2="333" y2="457" class="loopLine"></line><line x1="65" y1="457" x2="333" y2="457" class="loopLine"></line><line x1="65" y1="364" x2="65" y2="457" class="loopLine"></line><polygon points="65,364 115,364 115,377 106.6,384 65,384" class="labelBox"></polygon><text x="90" y="377" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">opt</text><text x="224" y="382" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[Extra response]</tspan></text></g><g><line x1="55" y1="75" x2="343" y2="75" class="loopLine"></line><line x1="343" y1="75" x2="343" y2="467" class="loopLine"></line><line x1="55" y1="467" x2="343" y2="467" class="loopLine"></line><line x1="55" y1="75" x2="55" y2="467" class="loopLine"></line><polygon points="55,75 105,75 105,88 96.6,95 55,95" class="labelBox"></polygon><text x="80" y="88" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">loop</text><text x="224" y="93" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[Daily query]</tspan></text></g><g><rect x="0" y="487" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="519.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Alice</tspan></text></g><g><rect x="248" y="487" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="323" y="519.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="323" dy="0">Bob</tspan></text></g></svg></pre><h4 id="流程图mermaid不能正常渲染解决方案"><a class="anchor" href="#流程图mermaid不能正常渲染解决方案">#</a> 🐱流程图 mermaid 不能正常渲染解决方案</h4>
+<pre class="mermaid graph"><svg id="mermaid-1666718762049" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="167" style="max-width: 497.7718811035156px;" viewBox="0 0 497.7718811035156 167"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M103.65391791044776,69.75L171.0390625,39L247.625,39" marker-end="url(#arrowhead15)" style="fill:none"></path><defs><marker id="arrowhead15" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-A LE-C" id="L-A-C" style="opacity: 1;"><path class="path" d="M103.65391791044776,108.75L171.0390625,139.5L228.234375,139.5" marker-end="url(#arrowhead16)" style="fill:none"></path><defs><marker id="arrowhead16" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-B LE-D" id="L-B-D" style="opacity: 1;"><path class="path" d="M309.625,39L354.015625,39L400.8184709260876,68.44715483685182" marker-end="url(#arrowhead17)" style="fill:none"></path><defs><marker id="arrowhead17" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-C LE-D" id="L-C-D" style="opacity: 1;"><path class="path" d="M329.015625,139.5L354.015625,139.5L400.81846998718345,111.05284575012297" marker-end="url(#arrowhead18)" style="fill:none"></path><defs><marker id="arrowhead18" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(171.0390625,39)" style="opacity: 1;"><g transform="translate(-32.1953125,-9.5)" class="label"><rect rx="0" ry="0" width="64.359375" height="19.03125"></rect><text><tspan xml:space="preserve" dy="1em" x="1">Link text</tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-8" transform="translate(60.921875,89.25)" style="opacity: 1;"><rect rx="0" ry="0" x="-52.921875" y="-19.5" width="105.84375" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-42.921875,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Square Rect</tspan></text></g></g></g><g class="node default" id="flowchart-B-9" transform="translate(278.625,39)" style="opacity: 1;"><circle x="-31" y="-19.5" r="31" class="label-container"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-21,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Circle</tspan></text></g></g></g><g class="node default" id="flowchart-C-11" transform="translate(278.625,139.5)" style="opacity: 1;"><rect rx="5" ry="5" x="-50.390625" y="-19.5" width="100.78125" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-40.390625,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Round Rect</tspan></text></g></g></g><g class="node default" id="flowchart-D-13" transform="translate(434.39374923706055,89.25)" style="opacity: 1;"><polygon points="55.378125000000004,0 110.75625000000001,-55.378125000000004 55.378125000000004,-110.75625000000001 0,-55.378125000000004" transform="translate(-55.378125000000004,55.378125000000004)" class="label-container"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-32.03125,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Rhombus</tspan></text></g></g></g></g></g></g></svg></pre><pre class="mermaid"><svg id="mermaid-1666718763215" width="100%" xmlns="http://www.w3.org/2000/svg" height="563" style="max-width: 498px;" viewBox="-50 -10 498 563"><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="552" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Alice</tspan></text></g><g><line id="actor1" x1="323" y1="5" x2="323" y2="552" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="248" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="323" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="323" dy="0">Bob</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><defs><marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"><circle cx="15" cy="15" r="6"></circle></marker></defs><text x="199" y="125" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Hello Bob, how are you?</text><line x1="75" y1="158" x2="323" y2="158" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="199" y="218" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Not so good :(</text><line x1="323" y1="251" x2="75" y2="251" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="199" y="311" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Feeling fresh like a daisy</text><line x1="323" y1="344" x2="75" y2="344" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><g><line x1="65" y1="168" x2="333" y2="168" class="loopLine"></line><line x1="333" y1="168" x2="333" y2="354" class="loopLine"></line><line x1="65" y1="354" x2="333" y2="354" class="loopLine"></line><line x1="65" y1="168" x2="65" y2="354" class="loopLine"></line><line x1="65" y1="266" x2="333" y2="266" class="loopLine" style="stroke-dasharray: 3, 3;"></line><polygon points="65,168 115,168 115,181 106.6,188 65,188" class="labelBox"></polygon><text x="90" y="181" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">alt</text><text x="224" y="186" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[is sick]</tspan></text><text x="199" y="284" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">[is well]</text></g><text x="199" y="414" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Thanks for asking</text><line x1="323" y1="447" x2="75" y2="447" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><g><line x1="65" y1="364" x2="333" y2="364" class="loopLine"></line><line x1="333" y1="364" x2="333" y2="457" class="loopLine"></line><line x1="65" y1="457" x2="333" y2="457" class="loopLine"></line><line x1="65" y1="364" x2="65" y2="457" class="loopLine"></line><polygon points="65,364 115,364 115,377 106.6,384 65,384" class="labelBox"></polygon><text x="90" y="377" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">opt</text><text x="224" y="382" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[Extra response]</tspan></text></g><g><line x1="55" y1="75" x2="343" y2="75" class="loopLine"></line><line x1="343" y1="75" x2="343" y2="467" class="loopLine"></line><line x1="55" y1="467" x2="343" y2="467" class="loopLine"></line><line x1="55" y1="75" x2="55" y2="467" class="loopLine"></line><polygon points="55,75 105,75 105,88 96.6,95 55,95" class="labelBox"></polygon><text x="80" y="88" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">loop</text><text x="224" y="93" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[Daily query]</tspan></text></g><g><rect x="0" y="487" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="519.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Alice</tspan></text></g><g><rect x="248" y="487" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="323" y="519.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="323" dy="0">Bob</tspan></text></g></svg></pre><h4 id="流程图mermaid不能正常渲染解决方案"><a class="anchor" href="#流程图mermaid不能正常渲染解决方案">#</a> 🐱流程图 mermaid 不能正常渲染解决方案</h4>
 <ol>
 <li>打开 <code>node_modules\hexo-renderer-multi-markdown-it\lib\renderer\markdown-it-mermaid</code>  文件</li>
 <li>在第 61 行的 <code>if</code>  语句前加一行： <code>console.log(token.info + '&lt;------' + (token.info === 'Mermaid'))</code></li>
@@ -1971,162 +2122,12 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
   </entry>
   <entry>
     <title>第1章 计算机系统概论</title>
-    <url>/cs-core-courses/computerorganization/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</url>
-    <content><![CDATA[]]></content>
+    <url>/cs-core-courses/computerorganization/%E7%AC%AC1%E7%AB%A0%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%AE%BA/</url>
+    <content><![CDATA[<p><img data-src="D:%5CBlog%5Csource_posts%5Ccs-core-courses%5Ccomputerorganization%5C1Page1.png" alt="" /></p>
+]]></content>
       <categories>
         <category>计算机科学核心课程</category>
         <category>计算机组成原理</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>软件工程基础</title>
-    <url>/softwareengineering/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h1 id="软件工程概述"><a class="anchor" href="#软件工程概述">#</a> 软件工程概述</h1>
-<h2 id="软件的概念与特点"><a class="anchor" href="#软件的概念与特点">#</a> 软件的概念与特点</h2>
-<p><strong><span class="red">软件的定义</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hjbon3g3j30ip0aogml.jpg" alt="" /></p>
-<p><strong><span class="red">软件的特征</span></strong></p>
-<ul>
-<li>软件是开发的或者是工程化的，并不是制造的</li>
-<li>软件生产是简单的拷贝</li>
-<li>软件会多次修改</li>
-<li>软件开发的环境对产品影响较大</li>
-<li>软件开发的时间和工作量难以估计</li>
-<li>软件的开发进度几乎没有客观衡量标准</li>
-<li>软件测试非常困难</li>
-<li>软件不会磨损和老化</li>
-<li>软件维护易产生新的问题</li>
-</ul>
-<p><strong><span class="red">软件双重作用</span></strong></p>
-<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hjhua2ksj30jd07c0tc.jpg" alt="" /></p>
-<p><strong><span class="red">软件的分类</span></strong></p>
-<ol>
-<li><strong>按软件功能</strong>
-<ul>
-<li>系统软件
-<ul>
-<li>操作系统</li>
-<li>数据库管理系统</li>
-<li>设备驱动程序</li>
-<li>通信处理程序等</li>
-</ul>
-</li>
-<li>支撑软件
-<ul>
-<li>文本编辑程序</li>
-<li>文件格式化程序</li>
-<li>磁盘或磁带间数据传输的程序</li>
-<li>程序库系统</li>
-<li>支持需求分析、设计、实现、测试和支持管理的软件</li>
-</ul>
-</li>
-<li>应用软件
-<ul>
-<li>商业数据处理软件</li>
-<li>工程与科学计算软件</li>
-<li>计算机辅助设计 / 制造软件</li>
-<li>系统仿真软件</li>
-<li>只能产品嵌入软件</li>
-<li>医疗、制药软件</li>
-<li>事务管理、办公自动化软件</li>
-<li>计算机辅助教学软件</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>按服务对象</strong>
-<ul>
-<li>项目软件：服务对象来自于一个具体项目范围内的客户集合。📗比如某高校的教务管理系统</li>
-<li>产品软件：服务对象有可能面临数量更为庞大的客户群体。📗如各类互联网软件，它们的目标服务对象都是全国乃至全世界的网民</li>
-</ul>
-</li>
-</ol>
-<p><strong><span class="red">软件的发展</span></strong></p>
-<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7hjuo5n57j30je087wf6.jpg" alt="" /></p>
-<p><strong><span class="red">软件规模越来越大</span></strong></p>
-<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hjvzacyfj30jv08raaq.jpg" alt="" /></p>
-<p>应用软件系统也越来越复杂，规模迅速增长，动辄数百万行代码已是常见现象（谷歌：20 亿行）</p>
-<p><strong><span class="red">为什么软件发展如此之快？</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hk0hf3iqj30ld074t9f.jpg" alt="" /></p>
-<h2 id="软件危机的产生"><a class="anchor" href="#软件危机的产生">#</a> 软件危机的产生</h2>
-<p><strong><span class="red">什么是软件危机</span></strong></p>
-<p>1968 年 NATO 会议（Garmisch, Germany）提出 “软件危机”</p>
-<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hk4fia8nj30hm046aa8.jpg" alt="" /></p>
-<ul>
-<li>项目超出预算</li>
-<li>项目超过计划完成时间</li>
-<li>软件运行效率很低</li>
-<li>软件质量差</li>
-<li>软件通常不符合要求</li>
-<li>项目难以管理并且代码难以维护</li>
-<li>软件不能交付</li>
-</ul>
-<p>📗<strong><span class="red">软件危机案例</span></strong></p>
-<ul>
-<li>
-<p>1961-1964 年，IBM 公司的 OS/360，共约 100 万条指令，花费了 5000 个人年，开发总投资 5 亿美元，达到当时美国研究原子弹的曼哈顿计划投资 20 亿美元的 1/4，而结果却令人沮丧，错误多达 2000 个以上，系统根本无法正常运行</p>
-<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7hk8m7rp7j309k07pt91.jpg" alt="" /></p>
-</li>
-</ul>
-<p><strong><span class="red">软件成本日益增加</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hkd3z41wj30ca07kt98.jpg" alt="" /></p>
-<p><strong><span class="red">软件技术进步 &lt; 需求增长</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hke0wmzoj30cv07xwek.jpg" alt="" /></p>
-<p><strong>❓<span class="red">为什么会发生软件危机</span></strong></p>
-<ul>
-<li>客观：软件本身特点
-<ul>
-<li>逻辑部件</li>
-<li>规模庞大</li>
-</ul>
-</li>
-<li>主观：不正确的开发方法
-<ul>
-<li>忽略需求分析</li>
-<li>错误认为：软件开发 = 程序编写</li>
-<li>轻视软件维护</li>
-</ul>
-</li>
-</ul>
-<p><strong><span class="red">消除软件危机的途径：软件工程！</span></strong></p>
-<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hkh64a7cj30iw05zgmh.jpg" alt="" /></p>
-<h2 id="软件工程的概念与知识体系"><a class="anchor" href="#软件工程的概念与知识体系">#</a> 软件工程的概念与知识体系</h2>
-<h3 id="软件工程的概念与发展过程"><a class="anchor" href="#软件工程的概念与发展过程">#</a> 软件工程的概念与发展过程</h3>
-<p><strong><span class="red">软件工程有什么用？</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hkkg2l57j30cq077t8s.jpg" alt="" /></p>
-<p><strong><span class="red">软件工程的定义</span></strong></p>
-<p><span class="label danger">定义</span> IEEE 计算机协会将软件工程定义为：</p>
-<ol>
-<li>应用系统化的、学科化的、定量的方法，来开发、运行和维护软件，即，<mark>将工程应用到软件</mark></li>
-<li>对上述各种方法的研究</li>
-</ol>
-<p><span class="label danger">目标</span>软件工程的目标是在给定的时间和预算内，按照用户的需求，开发易修改、高效、可靠、可维护、适应力强、可移动、可重用的软件</p>
-<p><strong><span class="red">软件工程三要素：方法、工具、过程</span></strong></p>
-<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7hku9m09kj30p80kdmz0.jpg" alt="" /></p>
-<ol>
-<li>工具：为软件工程的过程和方法提供了自动化或半自动化的工具支持。将若干工具集成起来，与软件工程数据库和计算机系统构成一个支持软件开发的系统称 “计算机辅助软件工程（CASE）”，系统中某一工具的信息加工结果可以作为另一工具的输入。集成的软件工程工具加上人的因素构成了软件工程环境。📗比如编程工具 Visual Studio、测试工具 Node Runner 等</li>
-<li>方法：为软件开发提供了” 如何做 “的技术。分为两类：面向过程方法和面向对象方法</li>
-<li>过程：贯穿软件开发的各个环节，在各环节之间建立里程碑；管理者在软件工程过程中对软件开发的质量、进度、成本进行评估、管理和控制；技术人员采用相应的方法和工具生成软件工程产品（模型、文档、数据、报告、表格等）</li>
-</ol>
-<p><strong><span class="red">软件工程的发展已经历了四个重要阶段</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlaxkoglj30jg02raag.jpg" alt="" /></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlcz0orkj30g00ahjsg.jpg" alt="" /></p>
-<p><strong><span class="red">软件工程的 7 个原则（B.W.Boehm, 1983）</span></strong></p>
-<ol>
-<li>使用阶段性生命周期计划的管理</li>
-<li>进行连续的验证</li>
-<li>保证严格的产品控制</li>
-<li>使用现代编程工具 / 工程实践</li>
-<li>保持清晰的责任分配</li>
-<li>用更好更少的人</li>
-<li>保持过程改进</li>
-</ol>
-<h3 id="软件工程知识体系与职业道德"><a class="anchor" href="#软件工程知识体系与职业道德">#</a> 软件工程知识体系与职业道德</h3>
-<p><strong><span class="red">软件工程知识体系（SWEBOK, 1983）</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlh264c4j30k608jgmi.jpg" alt="" /></p>
-]]></content>
-      <categories>
-        <category>软件工程</category>
       </categories>
   </entry>
 </search>
