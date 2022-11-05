@@ -11,7 +11,7 @@
 <h2 id="经典问题"><a class="anchor" href="#经典问题">#</a> 经典问题</h2>
 <details class="primary"><summary>1.1 组合问题</summary><div>
 <div class="note info">
-<pre class="mermaid graph"><svg id="mermaid-1667225402538" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="87.1875" style="max-width: 371.1875px;" viewBox="0 0 371.1875 87.1875"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M79.1875,43.59375L172.3828125,43.59375L265.578125,43.59375" marker-end="url(#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(172.3828125,43.59375)" style="opacity: 1;"><g transform="translate(-68.1953125,-9.5)" class="label"><rect rx="0" ry="0" width="136.390625" height="19"></rect><text><tspan xml:space="preserve" dy="1em" x="1">找出大小为2的组合</tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-2" transform="translate(43.59375,43.59375)" style="opacity: 1;"><circle x="-35.59375" y="-19.5" r="35.59375" class="label-container"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-25.59375,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2,3,4</tspan></text></g></g></g><g class="node default" id="flowchart-B-3" transform="translate(314.3828125,43.59375)" style="opacity: 1;"><rect rx="0" ry="0" x="-48.8046875" y="-35.5" width="97.609375" height="71" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-38.8046875,-25.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2 1,3 1,4</tspan><tspan xml:space="preserve" dy="1em" x="1">2,3 2,4</tspan><tspan xml:space="preserve" dy="1em" x="1">3,4</tspan></text></g></g></g></g></g></g></svg></pre></div>
+<pre class="mermaid graph"><svg id="mermaid-1667634939790" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="87.1875" style="max-width: 371.1875px;" viewBox="0 0 371.1875 87.1875"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M79.1875,43.59375L172.3828125,43.59375L265.578125,43.59375" marker-end="url(#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(172.3828125,43.59375)" style="opacity: 1;"><g transform="translate(-68.1953125,-9.5)" class="label"><rect rx="0" ry="0" width="136.390625" height="19"></rect><text><tspan xml:space="preserve" dy="1em" x="1">找出大小为2的组合</tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-2" transform="translate(43.59375,43.59375)" style="opacity: 1;"><circle x="-35.59375" y="-19.5" r="35.59375" class="label-container"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-25.59375,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2,3,4</tspan></text></g></g></g><g class="node default" id="flowchart-B-3" transform="translate(314.3828125,43.59375)" style="opacity: 1;"><rect rx="0" ry="0" x="-48.8046875" y="-35.5" width="97.609375" height="71" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-38.8046875,-25.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2 1,3 1,4</tspan><tspan xml:space="preserve" dy="1em" x="1">2,3 2,4</tspan><tspan xml:space="preserve" dy="1em" x="1">3,4</tspan></text></g></g></g></g></g></g></svg></pre></div>
 </div></details>
 <details class="primary"><summary>1.2 切割问题</summary><div>
 <div class="note default">
@@ -28,7 +28,7 @@
 </div></details>
 <details class="primary"><summary>1.4排列问题</summary><div>
 <div class="note info">
-<pre class="mermaid graph"><svg id="mermaid-1667225403639" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="71" style="max-width: 237.3125px;" viewBox="0 0 237.3125 71"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M50.65625,35.5L118.65625,35.5L186.65625,35.5" marker-end="url(#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(118.65625,35.5)" style="opacity: 1;"><g transform="translate(-43,-9.5)" class="label"><rect rx="0" ry="0" width="86" height="19"></rect><text><tspan xml:space="preserve" dy="1em" x="1">有几种排列?</tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-2" transform="translate(29.328125,35.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-21.328125" y="-19.5" width="42.65625" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-11.328125,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2</tspan></text></g></g></g><g class="node default" id="flowchart-B-3" transform="translate(207.984375,35.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-21.328125" y="-27.5" width="42.65625" height="55" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-11.328125,-17.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2</tspan><tspan xml:space="preserve" dy="1em" x="1">2,1</tspan></text></g></g></g></g></g></g></svg></pre></div>
+<pre class="mermaid graph"><svg id="mermaid-1667634941142" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="71" style="max-width: 237.3125px;" viewBox="0 0 237.3125 71"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M50.65625,35.5L118.65625,35.5L186.65625,35.5" marker-end="url(#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(118.65625,35.5)" style="opacity: 1;"><g transform="translate(-43,-9.5)" class="label"><rect rx="0" ry="0" width="86" height="19"></rect><text><tspan xml:space="preserve" dy="1em" x="1">有几种排列?</tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-2" transform="translate(29.328125,35.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-21.328125" y="-19.5" width="42.65625" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-11.328125,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2</tspan></text></g></g></g><g class="node default" id="flowchart-B-3" transform="translate(207.984375,35.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-21.328125" y="-27.5" width="42.65625" height="55" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-11.328125,-17.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">1,2</tspan><tspan xml:space="preserve" dy="1em" x="1">2,1</tspan></text></g></g></g></g></g></g></svg></pre></div>
 </div></details>
 <details class="primary"><summary>1.5 N皇后</summary><div>
 </div></details>
@@ -852,7 +852,7 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 <p>本功能基于  <code>markdown-it-mermaid</code></p>
 <p>在 Front Matter 中添加  <code>mermaid: true</code>  以支持 Mermaid</p>
 <figure class="highlight raw"><figcaption data-lang=""></figcaption><table><tr><td data-num="1"></td><td><pre>---</pre></td></tr><tr><td data-num="2"></td><td><pre>title: 流程图显示</pre></td></tr><tr><td data-num="3"></td><td><pre>mermaid: true</pre></td></tr><tr><td data-num="4"></td><td><pre>---</pre></td></tr><tr><td data-num="5"></td><td><pre></pre></td></tr><tr><td data-num="6"></td><td><pre>&#96;&#96;&#96;Mermaid</pre></td></tr><tr><td data-num="7"></td><td><pre>graph LR</pre></td></tr><tr><td data-num="8"></td><td><pre>    A [Square Rect] -- Link text --&gt; B ((Circle))</pre></td></tr><tr><td data-num="9"></td><td><pre>    A --&gt; C (Round Rect)</pre></td></tr><tr><td data-num="10"></td><td><pre>    B --&gt; D &#123;Rhombus&#125;</pre></td></tr><tr><td data-num="11"></td><td><pre>    C --&gt; D</pre></td></tr><tr><td data-num="12"></td><td><pre>&#96;&#96;&#96;</pre></td></tr><tr><td data-num="13"></td><td><pre></pre></td></tr><tr><td data-num="14"></td><td><pre>&#96;&#96;&#96;Mermaid</pre></td></tr><tr><td data-num="15"></td><td><pre>sequenceDiagram</pre></td></tr><tr><td data-num="16"></td><td><pre>    loop Daily query</pre></td></tr><tr><td data-num="17"></td><td><pre>        Alice-&gt;&gt;Bob: Hello Bob, how are you?</pre></td></tr><tr><td data-num="18"></td><td><pre>        alt is sick</pre></td></tr><tr><td data-num="19"></td><td><pre>            Bob-&gt;&gt;Alice: Not so good :(</pre></td></tr><tr><td data-num="20"></td><td><pre>        else is well</pre></td></tr><tr><td data-num="21"></td><td><pre>            Bob-&gt;&gt;Alice: Feeling fresh like a daisy</pre></td></tr><tr><td data-num="22"></td><td><pre>        end</pre></td></tr><tr><td data-num="23"></td><td><pre></pre></td></tr><tr><td data-num="24"></td><td><pre>        opt Extra response</pre></td></tr><tr><td data-num="25"></td><td><pre>            Bob-&gt;&gt;Alice: Thanks for asking</pre></td></tr><tr><td data-num="26"></td><td><pre>        end</pre></td></tr><tr><td data-num="27"></td><td><pre>    end</pre></td></tr><tr><td data-num="28"></td><td><pre>&#96;&#96;&#96;</pre></td></tr></table></figure><p>⚠️第一个流程图的代码中，A、B、C、D 与其后的括号之间均无空格</p>
-<pre class="mermaid graph"><svg id="mermaid-1667225404804" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="167" style="max-width: 497.7718811035156px;" viewBox="0 0 497.7718811035156 167"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M103.65391791044776,69.75L171.0390625,39L247.625,39" marker-end="url(#arrowhead15)" style="fill:none"></path><defs><marker id="arrowhead15" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-A LE-C" id="L-A-C" style="opacity: 1;"><path class="path" d="M103.65391791044776,108.75L171.0390625,139.5L228.234375,139.5" marker-end="url(#arrowhead16)" style="fill:none"></path><defs><marker id="arrowhead16" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-B LE-D" id="L-B-D" style="opacity: 1;"><path class="path" d="M309.625,39L354.015625,39L400.8184709260876,68.44715483685182" marker-end="url(#arrowhead17)" style="fill:none"></path><defs><marker id="arrowhead17" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-C LE-D" id="L-C-D" style="opacity: 1;"><path class="path" d="M329.015625,139.5L354.015625,139.5L400.81846998718345,111.05284575012297" marker-end="url(#arrowhead18)" style="fill:none"></path><defs><marker id="arrowhead18" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(171.0390625,39)" style="opacity: 1;"><g transform="translate(-32.1953125,-9.5)" class="label"><rect rx="0" ry="0" width="64.359375" height="19.03125"></rect><text><tspan xml:space="preserve" dy="1em" x="1">Link text</tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-8" transform="translate(60.921875,89.25)" style="opacity: 1;"><rect rx="0" ry="0" x="-52.921875" y="-19.5" width="105.84375" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-42.921875,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Square Rect</tspan></text></g></g></g><g class="node default" id="flowchart-B-9" transform="translate(278.625,39)" style="opacity: 1;"><circle x="-31" y="-19.5" r="31" class="label-container"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-21,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Circle</tspan></text></g></g></g><g class="node default" id="flowchart-C-11" transform="translate(278.625,139.5)" style="opacity: 1;"><rect rx="5" ry="5" x="-50.390625" y="-19.5" width="100.78125" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-40.390625,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Round Rect</tspan></text></g></g></g><g class="node default" id="flowchart-D-13" transform="translate(434.39374923706055,89.25)" style="opacity: 1;"><polygon points="55.378125000000004,0 110.75625000000001,-55.378125000000004 55.378125000000004,-110.75625000000001 0,-55.378125000000004" transform="translate(-55.378125000000004,55.378125000000004)" class="label-container"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-32.03125,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Rhombus</tspan></text></g></g></g></g></g></g></svg></pre><pre class="mermaid"><svg id="mermaid-1667225405960" width="100%" xmlns="http://www.w3.org/2000/svg" height="563" style="max-width: 498px;" viewBox="-50 -10 498 563"><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="552" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Alice</tspan></text></g><g><line id="actor1" x1="323" y1="5" x2="323" y2="552" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="248" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="323" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="323" dy="0">Bob</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><defs><marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"><circle cx="15" cy="15" r="6"></circle></marker></defs><text x="199" y="125" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Hello Bob, how are you?</text><line x1="75" y1="158" x2="323" y2="158" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="199" y="218" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Not so good :(</text><line x1="323" y1="251" x2="75" y2="251" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="199" y="311" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Feeling fresh like a daisy</text><line x1="323" y1="344" x2="75" y2="344" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><g><line x1="65" y1="168" x2="333" y2="168" class="loopLine"></line><line x1="333" y1="168" x2="333" y2="354" class="loopLine"></line><line x1="65" y1="354" x2="333" y2="354" class="loopLine"></line><line x1="65" y1="168" x2="65" y2="354" class="loopLine"></line><line x1="65" y1="266" x2="333" y2="266" class="loopLine" style="stroke-dasharray: 3, 3;"></line><polygon points="65,168 115,168 115,181 106.6,188 65,188" class="labelBox"></polygon><text x="90" y="181" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">alt</text><text x="224" y="186" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[is sick]</tspan></text><text x="199" y="284" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">[is well]</text></g><text x="199" y="414" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Thanks for asking</text><line x1="323" y1="447" x2="75" y2="447" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><g><line x1="65" y1="364" x2="333" y2="364" class="loopLine"></line><line x1="333" y1="364" x2="333" y2="457" class="loopLine"></line><line x1="65" y1="457" x2="333" y2="457" class="loopLine"></line><line x1="65" y1="364" x2="65" y2="457" class="loopLine"></line><polygon points="65,364 115,364 115,377 106.6,384 65,384" class="labelBox"></polygon><text x="90" y="377" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">opt</text><text x="224" y="382" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[Extra response]</tspan></text></g><g><line x1="55" y1="75" x2="343" y2="75" class="loopLine"></line><line x1="343" y1="75" x2="343" y2="467" class="loopLine"></line><line x1="55" y1="467" x2="343" y2="467" class="loopLine"></line><line x1="55" y1="75" x2="55" y2="467" class="loopLine"></line><polygon points="55,75 105,75 105,88 96.6,95 55,95" class="labelBox"></polygon><text x="80" y="88" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">loop</text><text x="224" y="93" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[Daily query]</tspan></text></g><g><rect x="0" y="487" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="519.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Alice</tspan></text></g><g><rect x="248" y="487" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="323" y="519.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="323" dy="0">Bob</tspan></text></g></svg></pre><h4 id="流程图mermaid不能正常渲染解决方案"><a class="anchor" href="#流程图mermaid不能正常渲染解决方案">#</a> 🐱流程图 mermaid 不能正常渲染解决方案</h4>
+<pre class="mermaid graph"><svg id="mermaid-1667634942571" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="167" style="max-width: 497.7718811035156px;" viewBox="0 0 497.7718811035156 167"><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M103.65391791044776,69.75L171.0390625,39L247.625,39" marker-end="url(#arrowhead15)" style="fill:none"></path><defs><marker id="arrowhead15" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-A LE-C" id="L-A-C" style="opacity: 1;"><path class="path" d="M103.65391791044776,108.75L171.0390625,139.5L228.234375,139.5" marker-end="url(#arrowhead16)" style="fill:none"></path><defs><marker id="arrowhead16" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-B LE-D" id="L-B-D" style="opacity: 1;"><path class="path" d="M309.625,39L354.015625,39L400.8184709260876,68.44715483685182" marker-end="url(#arrowhead17)" style="fill:none"></path><defs><marker id="arrowhead17" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-C LE-D" id="L-C-D" style="opacity: 1;"><path class="path" d="M329.015625,139.5L354.015625,139.5L400.81846998718345,111.05284575012297" marker-end="url(#arrowhead18)" style="fill:none"></path><defs><marker id="arrowhead18" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(171.0390625,39)" style="opacity: 1;"><g transform="translate(-32.1953125,-9.5)" class="label"><rect rx="0" ry="0" width="64.359375" height="19.03125"></rect><text><tspan xml:space="preserve" dy="1em" x="1">Link text</tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><text><tspan xml:space="preserve" dy="1em" x="1"></tspan></text></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-8" transform="translate(60.921875,89.25)" style="opacity: 1;"><rect rx="0" ry="0" x="-52.921875" y="-19.5" width="105.84375" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-42.921875,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Square Rect</tspan></text></g></g></g><g class="node default" id="flowchart-B-9" transform="translate(278.625,39)" style="opacity: 1;"><circle x="-31" y="-19.5" r="31" class="label-container"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-21,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Circle</tspan></text></g></g></g><g class="node default" id="flowchart-C-11" transform="translate(278.625,139.5)" style="opacity: 1;"><rect rx="5" ry="5" x="-50.390625" y="-19.5" width="100.78125" height="39" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-40.390625,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Round Rect</tspan></text></g></g></g><g class="node default" id="flowchart-D-13" transform="translate(434.39374923706055,89.25)" style="opacity: 1;"><polygon points="55.378125000000004,0 110.75625000000001,-55.378125000000004 55.378125000000004,-110.75625000000001 0,-55.378125000000004" transform="translate(-55.378125000000004,55.378125000000004)" class="label-container"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-32.03125,-9.5)"><text style=""><tspan xml:space="preserve" dy="1em" x="1">Rhombus</tspan></text></g></g></g></g></g></g></svg></pre><pre class="mermaid"><svg id="mermaid-1667634943926" width="100%" xmlns="http://www.w3.org/2000/svg" height="563" style="max-width: 498px;" viewBox="-50 -10 498 563"><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="552" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Alice</tspan></text></g><g><line id="actor1" x1="323" y1="5" x2="323" y2="552" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="248" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="323" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="323" dy="0">Bob</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><defs><marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"><circle cx="15" cy="15" r="6"></circle></marker></defs><text x="199" y="125" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Hello Bob, how are you?</text><line x1="75" y1="158" x2="323" y2="158" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="199" y="218" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Not so good :(</text><line x1="323" y1="251" x2="75" y2="251" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="199" y="311" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Feeling fresh like a daisy</text><line x1="323" y1="344" x2="75" y2="344" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><g><line x1="65" y1="168" x2="333" y2="168" class="loopLine"></line><line x1="333" y1="168" x2="333" y2="354" class="loopLine"></line><line x1="65" y1="354" x2="333" y2="354" class="loopLine"></line><line x1="65" y1="168" x2="65" y2="354" class="loopLine"></line><line x1="65" y1="266" x2="333" y2="266" class="loopLine" style="stroke-dasharray: 3, 3;"></line><polygon points="65,168 115,168 115,181 106.6,188 65,188" class="labelBox"></polygon><text x="90" y="181" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">alt</text><text x="224" y="186" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[is sick]</tspan></text><text x="199" y="284" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">[is well]</text></g><text x="199" y="414" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">Thanks for asking</text><line x1="323" y1="447" x2="75" y2="447" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><g><line x1="65" y1="364" x2="333" y2="364" class="loopLine"></line><line x1="333" y1="364" x2="333" y2="457" class="loopLine"></line><line x1="65" y1="457" x2="333" y2="457" class="loopLine"></line><line x1="65" y1="364" x2="65" y2="457" class="loopLine"></line><polygon points="65,364 115,364 115,377 106.6,384 65,384" class="labelBox"></polygon><text x="90" y="377" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">opt</text><text x="224" y="382" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[Extra response]</tspan></text></g><g><line x1="55" y1="75" x2="343" y2="75" class="loopLine"></line><line x1="343" y1="75" x2="343" y2="467" class="loopLine"></line><line x1="55" y1="467" x2="343" y2="467" class="loopLine"></line><line x1="55" y1="75" x2="55" y2="467" class="loopLine"></line><polygon points="55,75 105,75 105,88 96.6,95 55,95" class="labelBox"></polygon><text x="80" y="88" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="labelText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">loop</text><text x="224" y="93" text-anchor="middle" class="loopText" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;"><tspan x="224">[Daily query]</tspan></text></g><g><rect x="0" y="487" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="519.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Alice</tspan></text></g><g><rect x="248" y="487" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="323" y="519.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="323" dy="0">Bob</tspan></text></g></svg></pre><h4 id="流程图mermaid不能正常渲染解决方案"><a class="anchor" href="#流程图mermaid不能正常渲染解决方案">#</a> 🐱流程图 mermaid 不能正常渲染解决方案</h4>
 <ol>
 <li>打开 <code>node_modules\hexo-renderer-multi-markdown-it\lib\renderer\markdown-it-mermaid</code>  文件</li>
 <li>在第 61 行的 <code>if</code>  语句前加一行： <code>console.log(token.info + '&lt;------' + (token.info === 'Mermaid'))</code></li>
@@ -862,309 +862,6 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 <figure class="highlight raw"><figcaption data-lang=""></figcaption><table><tr><td data-num="1"></td><td><pre>&#96;&#96;&#96;Mermaid</pre></td></tr><tr><td data-num="2"></td><td><pre>...</pre></td></tr><tr><td data-num="3"></td><td><pre>&#96;&#96;&#96;</pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Hexo主题Shoka使用说明</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>软件工程基础</title>
-    <url>/softwareengineering/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h1 id="软件工程概述"><a class="anchor" href="#软件工程概述">#</a> 软件工程概述</h1>
-<h2 id="软件的概念与特点"><a class="anchor" href="#软件的概念与特点">#</a> 软件的概念与特点</h2>
-<p><strong><span class="red">软件的定义</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hjbon3g3j30ip0aogml.jpg" alt="" /></p>
-<p><strong><span class="red">软件的特征</span></strong></p>
-<ul>
-<li>软件是开发的或者是工程化的，并不是制造的</li>
-<li>软件生产是简单的拷贝</li>
-<li>软件会多次修改</li>
-<li>软件开发的环境对产品影响较大</li>
-<li>软件开发的时间和工作量难以估计</li>
-<li>软件的开发进度几乎没有客观衡量标准</li>
-<li>软件测试非常困难</li>
-<li>软件不会磨损和老化</li>
-<li>软件维护易产生新的问题</li>
-</ul>
-<p><strong><span class="red">软件双重作用</span></strong></p>
-<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hjhua2ksj30jd07c0tc.jpg" alt="" /></p>
-<p><strong><span class="red">软件的分类</span></strong></p>
-<ol>
-<li><strong>按软件功能</strong>
-<ul>
-<li>系统软件
-<ul>
-<li>操作系统</li>
-<li>数据库管理系统</li>
-<li>设备驱动程序</li>
-<li>通信处理程序等</li>
-</ul>
-</li>
-<li>支撑软件
-<ul>
-<li>文本编辑程序</li>
-<li>文件格式化程序</li>
-<li>磁盘或磁带间数据传输的程序</li>
-<li>程序库系统</li>
-<li>支持需求分析、设计、实现、测试和支持管理的软件</li>
-</ul>
-</li>
-<li>应用软件
-<ul>
-<li>商业数据处理软件</li>
-<li>工程与科学计算软件</li>
-<li>计算机辅助设计 / 制造软件</li>
-<li>系统仿真软件</li>
-<li>只能产品嵌入软件</li>
-<li>医疗、制药软件</li>
-<li>事务管理、办公自动化软件</li>
-<li>计算机辅助教学软件</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>按服务对象</strong>
-<ul>
-<li>项目软件：服务对象来自于一个具体项目范围内的客户集合。📗比如某高校的教务管理系统</li>
-<li>产品软件：服务对象有可能面临数量更为庞大的客户群体。📗如各类互联网软件，它们的目标服务对象都是全国乃至全世界的网民</li>
-</ul>
-</li>
-</ol>
-<p><strong><span class="red">软件的发展</span></strong></p>
-<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7hjuo5n57j30je087wf6.jpg" alt="" /></p>
-<p><strong><span class="red">软件规模越来越大</span></strong></p>
-<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hjvzacyfj30jv08raaq.jpg" alt="" /></p>
-<p>应用软件系统也越来越复杂，规模迅速增长，动辄数百万行代码已是常见现象（谷歌：20 亿行）</p>
-<p><strong><span class="red">为什么软件发展如此之快？</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hk0hf3iqj30ld074t9f.jpg" alt="" /></p>
-<h2 id="软件危机的产生"><a class="anchor" href="#软件危机的产生">#</a> 软件危机的产生</h2>
-<p><strong><span class="red">什么是软件危机</span></strong></p>
-<p>1968 年 NATO 会议（Garmisch, Germany）提出 “软件危机”</p>
-<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hk4fia8nj30hm046aa8.jpg" alt="" /></p>
-<ul>
-<li>项目超出预算</li>
-<li>项目超过计划完成时间</li>
-<li>软件运行效率很低</li>
-<li>软件质量差</li>
-<li>软件通常不符合要求</li>
-<li>项目难以管理并且代码难以维护</li>
-<li>软件不能交付</li>
-</ul>
-<p>📗<strong><span class="red">软件危机案例</span></strong></p>
-<ul>
-<li>
-<p>1961-1964 年，IBM 公司的 OS/360，共约 100 万条指令，花费了 5000 个人年，开发总投资 5 亿美元，达到当时美国研究原子弹的曼哈顿计划投资 20 亿美元的 1/4，而结果却令人沮丧，错误多达 2000 个以上，系统根本无法正常运行</p>
-<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7hk8m7rp7j309k07pt91.jpg" alt="" /></p>
-</li>
-</ul>
-<p><strong><span class="red">软件成本日益增加</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hkd3z41wj30ca07kt98.jpg" alt="" /></p>
-<p><strong><span class="red">软件技术进步 &lt; 需求增长</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hke0wmzoj30cv07xwek.jpg" alt="" /></p>
-<p><strong>❓<span class="red">为什么会发生软件危机</span></strong></p>
-<ul>
-<li>客观：软件本身特点
-<ul>
-<li>逻辑部件</li>
-<li>规模庞大</li>
-</ul>
-</li>
-<li>主观：不正确的开发方法
-<ul>
-<li>忽略需求分析</li>
-<li>错误认为：软件开发 = 程序编写</li>
-<li>轻视软件维护</li>
-</ul>
-</li>
-</ul>
-<p><strong><span class="red">消除软件危机的途径：软件工程！</span></strong></p>
-<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hkh64a7cj30iw05zgmh.jpg" alt="" /></p>
-<h2 id="软件工程的概念与知识体系"><a class="anchor" href="#软件工程的概念与知识体系">#</a> 软件工程的概念与知识体系</h2>
-<h3 id="软件工程的概念与发展过程"><a class="anchor" href="#软件工程的概念与发展过程">#</a> 软件工程的概念与发展过程</h3>
-<p><strong><span class="red">软件工程有什么用？</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hkkg2l57j30cq077t8s.jpg" alt="" /></p>
-<p><strong><span class="red">软件工程的定义</span></strong></p>
-<p><span class="label danger">定义</span> IEEE 计算机协会将软件工程定义为：</p>
-<ol>
-<li>应用系统化的、学科化的、定量的方法，来开发、运行和维护软件，即，<mark>将工程应用到软件</mark></li>
-<li>对上述各种方法的研究</li>
-</ol>
-<p><span class="label danger">目标</span>软件工程的目标是在给定的时间和预算内，按照用户的需求，开发易修改、高效、可靠、可维护、适应力强、可移动、可重用的软件</p>
-<p><strong><span class="red">软件工程三要素：方法、工具、过程</span></strong></p>
-<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7hku9m09kj30p80kdmz0.jpg" alt="" /></p>
-<ol>
-<li>工具：为软件工程的过程和方法提供了自动化或半自动化的工具支持。将若干工具集成起来，与软件工程数据库和计算机系统构成一个支持软件开发的系统称 “计算机辅助软件工程（CASE）”，系统中某一工具的信息加工结果可以作为另一工具的输入。集成的软件工程工具加上人的因素构成了软件工程环境。📗比如编程工具 Visual Studio、测试工具 Node Runner 等</li>
-<li>方法：为软件开发提供了” 如何做 “的技术。分为两类：面向过程方法和面向对象方法</li>
-<li>过程：贯穿软件开发的各个环节，在各环节之间建立里程碑；管理者在软件工程过程中对软件开发的质量、进度、成本进行评估、管理和控制；技术人员采用相应的方法和工具生成软件工程产品（模型、文档、数据、报告、表格等）</li>
-</ol>
-<p><strong><span class="red">软件工程的发展已经历了四个重要阶段</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlaxkoglj30jg02raag.jpg" alt="" /></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlcz0orkj30g00ahjsg.jpg" alt="" /></p>
-<p><strong><span class="red">软件工程的 7 个原则（B.W.Boehm, 1983）</span></strong></p>
-<ol>
-<li>使用阶段性生命周期计划的管理</li>
-<li>进行连续的验证</li>
-<li>保证严格的产品控制</li>
-<li>使用现代编程工具 / 工程实践</li>
-<li>保持清晰的责任分配</li>
-<li>用更好更少的人</li>
-<li>保持过程改进</li>
-</ol>
-<h3 id="软件工程知识体系与职业道德"><a class="anchor" href="#软件工程知识体系与职业道德">#</a> 软件工程知识体系与职业道德</h3>
-<p><strong><span class="red">软件工程知识体系（SWEBOK, 1983）</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlh264c4j30k608jgmi.jpg" alt="" /></p>
-<p>软件工程知识体系划分为 10 个知识域，10 个知识域分为 2 类过程</p>
-<ul>
-<li>第一排是开发与维护过程</li>
-<li>第二排是支持与组织过程</li>
-</ul>
-<p><strong><span class="red">软件工程知识体系各主题之间的关联</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7jukpi2xej30gp09rdgo.jpg" alt="" /></p>
-<p><strong><span class="red">软件工程是一门交叉学科</span></strong></p>
-<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7jumjkftyj30bw086t90.jpg" alt="" /></p>
-<p><strong><span class="red">软件工程 VS 计算机科学</span></strong></p>
-<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7junyaqwej30dd09gglw.jpg" alt="" /></p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>软件工程</th>
-<th>计算机科学</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>目标</td>
-<td>在时间、资源、人员这 3 个主要限制条件下构建满足用户需求的软件系统</td>
-<td>探索正确的计算和建模方法，从而改进计算方法本身</td>
-</tr>
-<tr>
-<td>产品</td>
-<td>软件（比如办公包和编译器）</td>
-<td>算法（比如希尔算法）和抽象的问题（比如哲学家进餐问题）</td>
-</tr>
-<tr>
-<td>进度与时间表</td>
-<td>软件项目都有特定的进度和时间表</td>
-<td>研究项目一般不具有设置的进度与时间表</td>
-</tr>
-<tr>
-<td>关注点</td>
-<td>软件工程关注如何为用户实现价值</td>
-<td>软件理论关注的是软件本身运行的原理，比如时间复杂度，空间复杂度，和算法的正确性</td>
-</tr>
-<tr>
-<td>变化程度</td>
-<td>随着技术和用户需求的不断变化，软件开发人员必须时刻调整自己的开发以适应当前的需求。同时软件工程本身也处于不断的发展中</td>
-<td>对于某一种特定问题的正确解决方法将永远不会改变</td>
-</tr>
-<tr>
-<td>需要的其他知识</td>
-<td>相关领域的知识</td>
-<td>数学</td>
-</tr>
-</tbody>
-</table>
-<p><strong><span class="red">一些对软件工程的误解</span></strong></p>
-<ul>
-<li>
-<p>管理方的误解</p>
-<ul>
-<li>❌<span class="red">我们已经有一本关于软件生产的标准和过程的书，这还不能让我们学习到需要的知识吗？</span></li>
-<li>✅<span class="green">相比最新的大型主机，工作站和 PC，这会使我们在做高质量软件开发时花费更多时间</span></li>
-<li>❌<span class="red">如果我们项目进度落后了，可以加入更多的程序员来赶进度</span></li>
-<li>✅<span class="green">软件开发的机制和手工作业不一样。在一个延迟了的软件项目中加入新的开发人员只会让它延迟更多</span></li>
-<li>❌<span class="red">如果我们将软件项目外包给第三方，我们就轻松了，让那个公司去完成它把</span></li>
-<li>✅<span class="green">如果组织管理方不懂得如何从内部管理和控制软件项目，即使项目外包也无济于事</span></li>
-</ul>
-</li>
-<li>
-<p>客户方的误解</p>
-<ul>
-<li>❌<span class="red">对目标的一般陈述就足以开始编程，我们可以今后再补充细节</span></li>
-<li>✅<span class="green">前期糟糕的项目需求定义，是导致软件失败的主要原因</span></li>
-<li>✅<span class="green">项目需求的确在不断变化，但变化所产生的影响是根据变化提出的时间不同而不同的</span></li>
-</ul>
-<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7jv995k79j30ez06174d.jpg" alt="" /></p>
-</li>
-<li>
-<p>开发人员</p>
-<ul>
-<li>❌<span class="red">一旦我们变成完毕并成功运行，我们的工作就结束了</span></li>
-<li>✅<span class="green">越早开始写代码，我们就会花费越长的时间去完成它。工业数据显示，软件开发 60%-80% 的精力将耗费在软件首次提交给用户以后</span></li>
-<li>❌<span class="red">当我的程序运行之前，我没有办法评估它的质量</span></li>
-<li>✅<span class="green">一个最有效的软件质量保证机制应当在项目的正式开始启动时 —— 可以通过技术报告体现</span></li>
-<li>❌<span class="red">唯一可交付的工作成果是一个成功运行的项目程序</span></li>
-<li>✅<span class="green">一个可运行的程序知识软件结构的一部分，它还包含了许多其他因素</span></li>
-<li>❌<span class="red">软件工程会让我们去创建大量不必要的文档，并且总是使我们的进度放慢。软件工程仅仅是文档而已</span></li>
-<li>✅<span class="green">软件工程并不是创建文档，而是创建质量。更好的质量减少返工的概率。更少返工会让项目更早交付。所有的文档都是提高团队沟通和质量所必须的</span></li>
-</ul>
-</li>
-</ul>
-<p><strong><span class="red">软件工程职业道德和责任规范</span></strong></p>
-<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7jvhe5lmej30zu0k9n2t.jpg" alt="" /></p>
-<h2 id="测验"><a class="anchor" href="#测验">#</a> 测验</h2>
-<ol>
-<li class="quiz">软件是 <span class="gap"></span> 。
-<ul class="options">
-<li class="correct">设计开发的</li>
-<li>软件项目组制造的</li>
-<li>程序员编写代码实现</li>
-<li>项目经理组织实施的</li>
-</ul>
-</li>
-<li class="quiz">与硬件产品相比 <span class="gap"></span> 。
-<ul class="options">
-<li>软件会磨损</li>
-<li class="correct">软件会退化</li>
-<li>软件失效遵守盆形曲线</li>
-<li>软件可以用备用部件替换</li>
-</ul>
-</li>
-<li class="quiz">软件工程是一种层次化的技术，支持软件工程的根基在于 <span class="gap"></span> 。
-<ul class="options">
-<li>软件工程过程模型</li>
-<li>软件生命周期模型</li>
-<li class="correct">质量关注点</li>
-<li>软件工程工具</li>
-</ul>
-</li>
-<li class="quiz">软件危机是指 <span class="gap"></span> 。
-<ul class="options">
-<li>计算机病毒的出现</li>
-<li>利用计算机系统进行经济犯罪</li>
-<li>人们过分迷恋计算机系统</li>
-<li class="correct">软件开发和软件维护中出现的一系列问题</li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>软件工程</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>第10章 控制单元的设计</title>
-    <url>/cs-core-courses/computerorganization/%E7%AC%AC10%E7%AB%A0%20%E6%8E%A7%E5%88%B6%E5%8D%95%E5%85%83%E7%9A%84%E8%AE%BE%E8%AE%A1/</url>
-    <content><![CDATA[<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/fb6f6dc67c9662c1.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/dc151472ed3c5db8.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/76cd38461a246d77.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/6f8b3425088b7c55.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/0a2f1c41e468224d.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/0adf46bd55b53804.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/e3b4c3a71e06343b.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/9d4e96c94bea5319.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/96bfd66afc8abbfe.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/c0d2a118e58a7bd0.png" alt="" /></p>
-<p><img data-src="https://pics.sunbangyan.cn/cos/2022/10/30/zbv7z7.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/768abfc593c342e0.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/8e1869d8ac453131.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/e49fabfe88276547.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/5e79c1955dcc1e97.png" alt="" /></p>
-<p><img data-src="https://pics.sunbangyan.cn/cos/2022/10/30/z9ermn.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/635e7cbd16f2c2beb1a57397.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/635e7cdb16f2c2beb1a5e43a.png" alt="" /></p>
-]]></content>
-      <categories>
-        <category>计算机科学核心课程</category>
-        <category>计算机组成原理</category>
       </categories>
   </entry>
   <entry>
@@ -2215,7 +1912,7 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 <ol>
 <li>
 <p><code>express.static()</code></p>
-<p>express 提供了一个非常好用的函数，叫做  <code>express.static()</code> ，通过它，我们可以非<span class="red">常方便地创建</span>一个<span class="red">静态资源服务器</span></p>
+<p>express 提供了一个非常好用的函数，叫做  <code>express.static()</code> ，通过它，我们可以<span class="red">非常方便地创建</span>一个<span class="red">静态资源服务器</span></p>
 <p>📗例如，通过如下代码就可以将 public 目录下的图片、CSS 文件、JavaScript 文件对外开放访问了：</p>
 <figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre>app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">static</span><span class="token punctuation">(</span><span class="token string">'public'</span><span class="token punctuation">)</span><span class="token punctuation">)</span></pre></td></tr></table></figure><p>现在，你就可以访问 public 目录中的所有文件了：</p>
 <p><span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDozMDAwL2ltYWdlcy9iZy5qcGc=">http://localhost:3000/images/bg.jpg</span></p>
@@ -2267,25 +1964,1141 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 <p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7gq463ephj30pa062wer.jpg" alt="" /></p>
 </li>
 </ol>
+<h2 id="express路由"><a class="anchor" href="#express路由">#</a> Express 路由</h2>
+<h3 id="路由的概念"><a class="anchor" href="#路由的概念">#</a> 路由的概念</h3>
+<ol>
+<li>
+<p><strong>什么是路由</strong></p>
+<p>广义上来讲，路由就是<span class="red">映射关系</span></p>
+</li>
+<li>
+<p><strong>现实生活中的路由</strong></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7prv1izrbj307g0d9aa7.jpg" alt="" /></p>
+<p>按键 1 -&gt; 业务查询</p>
+<p>按键 2 -&gt; 手机充值</p>
+<p>按键 3 -&gt; 业务办理</p>
+<p>按键 4 -&gt; 密码服务与停复机</p>
+<p>按键 5 -&gt; 家庭宽带</p>
+<p>按键 6 -&gt; 话费流量</p>
+<p>按键 8 -&gt; 集团业务</p>
+<p>按键 0 -&gt; 人工服务</p>
+<p>在这里，路由是<span class="blue">按键</span>与<span class="blue">服务</span>之间的<span class="red">映射关系</span></p>
+</li>
+<li>
+<p><strong>Express 中的路由</strong></p>
+<p>在 Express 中，路由指的是<span class="red">客户端的请求</span>与<span class="red">服务器处理函数</span>之间的<span class="blue">映射关系</span>。</p>
+<p>Express 中的路由分 3 部分组成，分别是<span class="red">请求的类型、请求的 URL 地址、处理函数</span>，格式如下：</p>
+<figure class="highlight raw"><figcaption data-lang=""></figcaption><table><tr><td data-num="1"></td><td><pre>app.METHOD(PATH, HANDLER)</pre></td></tr></table></figure></li>
+<li>
+<p><strong>Express 中的路由的例子</strong></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7ps2zb1kdj30p90cqmxx.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>路由的匹配过程</strong></p>
+<ul>
+<li>
+<p>每当一个请求到达服务器之后，<span class="red">需要先经过路由的匹配</span>，只有匹配成功之后，才会调用对应的处理函数。</p>
+</li>
+<li>
+<p>在匹配时，会按照路由的顺序进行匹配，如果<span class="red">请求类型</span>和<span class="red">请求的 URL</span> 同时匹配成功，则 Express 会将这次请求，转交给对应的 function 函数进行处理。</p>
+</li>
+</ul>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7ps9lygv7j30m508sq3q.jpg" alt="" /></p>
+<p>路由匹配的注意点⚠️：</p>
+<ol>
+<li>按照定义的<span class="red">先后顺序</span>进行匹配</li>
+<li><span class="red">请求类型</span>和<span class="red">请求的 URL</span> 同时匹配成功，才会调用对应的处理函数</li>
+</ol>
+</li>
+</ol>
+<h3 id="路由的使用"><a class="anchor" href="#路由的使用">#</a> 路由的使用</h3>
+<ol>
+<li>
+<p><strong>最简单的用法</strong></p>
+<p>在 Express 中使用路由最简单的方式，就是把路由挂载到 app 上，示例代码如下：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7psz9a6dbj30ld0bfmy4.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>模块化路由</strong></p>
+<p>为了方便对路由进行模块化的管理，Express <strong>不建议</strong>将路由直接挂载到 app 上，而是推荐将路由抽离为单独的模块。</p>
+<p>将路由抽离为单独模块的步骤如下：</p>
+<ol>
+<li>创建路由模块对应的 .js 文件</li>
+<li>调用 express.Router () 函数创建路由对象</li>
+<li>向路由对象上挂载具体的路由</li>
+<li>使用 module.exports 向外共享路由对象</li>
+<li>使用 app.use () 函数注册路由模块</li>
+</ol>
+</li>
+<li>
+<p><strong>创建路由模块</strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7ptamqmp3j30n30dowfr.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>注册路由模块</strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7ptgmc0gbj30pa08aq3b.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>为路由模块添加前缀</strong></p>
+<p>类似于托管静态资源时，为静态资源统一挂载访问前缀一样，路由模块添加前缀的方式也非常简单：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7ptkxiqt5j30pa08a74s.jpg" alt="" /></p>
+<p>这样，访问路由模块中的路由时，必须在访问地址前加上 <code>/api</code>  才能访问成功</p>
+</li>
+</ol>
+<h2 id="express中间件"><a class="anchor" href="#express中间件">#</a> Express 中间件</h2>
+<h3 id="中间件的概念"><a class="anchor" href="#中间件的概念">#</a> 中间件的概念</h3>
+<ol>
+<li>
+<p><strong>什么是中间件</strong></p>
+<p>中间件（Middleware ），特指业务流程的中间处理环节。</p>
+</li>
+<li>
+<p><strong>现实生活中的例子</strong></p>
+<p>在处理污水的时候，一般都要经过三个处理环节，从而保证处理过后的废水，达到排放标准。</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7pu2e757kj30jb05wjrs.jpg" alt="" /></p>
+<p>处理污水的这三个中间处理环节，就可以叫做中间件。</p>
+</li>
+<li>
+<p><strong>Express 中间件的调用流程</strong></p>
+<p>当一个请求到达 Express 的服务器之后，可以连续调用多个中间件，从而对这次请求进行预处理。</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7pu5igafvj30iy0abgm1.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>中间件的格式</strong></p>
+<p>Express 的中间件，本质上就是一个 <strong>function</strong> <strong>处理函数</strong>，Express 中间件的格式如下：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7pu9cwczaj30qw08ngmy.jpg" alt="" /></p>
+<p>注意：<span class="red">中间件函数</span>的形参列表中，必须包含 next 参数。而<span class="red">路由处理函数</span>中只包含 req 和 res。</p>
+</li>
+<li>
+<p><strong>next 函数的作用</strong></p>
+<p><strong>next</strong> <strong>函数</strong>是实现多个中间件连续调用的关键，它表示把流转关系转交给下一个中间件或<mark>路由</mark> (最终要通过路由来处理这次请求，路由是最终的处理环节)。</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7pusbwbtnj30iy0abgm1.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="中间件的初体验"><a class="anchor" href="#中间件的初体验">#</a> 中间件的初体验</h3>
+<ol>
+<li>
+<p><strong>定义中间件函数</strong></p>
+<p>可以通过如下的方式，定义一个最简单的中间件函数：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7pv0gbdwyj30p90aa751.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>全局生效的中间件</strong></p>
+<p>客户端发起的任何请求，到达服务器之后，都会触发的中间件，叫做全局生效的中间件。</p>
+<p>通过调用 app.use (中间件函数)，即可定义一个全局生效的中间件，示例代码如下：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7pv97zxmuj30mo0a774r.jpg" alt="" /></p>
+<p>客户端向服务器发起请求后，会先调用全局生效的中间件函数，再由全局生效的中间件函数把流转关系转交给路由</p>
+</li>
+<li>
+<p><strong>定义全局中间件的简化形式</strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7pvj5uncpj30pa085mxi.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>中间件的作用</strong></p>
+<p>多个中间件之间，<strong>共享同一份</strong> <strong>req</strong> <strong>和</strong> <strong>res</strong>。基于这样的特性，我们可以在上游的中间件中，<strong>统一</strong>为 req 或 res 对象添加自定义的属性或方法，供下游的中间件或路由进行使用。</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7pvum2oxuj30hp09ijs2.jpg" alt="" /></p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">// 这是定义全局中间件的简化形式</span></pre></td></tr><tr><td data-num="2"></td><td><pre>app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res<span class="token punctuation">,</span> next</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token comment">// 获取到请求到达服务器的时间</span></pre></td></tr><tr><td data-num="4"></td><td><pre>	<span class="token keyword">const</span> time <span class="token operator">=</span> Date<span class="token punctuation">.</span><span class="token function">now</span><span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    <span class="token comment">// 为 req 对象挂载自定义属性，从而把时间共享给后面的所有路由</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    req<span class="token punctuation">.</span>startTime <span class="token operator">=</span> time</pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="9"></td><td><pre></pre></td></tr><tr><td data-num="10"></td><td><pre>app<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="11"></td><td><pre>    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'Home page.'</span> <span class="token operator">+</span> req<span class="token punctuation">.</span>startTime<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="12"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="13"></td><td><pre>app<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/user'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="14"></td><td><pre>    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'User page.'</span> <span class="token operator">+</span> req<span class="token punctuation">.</span>startTime<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="15"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure></li>
+<li>
+<p><strong>定义多个全局中间件</strong></p>
+<p>可以使用 app.use () 连续定义多个全局中间件。客户端请求到达服务器之后，会按照中间件定义的先后顺序依次进行调用，示例代码如下：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7px977ieej30ij0apmxx.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>局部生效的中间件</strong></p>
+<p><strong>不使用</strong> app.use () 定义的中间件，叫做局部生效的中间件，示例代码如下：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7pxgx8gyxj30k10bkaay.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>定义多个局部中间件</strong></p>
+<p>可以在路由中，通过如下两种等价的方式，使用多个局部中间件：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7pxvtlkyrj30pa060wf2.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>了解中间件的 5 个使用注意事项</strong></p>
+<ol>
+<li>一定要在路由之前注册中间件，即定义中间件的代码要写在定义路由的代码上面，否则中间件就不能生效了。因为只要一个请求到达服务器之后，都是从上到下进行匹配的，如果把中间件放到路由后面，把路由匹配成功之后，就直接响应了，不会再继续往后匹配</li>
+<li>客户端发送过来的请求，可以连续调用多个中间件进行处理</li>
+<li>执行完中间件的业务代码之后，不要忘记调用 next () 函数</li>
+<li>为了防止代码逻辑混乱，调用 next () 函数后不要再写额外的代码</li>
+<li>连续调用多个中间件时，多个中间件之间，共享 req 和 res 对象</li>
+</ol>
+</li>
+</ol>
+<h3 id="中间件的分类"><a class="anchor" href="#中间件的分类">#</a> 中间件的分类</h3>
+<p>为了方便大家理解和记忆中间件的使用，Express 官方把常见的中间件用法，分成了 5 大类，分别是：</p>
+<ol>
+<li>应用级别的中间件</li>
+<li>路由级别的中间件</li>
+<li>错误级别的中间件</li>
+<li>Express 内置的中间件</li>
+<li>第三方的中间件</li>
+</ol>
+<p><strong>1. 应用级别的中间件</strong></p>
+<p>通过 app.use () 或 app.get () 或 app.post () ，绑定到 app 实例上的中间件，叫做应用级别的中间件，代码示例如下：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7pyabmskhj30ni0blwez.jpg" alt="" /></p>
+<p><strong>2. 路由级别的中间件</strong></p>
+<p>绑定到 express.Router () 实例上的中间件，叫做路由级别的中间件。它的用法和应用级别中间件没有任何区别。只不过，应用级别中间件是绑定到 app 实例上，路由级别中间件绑定到 router 实例上，代码示例如下：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7pycvccodj30j60aijrt.jpg" alt="" /></p>
+<p><strong>3. 错误级别的中间件</strong></p>
+<p>错误级别中间件的<strong>作用</strong>：专门用来捕获整个项目中发生的异常错误，从而防止项目异常崩溃的问题。</p>
+<p><strong>格式</strong>：错误级别中间件的 function 处理函数中，必须有 4 个形参，形参顺序从前到后，分别是 (err, req, res, next)。</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7pz4q9hjuj30ls0a1dgx.jpg" alt="" /></p>
+<p>** 注意：** 错误级别的中间件，<span class="red">必须注册在所有路由之后</span>！如果把错误级别中间件放在路由之前，它就不能正常工作了，因为请求路由的时候报错，希望继续往后执行，发现后面并没有错误级别中间件。顺序放对了，就能捕获到前面所有的错误</p>
+<p><strong>4.Express 内置的中间件</strong></p>
+<p>自 Express 4.16.0 版本开始，Express 内置了 3 个常用的中间件，极大的提高了 Express 项目的开发效率和体验：</p>
+<ol>
+<li>express.static 快速托管静态资源的内置中间件，例如： HTML 文件、图片、CSS 样式等（无兼容性）</li>
+<li>express.json 解析 JSON 格式的请求体 (表单) 数据（有兼容性，仅在 4.16.0+ 版本中可用）</li>
+<li>express.urlencoded 解析 URL-encoded 格式的请求体 (表单) 数据（有兼容性，仅在 4.16.0+ 版本中可用）</li>
+</ol>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7pzhsrgs8j30np06rdgg.jpg" alt="" /></p>
+<p><strong>5. 第三方的中间件</strong></p>
+<p>非 Express 官方内置的，而是由第三方开发出来的中间件，叫做第三方中间件。在项目中，大家可以按需下载并配置第三方中间件，从而提高项目的开发效率。</p>
+<p>例如：在 express@4.16.0 之前的版本中，经常使用 body-parser 这个第三方中间件，来解析请求体数据。使用步骤如下：</p>
+<ol>
+<li>运行 npm install body-parser 安装中间件</li>
+<li>使用 require 导入中间件</li>
+<li>调用 app.use () 注册并使用中间件</li>
+</ol>
+<p>** 注意：**Express 内置的 express.urlencoded 中间件，就是基于 body-parser 这个第三方中间件进一步封装出来的。</p>
+<h3 id="自定义中间件"><a class="anchor" href="#自定义中间件">#</a> 自定义中间件</h3>
+<ol>
+<li>
+<p><strong>需求描述与实现步骤</strong></p>
+<p>自己手动模拟一个类似于 express.urlencoded 这样的中间件，来解析 POST 提交到服务器的表单数据。</p>
+<p>实现步骤：</p>
+<ol>
+<li>定义中间件</li>
+<li>监听 req 的 data 事件。只要触发了 req 的 data 事件，就证明有数据被提交到服务器</li>
+<li>监听 req 的 end 事件。只要触发了 end 事件，证明数据已经发送完毕了，在服务器端已经完整接收到 post 提交到服务器的表单数据，只不过这个数据还需要做进一步的处理</li>
+<li>使用 querystring 模块解析请求体数据</li>
+<li>将解析出来的数据对象挂载为 req.body</li>
+<li>将自定义中间件封装为模块</li>
+</ol>
+</li>
+<li>
+<p><strong>定义中间件</strong></p>
+<p>使用 app.use () 来定义全局生效的中间件，代码如下：</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre>app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res<span class="token punctuation">,</span> next</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token comment">// 中间件的业务逻辑</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure></li>
+<li>
+<p><strong>监听 req 的 data 事件</strong></p>
+<ul>
+<li>
+<p>在中间件中，需要监听 req 对象的 data 事件，来获取客户端发送到服务器的数据。</p>
+</li>
+<li>
+<p>如果数据量比较大，无法一次性发送完毕，则客户端会把数据切割后，分批发送到服务器。所以 data 事件可能会触发多次，每一次触发 data 事件时，获取到数据只是完整数据的一部分，需要手动对接收到的数据进行拼接。</p>
+</li>
+</ul>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">// 定义变量，用来存储客户端发送过来的请求体数据</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">let</span> str <span class="token operator">=</span> <span class="token string">''</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment">// 监听 req 对象的 data 事件（客户端发送过来的请求体数据）</span></pre></td></tr><tr><td data-num="4"></td><td><pre>req<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">chunk</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    <span class="token comment">// 拼接请求体数据，隐式转换为字符串</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    str <span class="token operator">+=</span> chunk</pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure></li>
+<li>
+<p><strong>监听 req 的 end 事件</strong></p>
+<p>当请求体数据接收完毕之后，会自动触发 req 的 end 事件。</p>
+<p>因此，我们可以在 req 的 end 事件中，拿到并处理完整的请求体数据。示例代码如下：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7qli5m1u3j30p909ewf4.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>使用 querystring 模块解析请求体数据</strong></p>
+<p>Node.js 内置了一个 querystring 模块，专门用来处理查询字符串。通过这个模块提供的 parse () 函数，可以轻松把查询字符串，解析成对象的格式。示例代码如下：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7qllxz4loj30p908agm4.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>将解析出来的数据对象挂载为 req.body</strong></p>
+<p>上游的中间件和下游的中间件及路由之间，<strong>共享同一份</strong> <strong>req</strong> <strong>和</strong> <strong>res</strong>。因此，我们可以将解析出来的数据，挂载为 req 的自定义属性，命名为 req.body，供下游使用。示例代码如下：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7qlqhzu71j30pa095js7.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>将自定义中间件封装为模块</strong></p>
+<p>为了优化代码的结构，我们可以把自定义的中间件函数，封装为独立的模块，示例代码如下：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7qlxpsuc7j30jj0bk3zi.jpg" alt="" /></p>
+</li>
+</ol>
+<h2 id="使用express写接口"><a class="anchor" href="#使用express写接口">#</a> 使用 Express 写接口</h2>
+<h3 id="创建基本的服务器"><a class="anchor" href="#创建基本的服务器">#</a> 创建基本的服务器</h3>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7qmnkfv94j30p90ezmyb.jpg" alt="" /></p>
+<h3 id="创建api路由模块"><a class="anchor" href="#创建api路由模块">#</a> 创建 API 路由模块</h3>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7qn5cbhtbj30nw0g9ab5.jpg" alt="" /></p>
+<h3 id="编写get接口"><a class="anchor" href="#编写get接口">#</a> 编写 GET 接口</h3>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7qnqfw96rj30p90duq46.jpg" alt="" /></p>
+<h3 id="编写post接口"><a class="anchor" href="#编写post接口">#</a> 编写 POST 接口</h3>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7qnzhyo6mj30p90du3zs.jpg" alt="" /></p>
+<p>注意：如果要获取 URL-encoded 格式的请求体数据，必须配置中间件 app.use (express.urlencoded ({ extended: false}))</p>
+<h3 id="cors跨域资源共享"><a class="anchor" href="#cors跨域资源共享">#</a> CORS 跨域资源共享</h3>
+<ol>
+<li>
+<p><strong>什么是跨域请求</strong></p>
+<p>当前发起请求的域与该请求指向的资源所在的域不一样。这里的域指的是这样的一个概念：我们认为若协议 + 域名 + 端口号均相同，那么就是同域。</p>
+<p><img data-src="https://pic3.zhimg.com/80/v2-2794d99ac9cffc76f0c6d09260376a3a_1440w.webp" alt="" /></p>
+<p>只要协议、域名、端口号任何一项不同，都存在跨域的问题</p>
+</li>
+<li>
+<p><strong>接口的跨域问题</strong></p>
+<p>刚才编写的 GET 和 POST 接口，存在一个很严重的问题：不支持跨域请求。</p>
+<p>📗比如当前以 file 协议打开网页，但是要请求的接口是 http 协议的，存在协议上的不同</p>
+<p>解决接口跨域问题的方案主要有两种：</p>
+<ol>
+<li>CORS（主流的解决方案，推荐使用）</li>
+<li>JSONP（有缺陷的解决方案：只支持 GET 请求）</li>
+</ol>
+</li>
+<li>
+<p><strong>使用 cors 中间件解决跨域问题</strong></p>
+<p>cors 是 Express 的一个第三方中间件。通过安装和配置 cors 中间件，可以很方便地解决跨域问题。</p>
+<p>使用步骤分为如下 3 步：</p>
+<ol>
+<li>运行 npm install cors 安装中间件</li>
+<li>使用 const cors = require ('cors') 导入中间件</li>
+<li>在路由之前调用 app.use (cors ()) 配置中间件</li>
+</ol>
+</li>
+<li>
+<p><strong>什么是 CORS</strong></p>
+<ul>
+<li>
+<p>CORS （Cross-Origin Resource Sharing，跨域资源共享）由一系列 HTTP 响应头组成，<strong>这些</strong> <strong>HTTP</strong> <strong>响应头决定浏览器是否阻止前端</strong> <strong>JS</strong> <strong>代码跨域获取资源</strong>。</p>
+</li>
+<li>
+<p>浏览器的同源安全策略默认会阻止网页 “跨域” 获取资源。但如果接口服务器配置了 CORS 相关的 HTTP 响应头，就可以解除浏览器端的跨域访问限制。</p>
+</li>
+</ul>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7qpq0vwmcj30na06gdgc.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>CORS 的注意事项</strong></p>
+<ol>
+<li>CORS 主要在服务器端进行配置。客户端浏览器<strong>无须做任何额外的配置</strong>，即可请求开启了 CORS 的接口。</li>
+<li>CORS 在浏览器中有兼容性。只有支持 XMLHttpRequest Level2 的浏览器，才能正常访问开启了 CORS 的服务端接口（例如：IE10+、Chrome4+、FireFox3.5+）。</li>
+</ol>
+</li>
+<li>
+<p><strong>CORS</strong> <strong>响应头部</strong> <strong>- Access-Control-Allow-<span class="red">Origin</span></strong></p>
+<p>响应头部中可以携带一个 <strong>Access-Control-Allow-Origin</strong> 字段，其语法如下:</p>
+<figure class="highlight raw"><figcaption data-lang=""></figcaption><table><tr><td data-num="1"></td><td><pre>Access-Control-Allow-Origin: &lt;origin&gt; | *</pre></td></tr></table></figure><p>其中，origin 参数的值指定了允许访问该资源的外域 URL。</p>
+<p>例如，下面的字段值将<strong>只允许</strong>来自 <span class="exturl" data-url="aHR0cDovL2l0Y2FzdC5jbg==">http://itcast.cn</span> 的请求：</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre>res<span class="token punctuation">.</span><span class="token function">setHeader</span><span class="token punctuation">(</span><span class="token string">'Access-Control-Allow-Origin'</span><span class="token punctuation">,</span> <span class="token string">'http://itcast.cn'</span><span class="token punctuation">)</span></pre></td></tr></table></figure><p>如果指定了 Access-Control-Allow-Origin 字段的值为通配符 *****，表示允许来自任何域的请求，示例代码如下：</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre>res<span class="token punctuation">.</span><span class="token function">setHeader</span><span class="token punctuation">(</span><span class="token string">'Access-Control-Allow-Origin'</span><span class="token punctuation">,</span> <span class="token string">'*'</span><span class="token punctuation">)</span></pre></td></tr></table></figure></li>
+<li>
+<p><strong>CORS</strong> <strong>响应头部</strong> <strong>- Access-Control-Allow-<span class="red">Headers</span></strong></p>
+<ul>
+<li>
+<p>默认情况下，CORS <strong>仅</strong>支持客户端向服务器发送如下的 9 个请求头：</p>
+</li>
+<li>
+<p>Accept、Accept-Language、Content-Language、DPR、Downlink、Save-Data、Viewport-Width、Width 、Content-Type （值仅限于 text/plain、multipart/form-data、application/x-www-form-urlencoded 三者之一）</p>
+</li>
+<li>
+<p>如果客户端向服务器发送了额外的请求头信息，则需要在服务器端，通过 Access-Control-Allow-Headers 对额外的请求头进行声明，否则这次请求会失败！</p>
+</li>
+</ul>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7qq6ck8qqj30p905p3z4.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>CORS</strong> <strong>响应头部</strong> <strong>- Access-Control-Allow-<span class="red">Methods</span></strong></p>
+<ul>
+<li>
+<p>默认情况下，CORS 仅支持客户端发起 GET、POST、HEAD 请求。</p>
+</li>
+<li>
+<p>如果客户端希望通过 PUT、DELETE 等方式请求服务器的资源，则需要在服务器端，通过 Access-Control-Alow-Methods 来指明实际请求所允许使用的 HTTP 方法。</p>
+</li>
+<li>
+<p>示例代码如下：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7qq91ckrcj30p9077gm9.jpg" alt="" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>CORS 请求的分类</strong></p>
+<p>客户端在请求 CORS 接口时，根据请求方式和请求头的不同，可以将 CORS 的请求分为两大类，分别是：</p>
+<ol>
+<li>简单请求</li>
+<li>预检请求</li>
+</ol>
+</li>
+<li>
+<p><strong>简单请求</strong></p>
+<p>同时满足以下两大条件的请求，就属于简单请求：</p>
+<ol>
+<li>请求方式：GET、POST、HEAD 三者之一</li>
+<li>HTTP 头部信息不超过以下几种字段：无自定义头部字段、Accept、Accept-Language、Content-Language、DPR、Downlink、Save-Data、Viewport-Width、Width 、Content-Type（只有三个值 application/x-www-form-urlencoded、multipart/form-data、text/plain）</li>
+</ol>
+</li>
+<li>
+<p><strong>预检请求</strong></p>
+<p>只要符合以下任何一个条件的请求，都需要进行预检请求：</p>
+<ol>
+<li>请求方式为 GET、POST、HEAD 之外的请求 Method 类型</li>
+<li>请求头中包含自定义头部字段</li>
+<li>向服务器发送了 application/json 格式的数据</li>
+</ol>
+<p>在浏览器与服务器正式通信之前，浏览器会先发送 OPTION 请求进行预检，以获知服务器是否允许该实际请求，所以这一次的 OPTION 请求称为 “预检请求”。服务器成功响应预检请求后，才会发送真正的请求，并且携带真实数据。</p>
+</li>
+<li>
+<p><strong>简单请求和预检请求的区别</strong></p>
+<p><strong>简单请求的特点</strong>：客户端与服务器之间只会发生一次请求。</p>
+<p><strong>预检请求的特点</strong>：客户端与服务器之间会发生两次请求，OPTION 预检请求成功之后，才会发起真正的请求。</p>
+</li>
+</ol>
+<h3 id="jsonp接口"><a class="anchor" href="#jsonp接口">#</a> JSONP 接口</h3>
+<ol>
+<li>
+<p><strong>回顾</strong> <strong>JSONP</strong> <strong>的概念与特点</strong></p>
+<p>概念：浏览器端通过  <code>&lt;script&gt;</code>  标签的 src 属性，请求服务器上的数据，同时，服务器返回一个函数的调用。这种请求数据的方式叫做 JSONP。</p>
+<p>特点：</p>
+<ol>
+<li>JSONP 不属于真正的 Ajax 请求，因为它没有使用 XMLHttpRequest 这个对象。</li>
+<li>JSONP 仅支持 GET 请求，不支持 POST、PUT、DELETE 等请求。</li>
+</ol>
+</li>
+<li>
+<p><strong>创建 JSONP 接口的注意事项</strong></p>
+<p>如果项目中已经配置了 CORS 跨域资源共享，为了<strong>防止冲突</strong>，必须在配置 CORS 中间件之前声明 JSONP 的接口。否则 JSONP 接口会被处理成开启了 CORS 的接口。示例代码如下：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7qqxrbei0j30mv0ajwfa.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>实现 JSONP 接口的步骤</strong></p>
+<ol>
+<li>获取客户端发送过来的回调函数的名字</li>
+<li>得到要通过 JSONP 形式发送给客户端的数据</li>
+<li>根据前两步得到的数据，拼接出一个函数调用的字符串</li>
+<li>把上一步拼接得到的字符串，响应给客户端的  <code>&lt;script&gt;</code>  标签进行解析执行</li>
+</ol>
+</li>
+<li>
+<p><strong>实现 JSONP 接口的具体代码</strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7qr3y0d24j30ou0dmwg5.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>在网页中使用 jQuery 发起 JSONP 请求</strong></p>
+<p>调用 $.ajax () 函数，提供 JSONP 的配置选项，从而发起 JSONP 请求，示例代码如下：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7qr8b2swgj30ky0bhdgg.jpg" alt="" /></p>
+</li>
+</ol>
+<h1 id="数据库与身份认证"><a class="anchor" href="#数据库与身份认证">#</a> 数据库与身份认证</h1>
+<h2 id="数据库的基本概念"><a class="anchor" href="#数据库的基本概念">#</a> 数据库的基本概念</h2>
+<h3 id="什么是数据库"><a class="anchor" href="#什么是数据库">#</a> 什么是数据库</h3>
+<ul>
+<li>
+<p>数据库（database）是用来组织、存储和管理数据的仓库。</p>
+</li>
+<li>
+<p>当今世界是一个充满着数据的互联网世界，充斥着大量的数据。数据的来源有很多，比如出行记录、消费记录、浏览的网页、发送的消息等等。除了文本类型的数据，图像、音乐、声音都是数据。</p>
+</li>
+<li>
+<p>为了方便管理互联网世界中的数据，就有了数据库管理系统的概念（简称：数据库）。用户可以对数据库中的数据进行新增、查询、更新、删除等操作。</p>
+</li>
+</ul>
+<h3 id="常见的数据库及分类"><a class="anchor" href="#常见的数据库及分类">#</a> 常见的数据库及分类</h3>
+<p>市面上的数据库有很多种，最常见的数据库有如下几个：</p>
+<ul>
+<li>MySQL 数据库（目前使用最广泛、流行度最高的开源免费数据库；Community + Enterprise）</li>
+<li>Oracle 数据库（收费）</li>
+<li>SQL Server 数据库（收费）</li>
+<li>Mongodb 数据库（Community + Enterprise）</li>
+</ul>
+<p>其中，MySQL、Oracle、SQL Server 属于<strong>传统型数据库</strong>（又叫做：关系型数据库 或 SQL 数据库），这三者的设计理念相同，用法比较类似。</p>
+<p>而 Mongodb 属于<strong>新型数据库</strong>（又叫做：非关系型数据库 或 NoSQL 数据库），它在一定程度上弥补了传统型数据库的缺陷。</p>
+<h3 id="传统型数据库的数据组织结构"><a class="anchor" href="#传统型数据库的数据组织结构">#</a> 传统型数据库的数据组织结构</h3>
+<p>数据的组织结构：指的就是数据以什么样的结构进行存储。</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7qz8mzk0zj30go0dj410.jpg" alt="" /></p>
+<p>传统型数据库的数据组织结构，与 Excel 中数据的组织结构比较类似。</p>
+<p>因此，我们可以对比着 Excel 来了解和学习传统型数据库的数据组织结构。</p>
+<ol>
+<li>
+<p><strong>Excel 的数据组织结构</strong></p>
+<p>每个 Excel 中，数据的组织结构分别为工作簿、工作表、数据行、列这 4 大部分组成。</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7qzabgv3jj30li0bijse.jpg" alt="" /></p>
+<ol>
+<li>整个 Excel 叫做工作簿</li>
+<li>users 和 books 是工作表</li>
+<li>users 工作表中有 3 行数据</li>
+<li>每行数据由 6 列信息组成</li>
+<li>每列信息都有对应的数据类型</li>
+</ol>
+</li>
+<li>
+<p><strong>传统型数据库的数据组织结构</strong></p>
+<p>在传统型数据库中，数据的组织结构分为数据库 (database)、数据表 (table)、数据行 (row)、字段 (field) 这 4 大部分组成。</p>
+<ol>
+<li>数据库类似于 Excel 的工作簿</li>
+<li>数据表类似于 Excel 的工作表</li>
+<li>数据行类似于 Excel 的每一行数据</li>
+<li>字段类似于 Excel 的列</li>
+<li>每个字段都有对应的数据类型</li>
+</ol>
+</li>
+<li>
+<p><strong>实际开发中库、表、行、字段的关系</strong></p>
+<ol>
+<li>在实际项目开发中，一般情况下，每个项目都对应独立的数据库。</li>
+<li>不同的数据，要存储到数据库的不同表中，例如：用户数据存储到 users 表中，图书数据存储到 books 表中。</li>
+<li>每个表中具体存储哪些信息，由字段来决定，例如：我们可以为 users 表设计 id、username、password 这 3 个字段。</li>
+<li>表中的行，代表每一条具体的数据。</li>
+</ol>
+</li>
+</ol>
+<h2 id="安装并配置mysql"><a class="anchor" href="#安装并配置mysql">#</a> 安装并配置 MySQL</h2>
+<h3 id="了解需要安装哪些mysql相关的软件"><a class="anchor" href="#了解需要安装哪些mysql相关的软件">#</a> 了解需要安装哪些 MySQL 相关的软件</h3>
+<p>对于开发人员来说，只需要安装 MySQL Server 和 MySQL Workbench 这两个软件，就能满足开发的需要了。</p>
+<ul>
+<li>
+<p>MySQL Server：专门用来提供数据存储和服务的软件。</p>
+</li>
+<li>
+<p>MySQL Workbench：可视化的 MySQL 管理工具，通过它，可以方便的操作存储在 MySQL Server 中的数据。</p>
+</li>
+</ul>
+<h3 id="mysql-在-mac-环境下的安装"><a class="anchor" href="#mysql-在-mac-环境下的安装">#</a> <strong>MySQL</strong> <strong>在</strong> <strong>Mac</strong> 环境下的安装</h3>
+<p>在 Mac 环境下安装 MySQL 的过程比 Windows 环境下的步骤简单很多：</p>
+<ol>
+<li>先运行 <strong>mysql-8.0.19-macos10.15-x86_64.dmg</strong> 这个安装包，将 MySQL Server 安装到 Mac 系统</li>
+<li>再运行 <strong>mysql-workbench-community-8.0.19-macos-x86_64.dmg</strong> 这个安装包，将可视化的 MySQL Workbench 工具安装到 Mac 系统</li>
+</ol>
+<p>具体的安装教程，可以参考 素材 -&gt; MySQL for Mac -&gt; 安装教程 - Mac 系统安装 MySql -&gt; <span class="exturl" data-url="aHR0cDovL1JFQURNRS5tZA==">README.md</span></p>
+<h3 id="mysql-在-windows-环境下的安装"><a class="anchor" href="#mysql-在-windows-环境下的安装">#</a> <strong>MySQL</strong> <strong>在</strong> <strong>Windows</strong> 环境下的安装</h3>
+<p>在 Windows 环境下安装 MySQL，只需要运行 <strong>mysql-installer-community-8.0.19.0.msi</strong> 这个安装包，就能一次性将 MySQL Server 和 MySQL Workbench 安装到自己的电脑上。</p>
+<h2 id="mysql的基本使用"><a class="anchor" href="#mysql的基本使用">#</a> MySQL 的基本使用</h2>
+<h3 id="使用-mysql-workbench-管理数据库"><a class="anchor" href="#使用-mysql-workbench-管理数据库">#</a> <strong>使用</strong> <strong>MySQL Workbench</strong> <strong>管理数据库</strong></h3>
+<ol>
+<li>
+<p><strong>连接数据库</strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7rrgdrzagj30r40dr0ul.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>了解主界面的组成部分</strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7rrkie0j9j30ny0dn40g.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>创建数据库</strong></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rrodqe1qj30ny0do40d.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>创建数据表</strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7rrs4yt1ij30lw0dpmzk.jpg" alt="" /></p>
+<p>DataType 数据类型：</p>
+<ol>
+<li><code>int</code>  整数</li>
+<li><code>varchar</code>  (len) 字符串</li>
+<li><code>tinyint</code>  (1) 布尔值</li>
+</ol>
+<p>字段的特殊标识：</p>
+<ol>
+<li><code>PK</code> （Primary Key）主键、唯一标识</li>
+<li><code>NN</code> （Not Null）值不允许为空。插入数据的时候如果把值设置成空了，就会插入数据失败</li>
+<li><code>UQ</code> （Unique）值唯一。不能出现两个值重复的数据项，❌两个人都叫张三</li>
+<li><code>AI</code> （Auto Increment）值自动增长。不需要人为地进行修改，它会自动往上递增</li>
+</ol>
+</li>
+<li>
+<p><strong>向表中写入数据</strong></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rsjvyihej30o50dr76n.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="使用sql管理数据库"><a class="anchor" href="#使用sql管理数据库">#</a> 使用 SQL 管理数据库</h3>
+<ol>
+<li>
+<p><strong>什么是 SQL</strong></p>
+<p>SQL（英文全称：Structured Query Language）是结构化查询语言，专门用来访问和处理数据库的编程语言。能够让我们<strong>以编程的形式</strong>，<strong>操作数据库里面的数据</strong>。</p>
+<p>三个关键点：</p>
+<ol>
+<li>SQL 是一门数据库编程语言</li>
+<li>使用 SQL 语言编写出来的代码，叫做 SQL 语句</li>
+<li>SQL 语言只能在关系型数据库中使用（例如 MySQL、Oracle、SQL Server）。非关系型数据库（例如 Mongodb）不支持 SQL 语言</li>
+</ol>
+</li>
+<li>
+<p><strong>SQL 能做什么</strong></p>
+<ol>
+<li>从数据库中查询数据</li>
+<li>向数据库中插入新的数据</li>
+<li>更新数据库中的数据</li>
+<li>从数据库删除数据</li>
+<li>可以创建新数据库</li>
+<li>可在数据库中创建新表</li>
+<li>可在数据库中创建存储过程、视图</li>
+<li>etc…</li>
+</ol>
+</li>
+<li>
+<p><strong>SQL 的学习目标</strong></p>
+<ul>
+<li>
+<p>重点掌握如何使用 SQL 从数据表中：</p>
+<p>查询数据（select） 、插入数据（insert into） 、更新数据（update） 、删除数据（delete）</p>
+</li>
+<li>
+<p>额外需要掌握的 4 种 SQL 语法：</p>
+<p>where 条件、and 和 or 运算符、order by 排序、count (*) 函数</p>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="sql的select语句"><a class="anchor" href="#sql的select语句">#</a> SQL 的 SELECT 语句</h3>
+<ol>
+<li>
+<p>语法</p>
+<p>SELECT 语句用于从表中查询数据。执行的结果被存储在一个结果表中（称为结果集）。语法格式如下：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7rugd88qtj30p909ejs2.jpg" alt="" /></p>
+<p>注意：SQL 语句中的关键字对<strong>大小写不敏感</strong>。SELECT 等效于 select，FROM 等效于 from。</p>
+</li>
+<li>
+<p><strong> <code>SELECT *</code>  示例</strong></p>
+<p>我们希望从 users 表中选取所有的列，可以使用符号 * 取代列的名称，示例如下：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7run6xpxaj30pa0b0jsi.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong> <code>SELECT 列名称</code> 示例</strong></p>
+<p>如需获取名为 &quot;username&quot; 和 &quot;password&quot; 的列的内容（从名为 &quot;users&quot; 的数据库表），请使用下面的 SELECT 语句：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7ruo3vtpjj30pa0ajt9r.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="sql的insert-into语句"><a class="anchor" href="#sql的insert-into语句">#</a> SQL 的 INSERT INTO 语句</h3>
+<ol>
+<li>
+<p>语法</p>
+<p>INSERT INTO 语句用于向数据表中插入新的数据行，语法格式如下：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7ruply757j30p9063t9d.jpg" alt="" /></p>
+</li>
+<li>
+<p><code>INSERT INTO</code>  示例</p>
+<p>向 users 表中，插入一条 username 为 tony stark，password 为 098123 的用户数据，示例如下：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7ruulf2lgj30p60biwfg.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="sql的update语句"><a class="anchor" href="#sql的update语句">#</a> SQL 的 UPDATE 语句</h3>
+<ol>
+<li>
+<p>语法</p>
+<p>Update 语句用于修改表中的数据。语法格式如下：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7ruy3gefuj30p908bq3i.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong> <code>UPDATE</code> </strong> 示例 - <strong>更新某一行中的一个列</strong></p>
+<p>把 users 表中 id 为 7 的用户密码，更新为 888888。示例如下：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7ruysfwedj30pg0bnt9n.jpg" alt="" /></p>
+</li>
+<li>
+<p><code>UPDATE</code>  示例 - <strong>更新某一行中的若干列</strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7rv2c43znj30pa0bkgn5.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="sql的delete语句"><a class="anchor" href="#sql的delete语句">#</a> SQL 的 DELETE 语句</h3>
+<ol>
+<li>
+<p><strong>语法</strong></p>
+<p>DELETE 语句用于删除表中的行。语法格式如下：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rv3kicaej30p90633yt.jpg" alt="" /></p>
+</li>
+<li>
+<p><code>DELETE</code>  示例</p>
+<p>从 users 表中，删除 id 为 4 的用户，示例如下：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rv45i32fj30pa0bk3zj.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="sql的where子句"><a class="anchor" href="#sql的where子句">#</a> SQL 的 WHERE 子句</h3>
+<ol>
+<li>
+<p><strong>语法</strong></p>
+<p>WHERE 子句用于限定选择的标准。在 SELECT、UPDATE、DELETE 语句中，皆可使用 WHERE 子句来限定选择的标准。</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7rvduwubcj30p909ewfc.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>可在</strong> <strong>WHERE 子句中使用的运算符</strong></p>
+<p>下面的运算符可在 WHERE 子句中使用，用来限定选择的标准：</p>
+<table>
+<thead>
+<tr>
+<th>操作符</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>=</td>
+<td>等于</td>
+</tr>
+<tr>
+<td>&lt;&gt;</td>
+<td>不等于</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>大于</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>小于</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>大于等于</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>小于等于</td>
+</tr>
+<tr>
+<td>BETWEEN</td>
+<td>在某个范围内</td>
+</tr>
+<tr>
+<td>LIKE</td>
+<td>搜索某种模式</td>
+</tr>
+</tbody>
+</table>
+<p>注意：在某些版本的 SQL 中，操作符 &lt;&gt; 可以写为！=</p>
+</li>
+<li>
+<p><strong>WHERE 子句示例</strong></p>
+<p>可以通过 WHERE 子句来限定 SELECT 的查询条件：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rvhw35iij30pa09ejs4.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="sql的and和or运算符"><a class="anchor" href="#sql的and和or运算符">#</a> SQL 的 AND 和 OR 运算符</h3>
+<ol>
+<li>
+<p><strong>语法</strong></p>
+<ul>
+<li>
+<p>AND 和 OR 可在 WHERE 子语句中把两个或多个条件结合起来。</p>
+</li>
+<li>
+<p>AND 表示必须同时满足多个条件，相当于 JavaScript 中的 &amp;&amp; 运算符，例如 if (a !== 10 &amp;&amp; a !== 20)</p>
+</li>
+<li>
+<p>OR 表示只要满足任意一个条件即可，相当于 JavaScript 中的 || 运算符，例如 if (a !== 10 || a !== 20)</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>AND 运算符示例</strong></p>
+<p>使用 AND 来显示所有 status 为 0，并且 id 小于 3 的用户：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rvo7j8bxj30ph0bnjsc.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>OR 运算符示例</strong></p>
+<p>使用 OR 来显示所有 status 为 1，或者 username 为 zs 的用户：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rvq18ob3j30pi0bomy7.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="sql的order-by子句"><a class="anchor" href="#sql的order-by子句">#</a> SQL 的 ORDER BY 子句</h3>
+<ol>
+<li>
+<p><strong>语法</strong></p>
+<ul>
+<li>
+<p>ORDER BY 语句用于根据指定的列对结果集进行排序。</p>
+</li>
+<li>
+<p>ORDER BY 语句<strong>默认</strong>按照升序对记录进行排序。</p>
+</li>
+<li>
+<p>如果您希望按照<strong>降序</strong>对记录进行排序，可以使用 DESC 关键字。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>ORDER BY</strong> <strong>子句</strong> <strong>-</strong> <strong>升序排序</strong></p>
+<p>对 users 表中的数据，按照 status 字段进行升序排序，示例如下：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rvu15wmhj30pv0bnwg3.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>ORDER BY</strong> <strong>子句</strong> <strong>–</strong> <strong>降序排序</strong></p>
+<p>对 users 表中的数据，按照 id 字段进行降序排序，示例如下：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7rvwgf4i5j30py0boab9.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>ORDER BY</strong> <strong>子句</strong> <strong>–</strong> <strong>多重排序</strong></p>
+<p>对 users 表中的数据，先按照 status 字段进行降序排序，再按照 username 的字母顺序，进行升序排序，示例如下：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7rvz2u7gkj30pv0bnt9z.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="sql的count函数"><a class="anchor" href="#sql的count函数">#</a> SQL 的 COUNT (*) 函数</h3>
+<ol>
+<li>
+<p><strong>语法</strong></p>
+<p>COUNT (*) 函数用于返回查询结果的总<mark>数据条数</mark>，语法格式如下：</p>
+<figure class="highlight sql"><figcaption data-lang="SQL"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">FROM</span> 表名称</pre></td></tr></table></figure></li>
+<li>
+<p><strong>COUNT(*)</strong> <strong>示例</strong></p>
+<p>查询 users 表中 status 为 0 的总数据条数：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rw4f5vaij30pj0bijs3.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>使用 AS 为列设置别名</strong></p>
+<p>如果希望给查询出来的列名称设置别名，可以使用 AS 关键字，示例如下：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7rw7rzj8fj30pl0bjjs7.jpg" alt="" /></p>
+</li>
+</ol>
+<h2 id="在项目中操作mysql"><a class="anchor" href="#在项目中操作mysql">#</a> 在项目中操作 MySQL</h2>
+<h3 id="在项目中操作数据库的步骤"><a class="anchor" href="#在项目中操作数据库的步骤">#</a> 在项目中操作数据库的步骤</h3>
+<ol>
+<li>安装操作 MySQL 数据库的第三方模块（mysql）</li>
+<li>通过 mysql 模块连接到 MySQL 数据库</li>
+<li>通过 mysql 模块执行 SQL 语句</li>
+</ol>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7rwf7cmdnj30qm06fwf5.jpg" alt="" /></p>
+<h3 id="安装与配置mysql模块"><a class="anchor" href="#安装与配置mysql模块">#</a> 安装与配置 mysql 模块</h3>
+<ol>
+<li>
+<p><strong>安装 mysql 模块</strong></p>
+<p>mysql 模块是托管于 npm 上的第三方模块。它提供了在 Node.js 项目中连接和操作 MySQL 数据库的能力。</p>
+<p>想要在项目中使用它，需要先运行如下命令，将 mysql 安装为项目的依赖包：</p>
+<figure class="highlight raw"><figcaption data-lang=""></figcaption><table><tr><td data-num="1"></td><td><pre>npm install mysql</pre></td></tr></table></figure></li>
+<li>
+<p><strong>配置 mysql 模块</strong></p>
+<p>在使用 mysql 模块操作 MySQL 数据库之前，必须先对 mysql 模块进行必要的配置，主要的配置步骤如下：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7rwtu06o6j30n30bn3zh.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>测试</strong> <strong>mysql</strong> <strong>模块能否正常工作</strong></p>
+<p>调用 db.query () 函数，指定要执行的 SQL 语句，通过回调函数拿到执行的结果：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7s0to6o2oj30p909e752.jpg" alt="" /></p>
+</li>
+</ol>
+<h3 id="使用mysql模块操作mysql数据库"><a class="anchor" href="#使用mysql模块操作mysql数据库">#</a> 使用 mysql 模块操作 MySQL 数据库</h3>
+<ol>
+<li>
+<p><strong>查询数据</strong></p>
+<p>查询 users 表中所有的数据：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7s0uw1pcfj30p90aijs1.jpg" alt="" /></p>
+<p>如果执行的是 select 查询语句，则执行的结果是数组，数组中的每个元素即数据库中的一条数据</p>
+</li>
+<li>
+<p><strong>插入数据</strong></p>
+<p>向 users 表中新增数据， 其中 username 为 Spider-Man，password 为 pcc321。示例代码如下：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7s19586cpj30mz0bl404.jpg" alt="" /></p>
+<p>如果执行的是 insert into 插入语句，则 results 是一个对象，可以通过该对象的 affectedRows 属性，来判断是否插入数据成功</p>
+<p>⚠️新插入的这条数据 id 为 5 而不是 4，因为之前 id 为 4 的用户是有的，只不过把它删除掉了。而 id 具有唯一性，只要这个 id 曾经被占用过，哪怕把对应的数据删了，id 也不能被重复占用了</p>
+</li>
+<li>
+<p><strong>插入数据的便捷方式</strong></p>
+<p>向表中新增数据时，如果数据对象的每个属性和数据表的字段<strong>一一对应</strong>，则可以通过如下方式快速插入数据：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7s20w5gfpj30mz0bljsr.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>更新数据</strong></p>
+<p>可以通过如下方式，更新表中的数据：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7s233li43j30nz0bjq4k.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>更新数据的便捷方式</strong></p>
+<p>更新表数据时，如果数据对象的每个属性和数据表的字段<strong>一一对应</strong>，则可以通过如下方式快速更新表数据：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7s2fuxym2j30my0bk3zy.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>删除数据</strong></p>
+<p>在删除数据时，推荐根据 id 这样的唯一标识，来删除对应的数据。示例如下：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7s2go18o7j30my0bkgn4.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>标记删除</strong></p>
+<ul>
+<li>
+<p>使用 DELETE 语句，会把真正的把数据从表中删除掉。为了保险起见，<strong>推荐使用</strong>标记删除的形式，来<strong>模拟删除的动作</strong>。</p>
+</li>
+<li>
+<p>所谓的标记删除，就是在表中设置类似于 <strong>status</strong> 这样的<strong>状态字段</strong>，来<strong>标记</strong>当前这条数据是否被删除。</p>
+</li>
+<li>
+<p>当用户执行了删除的动作时，我们并没有执行 DELETE 语句把数据删除掉，而是执行了 UPDATE 语句，将这条数据对应的 status 字段标记为删除即可。</p>
+</li>
+</ul>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7s2vad37tj30m707a3zc.jpg" alt="" /></p>
+</li>
+</ol>
+<h2 id="前后端的身份认证"><a class="anchor" href="#前后端的身份认证">#</a> 前后端的身份认证</h2>
+<h3 id="web开发模式"><a class="anchor" href="#web开发模式">#</a> Web 开发模式</h3>
+<p>目前主流的 Web 开发模式有两种，分别是：</p>
+<ol>
+<li>基于服务端渲染的传统 Web 开发模式</li>
+<li>基于前后端分离的新型 Web 开发模式</li>
+</ol>
+<p><strong>1. 服务端渲染的 Web 开发模式</strong></p>
+<p>服务端渲染的概念：服务器发送给客户端的 HTML 页面，是在服务器通过字符串的拼接，动态生成的。因此，客户端不需要使用 Ajax 这样的技术额外请求页面的数据。代码示例如下：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7s5ehh98fj30mz0akab4.jpg" alt="" /></p>
+<p><strong>2. 服务端渲染的优缺点</strong></p>
+<p>优点：</p>
+<ol>
+<li>** 前端耗时少。** 因为服务器端负责动态生成 HTML 内容，浏览器只需要直接渲染页面即可。尤其是移动端，更省电。</li>
+<li><strong>有利于 SEO</strong>。因为服务器端响应的是完整的 HTML 页面内容，所以爬虫更容易爬取获得信息，更有利于 SEO。</li>
+</ol>
+<p>缺点：</p>
+<ol>
+<li>** 占用服务器端资源。** 即服务器端完成 HTML 页面内容的拼接，如果请求较多，会对服务器造成一定的访问压力。</li>
+<li><strong>不利于前后端分离，开发效率低。<strong>使用服务器端渲染，则</strong>无法进行分工合作</strong>，尤其对于<strong>前端复杂度高</strong>的项目，不利于项目高效开发。</li>
+</ol>
+<p><strong>3. 前后端分离的 Web 开发模式</strong></p>
+<p>前后端分离的概念：前后端分离的开发模式，<strong>依赖于</strong> <strong>Ajax</strong> <strong>技术的广泛应用</strong>。简而言之，前后端分离的 Web 开发模式，就是<strong>后端只负责提供</strong> <strong>API</strong> <strong>接口，前端使用</strong> <strong>Ajax</strong> <strong>调用接口</strong>的开发模式。</p>
+<p><strong>4. 前后端分离的优缺点</strong></p>
+<p>优点：</p>
+<ol>
+<li>** 开发体验好。** 前端专注于 UI 页面的开发，后端专注于 api 的开发，且前端有更多的选择性。</li>
+<li>** 用户体验好。**Ajax 技术的广泛应用，极大的提高了用户的体验，可以轻松实现页面的局部刷新。</li>
+<li>** 减轻了服务器端的渲染压力。** 因为页面最终是在每个用户的浏览器中生成的。</li>
+</ol>
+<p>缺点：</p>
+<ol>
+<li><strong>不利于</strong> <strong>SEO</strong>。因为完整的 HTML 页面需要在客户端动态拼接完成，所以爬虫对无法爬取页面的有效信息。（解决方案：利用 Vue、React 等前端框架的<strong> SSR</strong> （server side render）技术能够很好的解决 SEO 问题！）</li>
+</ol>
+<p><strong>5. 如何选择 Web 开发模式</strong></p>
+<p><strong>不谈业务场景而盲目选择使用何种开发模式都是耍流氓。</strong></p>
+<ul>
+<li>
+<p>比如企业级网站，主要功能是展示而没有复杂的交互，并且需要良好的 SEO，则这时我们就需要使用服务器端渲染；</p>
+</li>
+<li>
+<p>而类似后台管理项目，交互性比较强，不需要考虑 SEO，那么就可以使用前后端分离的开发模式。</p>
+</li>
+</ul>
+<p>另外，具体使用何种开发模式并不是绝对的，为了<strong>同时兼顾</strong>了<strong>首页的渲染速度</strong>和<strong>前后端分离的开发效率</strong>，一些网站采用了首屏服务器端渲染 + 其他页面前后端分离的开发模式。</p>
+<h3 id="身份认证"><a class="anchor" href="#身份认证">#</a> 身份认证</h3>
+<ol>
+<li>
+<p><strong>什么是身份认证</strong></p>
+<p><strong>身份认证</strong>（Authentication）又称 “身份验证”、“鉴权”，是指<strong>通过一定的手段，完成对用户身份的确认</strong>。</p>
+<ul>
+<li>
+<p>日常生活中的身份认证随处可见，例如：高铁的验票乘车，手机的密码或指纹解锁，支付宝或微信的支付密码等。</p>
+</li>
+<li>
+<p>在 Web 开发中，也涉及到用户身份的认证，例如：各大网站的<strong>手机验证码登录</strong>、<strong>邮箱密码登录</strong>、<strong>二维码登录</strong>等。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>为什么需要身份认证</strong></p>
+<ul>
+<li>
+<p>身份认证的目的，是为了<strong>确认当前所声称为某种身份的用户，确实是所声称的用户</strong>。例如，你去找快递员取快递，你要怎么证明这份快递是你的。</p>
+</li>
+<li>
+<p>在互联网项目开发中，如何对用户的身份进行认证，是一个值得深入探讨的问题。例如，如何才能保证网站不会错误的将 “马云的存款数额” 显示到 “马化腾的账户” 上。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>不同开发模式下的身份认证</strong></p>
+<p>对于服务端渲染和前后端分离这两种开发模式来说，分别有着不同的身份认证方案：</p>
+<ol>
+<li>服务端渲染推荐使用 <strong>Session</strong> <strong>认证机制</strong></li>
+<li>前后端分离推荐使用 <strong>JWT</strong> <strong>认证机制</strong></li>
+</ol>
+</li>
+</ol>
+<h3 id="session认证机制"><a class="anchor" href="#session认证机制">#</a> Session 认证机制</h3>
+<ol>
+<li>
+<p><strong>HTTP 协议的无状态性</strong></p>
+<p>了解 HTTP 协议的无状态性是进一步学习 Session 认证机制的必要前提。</p>
+<p>HTTP 协议的无状态性，指的是<mark>同一个客户端</mark><strong>的每次</strong> <strong>HTTP</strong> <strong>请求都是独立的</strong>，连续多个请求之间没有直接的关系，<strong>服务器不会主动保留每次</strong> <strong>HTTP</strong> <strong>请求的状态</strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7s6733h2aj30jv06owet.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>如何突破 HTTP 无状态的限制</strong></p>
+<p>对于超市来说，为了方便收银员在进行结算时给 VIP 用户打折，超市可以为每个 VIP 用户发放会员卡。</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7s6aasaocj30k306s0t6.jpg" alt="" /></p>
+<p>注意：现实生活中的<strong>会员卡身份认证方式</strong>，在 Web 开发中的专业术语叫做 <strong>Cookie</strong>。</p>
+<p>当客户端登录成功之后，服务器会向客户端颁发一个 Cookie，这个 Cookie 就是一个身份认证的标识。今后只要再次请求服务器，必须把 Cookie 再发送给服务器，来进行客户端身份的认证。通过 Cookie 就能够突破 HTTP 协议的无状态限制，就能够让服务器知道每个客户端的身份了</p>
+</li>
+<li>
+<p><strong>什么是 Cookie</strong></p>
+<p>Cookie 是<strong>存储在用户浏览器中的一段不超过</strong> <strong>4 KB</strong> <strong>的字符串</strong>。它由一个名称（Name）、一个值（Value）和其它几个用于控制 Cookie 有效期、安全性、使用范围的可选属性组成。</p>
+<p>不同域名下的 Cookie 各自独立，每当客户端发起请求时，会<strong>自动</strong>把<strong>当前域名下</strong>所有<strong>未过期的</strong> <strong>Cookie</strong> 一同发送到服务器。</p>
+<p><strong>Cookie 的几大特性：</strong></p>
+<ol>
+<li>自动发送</li>
+<li>域名独立</li>
+<li>过期时限</li>
+<li>4KB 限制</li>
+</ol>
+</li>
+<li>
+<p><strong>Cookie 在身份认证中的作用</strong></p>
+<ul>
+<li>
+<p>客户端第一次请求服务器的时候，服务器<strong>通过响应头的形式</strong>，向客户端发送一个身份认证的 Cookie，客户端会自动将 Cookie 保存在浏览器中。</p>
+</li>
+<li>
+<p>随后，当客户端浏览器每次请求服务器的时候，浏览器会<strong>自动</strong>将身份认证相关的 Cookie，<strong>通过请求头的形式</strong>发送给服务器，服务器即可验明客户端的身份。</p>
+</li>
+</ul>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7s6unelxhj30oy06gt9o.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>Cookie 不具有安全性</strong></p>
+<p>由于 Cookie 是存储在浏览器中的，而且<strong>浏览器也提供了读写</strong> <strong>Cookie</strong> <strong>的</strong> <strong>API</strong>，因此 <strong>Cookie</strong> <strong>很容易被伪造</strong>，不具有安全性。因此不建议服务器将重要的隐私数据，通过 Cookie 的形式发送给浏览器。</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7s6yja4uvj30jy06uwez.jpg" alt="" /></p>
+<p><strong>注意：千万不要使用 Cookie 存储重要且隐私的数据</strong>！比如用户的身份信息、密码等。</p>
+</li>
+<li>
+<p><strong>提高身份认证的安全性</strong></p>
+<p>为了防止客户伪造会员卡，收银员在拿到客户出示的会员卡之后，可以<strong>在收银机上进行刷卡认证</strong>。只有收银机确认存在的会员卡，才能被正常使用。</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7s7ao70trj30ir061t95.jpg" alt="" /></p>
+<p>这种 “<strong>会员卡</strong> <strong>+</strong> <strong>刷卡认证</strong>” 的设计理念，就是 Session 认证机制的精髓。</p>
+</li>
+<li>
+<p><strong>Session 的工作原理</strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7s7b902ytj30q70d2wg8.jpg" alt="" /></p>
+<p>用户的敏感信息是存在服务器的内存里边的。客户端保留的只是非常简单的一个 Cookie，没有任何用户的私有信息</p>
+</li>
+</ol>
+<h3 id="在express中使用session认证"><a class="anchor" href="#在express中使用session认证">#</a> 在 Express 中使用 Session 认证</h3>
+<ol>
+<li>
+<p><strong>安装 express-session 中间件</strong></p>
+<p>在 Express 项目中，只需要安装 express-session 中间件，即可在项目中使用 Session 认证：</p>
+<figure class="highlight raw"><figcaption data-lang=""></figcaption><table><tr><td data-num="1"></td><td><pre>npm install express-session</pre></td></tr></table></figure></li>
+<li>
+<p><strong>配置 express-session 中间件</strong></p>
+<p>express-session 中间件安装成功后，需要通过 app.use () 来注册 session 中间件，示例代码如下：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7s7xgj7p6j30n30bndgm.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>向 session 中存数据</strong></p>
+<p>当 express-session 中间件配置成功后，即可通过 <strong>req.session</strong> 来访问和使用 session 对象，从而存储用户的关键信息：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7s8z9zicdj30jp0bnwfi.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>从 session 中取数据</strong></p>
+<p>可以直接从 <strong>req.session</strong> 对象上获取之前存储的数据，示例代码如下：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7s98nb8y9j30p90aygmi.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>清空 session</strong></p>
+<p>调用 <strong>req.session.destroy()</strong> 函数，即可清空服务器保存的 session 信息。</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7s997qp9fj30n30bnmxq.jpg" alt="" /></p>
+<p>⚠️调用 destroy 函数只会清空当前用户对应的 session，不会清空其他用户的 session</p>
+</li>
+</ol>
+<h3 id="jwt认证机制"><a class="anchor" href="#jwt认证机制">#</a> JWT 认证机制</h3>
+<ol>
+<li>
+<p><strong>了解</strong> <strong>Session</strong> <strong>认证的局限性</strong></p>
+<p>Session 认证机制需要配合 Cookie 才能实现。由于 Cookie 默认不支持跨域访问，所以，当涉及到前端跨域请求后端接口的时候，<strong>需要做很多额外的配置</strong>，才能实现跨域 Session 认证。</p>
+<p>注意：</p>
+<ul>
+<li>
+<p>当前端请求后端接口<strong>不存在跨域问题</strong>的时候，<strong>推荐使用</strong> <strong>Session</strong> 身份认证机制。</p>
+</li>
+<li>
+<p>当前端需要跨域请求后端接口的时候，不推荐使用 Session 身份认证机制，推荐使用 JWT 认证机制。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>什么是 JWT</strong></p>
+<p>JWT（英文全称：JSON Web Token）是目前<strong>最流行</strong>的<strong>跨域认证解决方案</strong>。</p>
+</li>
+<li>
+<p><strong>JWT 的工作原理</strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7s9y0rd22j30md0bjjsj.jpg" alt="" /></p>
+<p>总结：用户的信息通过 Token 字符串的形式，保存在客户端浏览器中。服务器通过还原 Token 字符串的形式来认证用户的身份。</p>
+</li>
+<li>
+<p><strong>JWT 的组成部分</strong></p>
+<p>JWT 通常由三部分组成，分别是 Header（头部）、Payload（有效荷载）、Signature（签名）。</p>
+<p>三者之间使用英文的 “.” 分隔，格式如下：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7sa0wu12nj30p903vt8n.jpg" alt="" /></p>
+<p>下面是 JWT 字符串的示例：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7sa16mbzej30p904hmxy.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>JWT 的三个部分各自代表的含义</strong></p>
+<p>JWT 的三个组成部分，从前到后分别是 Header、Payload、Signature。</p>
+<p>其中：</p>
+<ul>
+<li>
+<p><strong>Payload</strong> 部分<strong>才是真正的用户信息</strong>，它是用户信息经过加密之后生成的字符串。</p>
+</li>
+<li>
+<p>Header 和 Signature 是<strong>安全性相关</strong>的部分，只是为了保证 Token 的安全性。</p>
+</li>
+</ul>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7sa2c294yj30f906lq33.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>JWT 的使用方式</strong></p>
+<p>客户端收到服务器返回的 JWT 之后，通常会将它储存在 localStorage 或 sessionStorage 中。</p>
+<p>此后，客户端每次与服务器通信，都要带上这个 JWT 的字符串，从而进行身份认证。推荐的做法是<strong>把</strong> <strong>JWT</strong> <strong>放在</strong> <strong>HTTP</strong> <strong>请求头的</strong> <strong>Authorization</strong> <strong>字段中</strong>，格式如下：</p>
+<figure class="highlight http"><figcaption data-lang="HTTP"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token header"><span class="token header-name keyword">Authorization</span><span class="token punctuation">:</span> <span class="token header-value">Bearer &lt;token></span></span></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="在express中使用jwt"><a class="anchor" href="#在express中使用jwt">#</a> 在 Express 中使用 JWT</h3>
+<ol>
+<li>
+<p><strong>安装 JWT 相关的包</strong></p>
+<p>运行如下命令，安装如下两个 JWT 相关的包：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7sac4misdj30p903vgll.jpg" alt="" /></p>
+<p>其中：</p>
+<ul>
+<li><strong>jsonwebtoken</strong> 用于<strong>生成</strong> <strong>JWT</strong> <strong>字符串</strong></li>
+<li><strong>express-jwt</strong> 用于<strong>将</strong> <strong>JWT</strong> <strong>字符串解析还原成</strong> <strong>JSON</strong> <strong>对象</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>导入 JWT 相关的包</strong></p>
+<p>使用 <strong>require()</strong> 函数，分别导入 JWT 相关的两个包：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7sajyxgjfj30p9076dgf.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>定义 secret 密钥</strong></p>
+<p>为了保证 JWT 字符串的安全性，防止 JWT 字符串在网络传输过程中被别人破解，我们需要专门定义一个用于<strong>加密</strong>和<strong>解密</strong>的 secret 密钥：</p>
+<ol>
+<li>当生成 JWT 字符串的时候，需要使用 secret 密钥对用户的信息进行加密，最终得到加密好的 JWT 字符串</li>
+<li>当把 JWT 字符串解析还原成 JSON 对象的时候，需要使用 secret 密钥进行解密</li>
+</ol>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7salx5n1bj30pa050glq.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>在登陆成功后生成 JWT 字符串</strong></p>
+<p>调用 <strong>jsonwebtoken</strong> 包提供的 <strong>sign()</strong> 方法，将用户的信息加密成 JWT 字符串，响应给客户端：</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7sb0hff21j30mv0bsmy8.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>将</strong> <strong>JWT</strong> <strong>字符串还原为 JSON</strong> <strong>对象</strong></p>
+<p>客户端每次在访问那些有权限接口的时候，都需要主动通过<strong>请求头中的</strong> <strong>Authorization</strong> <strong>字段</strong>，将 Token 字符串发送到服务器进行身份认证。</p>
+<p>此时，服务器可以通过 <strong>express-jwt</strong> 这个中间件，自动将客户端发送过来的 Token 解析还原成 JSON 对象：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7sbnbyv8uj30p9077aaw.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>使用</strong> <strong>req.user</strong> <strong>获取用户信息</strong></p>
+<p>⚠️在正常情况下，req 中是不包含.user 这个属性的，但当我们配置成功 express-jwt 中间件之后，就会自动将解析出来的用户信息挂载到 req 的.user 属性上</p>
+<p>当 express-jwt 这个中间件配置成功之后，即可在那些有权限的接口中，使用 <strong>req.user</strong> 对象，来访问从 JWT 字符串中解析出来的用户信息了，示例代码如下：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7sv14k812j30kv0ai0t9.jpg" alt="" /></p>
+</li>
+<li>
+<p><strong>捕获解析</strong> <strong>JWT</strong> <strong>失败后产生的错误</strong></p>
+<p>当使用 express-jwt 解析 Token 字符串时，如果客户端发送过来的 Token 字符串<strong>过期</strong>或<strong>不合法</strong>，会产生一个<strong>解析失败</strong>的错误，影响项目的正常运行。我们可以通过 <strong>Express</strong> <strong>的错误中间件</strong>，捕获这个错误并进行相关的处理，示例代码如下：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7sv3ph79fj30n60ag3za.jpg" alt="" /></p>
+</li>
+</ol>
 ]]></content>
       <categories>
         <category>Web前端</category>
       </categories>
   </entry>
   <entry>
-    <title>第3章 系统总线</title>
-    <url>/cs-core-courses/computerorganization/%E7%AC%AC3%E7%AB%A0%20%E7%B3%BB%E7%BB%9F%E6%80%BB%E7%BA%BF/</url>
-    <content><![CDATA[<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/b433819470946a20.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/922a368fe758221d.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/aa2587c871fc87ae.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/db72c18630ab5b28.png" alt="" /></p>
-<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/2b52f7968bb136a3.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358a18a16f2c2beb1988d6d.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358a1d216f2c2beb198c9c6.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358a1e816f2c2beb198dc03.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358a1fb16f2c2beb198ed46.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358a21216f2c2beb19901b0.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358a22516f2c2beb199130b.png" alt="" /></p>
+    <title>第10章 控制单元的设计</title>
+    <url>/cs-core-courses/computerorganization/%E7%AC%AC10%E7%AB%A0%20%E6%8E%A7%E5%88%B6%E5%8D%95%E5%85%83%E7%9A%84%E8%AE%BE%E8%AE%A1/</url>
+    <content><![CDATA[<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/fb6f6dc67c9662c1.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/dc151472ed3c5db8.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/76cd38461a246d77.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/6f8b3425088b7c55.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/0a2f1c41e468224d.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/0adf46bd55b53804.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/e3b4c3a71e06343b.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/9d4e96c94bea5319.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/96bfd66afc8abbfe.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/c0d2a118e58a7bd0.png" alt="" /></p>
+<p><img data-src="https://pics.sunbangyan.cn/cos/2022/10/30/zbv7z7.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/768abfc593c342e0.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/8e1869d8ac453131.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/e49fabfe88276547.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/30/5e79c1955dcc1e97.png" alt="" /></p>
+<p><img data-src="https://pics.sunbangyan.cn/cos/2022/10/30/z9ermn.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/635e7cbd16f2c2beb1a57397.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/635e7cdb16f2c2beb1a5e43a.png" alt="" /></p>
 ]]></content>
       <categories>
         <category>计算机科学核心课程</category>
@@ -2304,6 +3117,710 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 <p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/1f04f7ec95ac79a4.png" alt="" /></p>
 <p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/4f94ac908681638d.png" alt="" /></p>
 <p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/69f802b400afdc6b.png" alt="" /></p>
+]]></content>
+      <categories>
+        <category>计算机科学核心课程</category>
+        <category>计算机组成原理</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>软件工程基础</title>
+    <url>/softwareengineering/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h1 id="软件工程概述"><a class="anchor" href="#软件工程概述">#</a> 软件工程概述</h1>
+<h2 id="软件的概念和特点"><a class="anchor" href="#软件的概念和特点">#</a> 软件的概念和特点</h2>
+<p><strong><span class="red">软件的定义</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hjbon3g3j30ip0aogml.jpg" alt="" /></p>
+<p><strong><span class="red">软件的特征</span></strong></p>
+<ul>
+<li>软件是开发的或者是工程化的，并不是制造的</li>
+<li>软件生产是简单的拷贝</li>
+<li>软件会多次修改</li>
+<li>软件开发的环境对产品影响较大</li>
+<li>软件开发的时间和工作量难以估计</li>
+<li>软件的开发进度几乎没有客观衡量标准</li>
+<li>软件测试非常困难</li>
+<li>软件不会磨损和老化</li>
+<li>软件维护易产生新的问题</li>
+</ul>
+<p><strong><span class="red">软件双重作用</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hjhua2ksj30jd07c0tc.jpg" alt="" /></p>
+<p><strong><span class="red">软件的分类</span></strong></p>
+<ol>
+<li><strong>按软件功能</strong>
+<ul>
+<li>系统软件
+<ul>
+<li>操作系统</li>
+<li>数据库管理系统</li>
+<li>设备驱动程序</li>
+<li>通信处理程序等</li>
+</ul>
+</li>
+<li>支撑软件
+<ul>
+<li>文本编辑程序</li>
+<li>文件格式化程序</li>
+<li>磁盘或磁带间数据传输的程序</li>
+<li>程序库系统</li>
+<li>支持需求分析、设计、实现、测试和支持管理的软件</li>
+</ul>
+</li>
+<li>应用软件
+<ul>
+<li>商业数据处理软件</li>
+<li>工程与科学计算软件</li>
+<li>计算机辅助设计 / 制造软件</li>
+<li>系统仿真软件</li>
+<li>只能产品嵌入软件</li>
+<li>医疗、制药软件</li>
+<li>事务管理、办公自动化软件</li>
+<li>计算机辅助教学软件</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>按服务对象</strong>
+<ul>
+<li>项目软件：服务对象来自于一个具体项目范围内的客户集合。📗比如某高校的教务管理系统</li>
+<li>产品软件：服务对象有可能面临数量更为庞大的客户群体。📗如各类互联网软件，它们的目标服务对象都是全国乃至全世界的网民</li>
+</ul>
+</li>
+</ol>
+<p><strong><span class="red">软件的发展</span></strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7hjuo5n57j30je087wf6.jpg" alt="" /></p>
+<p><strong><span class="red">软件规模越来越大</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hjvzacyfj30jv08raaq.jpg" alt="" /></p>
+<p>应用软件系统也越来越复杂，规模迅速增长，动辄数百万行代码已是常见现象（谷歌：20 亿行）</p>
+<p><strong><span class="red">为什么软件发展如此之快？</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hk0hf3iqj30ld074t9f.jpg" alt="" /></p>
+<h2 id="软件危机的产生"><a class="anchor" href="#软件危机的产生">#</a> 软件危机的产生</h2>
+<p><strong><span class="red">什么是软件危机</span></strong></p>
+<p>1968 年 NATO 会议（Garmisch, Germany）提出 “软件危机”</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hk4fia8nj30hm046aa8.jpg" alt="" /></p>
+<ul>
+<li>项目超出预算</li>
+<li>项目超过计划完成时间</li>
+<li>软件运行效率很低</li>
+<li>软件质量差</li>
+<li>软件通常不符合要求</li>
+<li>项目难以管理并且代码难以维护</li>
+<li>软件不能交付</li>
+</ul>
+<p>📗<strong><span class="red">软件危机案例</span></strong></p>
+<ul>
+<li>
+<p>1961-1964 年，IBM 公司的 OS/360，共约 100 万条指令，花费了 5000 个人年，开发总投资 5 亿美元，达到当时美国研究原子弹的曼哈顿计划投资 20 亿美元的 1/4，而结果却令人沮丧，错误多达 2000 个以上，系统根本无法正常运行</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7hk8m7rp7j309k07pt91.jpg" alt="" /></p>
+</li>
+</ul>
+<p><strong><span class="red">软件成本日益增加</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hkd3z41wj30ca07kt98.jpg" alt="" /></p>
+<p><strong><span class="red">软件技术进步 &lt; 需求增长</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hke0wmzoj30cv07xwek.jpg" alt="" /></p>
+<p><strong>❓<span class="red">为什么会发生软件危机</span></strong></p>
+<ul>
+<li>客观：软件本身特点
+<ul>
+<li>逻辑部件</li>
+<li>规模庞大</li>
+</ul>
+</li>
+<li>主观：不正确的开发方法
+<ul>
+<li>忽略需求分析</li>
+<li>错误认为：软件开发 = 程序编写</li>
+<li>轻视软件维护</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">消除软件危机的途径：软件工程！</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7hkh64a7cj30iw05zgmh.jpg" alt="" /></p>
+<h2 id="软件工程的概念与知识体系"><a class="anchor" href="#软件工程的概念与知识体系">#</a> 软件工程的概念与知识体系</h2>
+<h3 id="软件工程的概念与发展"><a class="anchor" href="#软件工程的概念与发展">#</a> 软件工程的概念与发展</h3>
+<p><strong><span class="red">软件工程有什么用？</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hkkg2l57j30cq077t8s.jpg" alt="" /></p>
+<p><strong><span class="red">软件工程的定义</span></strong></p>
+<p><span class="label danger">定义</span> IEEE 计算机协会将软件工程定义为：</p>
+<ol>
+<li>应用系统化的、学科化的、定量的方法，来开发、运行和维护软件，即，<mark>将工程应用到软件</mark></li>
+<li>对上述各种方法的研究</li>
+</ol>
+<p><span class="label danger">目标</span>软件工程的目标是在给定的时间和预算内，按照用户的需求，开发易修改、高效、可靠、可维护、适应力强、可移动、可重用的软件</p>
+<p><strong><span class="red">软件工程三要素：方法、工具、过程</span></strong></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7hku9m09kj30p80kdmz0.jpg" alt="" /></p>
+<ol>
+<li>工具：为软件工程的过程和方法提供了自动化或半自动化的工具支持。将若干工具集成起来，与软件工程数据库和计算机系统构成一个支持软件开发的系统称 “计算机辅助软件工程（CASE）”，系统中某一工具的信息加工结果可以作为另一工具的输入。集成的软件工程工具加上人的因素构成了软件工程环境。📗比如编程工具 Visual Studio、测试工具 Node Runner 等</li>
+<li>方法：为软件开发提供了” 如何做 “的技术。分为两类：面向过程方法和面向对象方法</li>
+<li>过程：贯穿软件开发的各个环节，在各环节之间建立里程碑；管理者在软件工程过程中对软件开发的质量、进度、成本进行评估、管理和控制；技术人员采用相应的方法和工具生成软件工程产品（模型、文档、数据、报告、表格等）</li>
+</ol>
+<p><strong><span class="red">软件工程的发展已经历了四个重要阶段</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlaxkoglj30jg02raag.jpg" alt="" /></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlcz0orkj30g00ahjsg.jpg" alt="" /></p>
+<p><strong><span class="red">软件工程的 7 个原则（B.W.Boehm, 1983）</span></strong></p>
+<ol>
+<li>使用阶段性生命周期计划的管理</li>
+<li>进行连续的验证</li>
+<li>保证严格的产品控制</li>
+<li>使用现代编程工具 / 工程实践</li>
+<li>保持清晰的责任分配</li>
+<li>用更好更少的人</li>
+<li>保持过程改进</li>
+</ol>
+<h3 id="软件工程知识体系与职业道德"><a class="anchor" href="#软件工程知识体系与职业道德">#</a> 软件工程知识体系与职业道德</h3>
+<p><strong><span class="red">软件工程知识体系（SWEBOK, 1983）</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7hlh264c4j30k608jgmi.jpg" alt="" /></p>
+<p>软件工程知识体系划分为 10 个知识域，10 个知识域分为 2 类过程</p>
+<ul>
+<li>第一排是开发与维护过程</li>
+<li>第二排是支持与组织过程</li>
+</ul>
+<p><strong><span class="red">软件工程知识体系各主题之间的关联</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7jukpi2xej30gp09rdgo.jpg" alt="" /></p>
+<p><strong><span class="red">软件工程是一门交叉学科</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7jumjkftyj30bw086t90.jpg" alt="" /></p>
+<p><strong><span class="red">软件工程 VS 计算机科学</span></strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7junyaqwej30dd09gglw.jpg" alt="" /></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>软件工程</th>
+<th>计算机科学</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>目标</td>
+<td>在时间、资源、人员这 3 个主要限制条件下构建满足用户需求的软件系统</td>
+<td>探索正确的计算和建模方法，从而改进计算方法本身</td>
+</tr>
+<tr>
+<td>产品</td>
+<td>软件（比如办公包和编译器）</td>
+<td>算法（比如希尔算法）和抽象的问题（比如哲学家进餐问题）</td>
+</tr>
+<tr>
+<td>进度与时间表</td>
+<td>软件项目都有特定的进度和时间表</td>
+<td>研究项目一般不具有设置的进度与时间表</td>
+</tr>
+<tr>
+<td>关注点</td>
+<td>软件工程关注如何为用户实现价值</td>
+<td>软件理论关注的是软件本身运行的原理，比如时间复杂度，空间复杂度，和算法的正确性</td>
+</tr>
+<tr>
+<td>变化程度</td>
+<td>随着技术和用户需求的不断变化，软件开发人员必须时刻调整自己的开发以适应当前的需求。同时软件工程本身也处于不断的发展中</td>
+<td>对于某一种特定问题的正确解决方法将永远不会改变</td>
+</tr>
+<tr>
+<td>需要的其他知识</td>
+<td>相关领域的知识</td>
+<td>数学</td>
+</tr>
+</tbody>
+</table>
+<p><strong><span class="red">一些对软件工程的误解</span></strong></p>
+<ul>
+<li>
+<p>管理方的误解</p>
+<ul>
+<li>❌<span class="red">我们已经有一本关于软件生产的标准和过程的书，这还不能让我们学习到需要的知识吗？</span></li>
+<li>✅<span class="green">相比最新的大型主机，工作站和 PC，这会使我们在做高质量软件开发时花费更多时间</span></li>
+<li>❌<span class="red">如果我们项目进度落后了，可以加入更多的程序员来赶进度</span></li>
+<li>✅<span class="green">软件开发的机制和手工作业不一样。在一个延迟了的软件项目中加入新的开发人员只会让它延迟更多</span></li>
+<li>❌<span class="red">如果我们将软件项目外包给第三方，我们就轻松了，让那个公司去完成它把</span></li>
+<li>✅<span class="green">如果组织管理方不懂得如何从内部管理和控制软件项目，即使项目外包也无济于事</span></li>
+</ul>
+</li>
+<li>
+<p>客户方的误解</p>
+<ul>
+<li>❌<span class="red">对目标的一般陈述就足以开始编程，我们可以今后再补充细节</span></li>
+<li>✅<span class="green">前期糟糕的项目需求定义，是导致软件失败的主要原因</span></li>
+<li>✅<span class="green">项目需求的确在不断变化，但变化所产生的影响是根据变化提出的时间不同而不同的</span></li>
+</ul>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7jv995k79j30ez06174d.jpg" alt="" /></p>
+</li>
+<li>
+<p>开发人员</p>
+<ul>
+<li>❌<span class="red">一旦我们变成完毕并成功运行，我们的工作就结束了</span></li>
+<li>✅<span class="green">越早开始写代码，我们就会花费越长的时间去完成它。工业数据显示，软件开发 60%-80% 的精力将耗费在软件首次提交给用户以后</span></li>
+<li>❌<span class="red">当我的程序运行之前，我没有办法评估它的质量</span></li>
+<li>✅<span class="green">一个最有效的软件质量保证机制应当在项目的正式开始启动时 —— 可以通过技术报告体现</span></li>
+<li>❌<span class="red">唯一可交付的工作成果是一个成功运行的项目程序</span></li>
+<li>✅<span class="green">一个可运行的程序知识软件结构的一部分，它还包含了许多其他因素</span></li>
+<li>❌<span class="red">软件工程会让我们去创建大量不必要的文档，并且总是使我们的进度放慢。软件工程仅仅是文档而已</span></li>
+<li>✅<span class="green">软件工程并不是创建文档，而是创建质量。更好的质量减少返工的概率。更少返工会让项目更早交付。所有的文档都是提高团队沟通和质量所必须的</span></li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">软件工程职业道德和责任规范</span></strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7jvhe5lmej30zu0k9n2t.jpg" alt="" /></p>
+<details class="danger"><summary>第一章测验</summary><div>
+<ol>
+<li class="quiz">
+<p>软件是 <span class="gap"></span> 。</p>
+<ul class="options">
+<li class="correct">设计开发的</li>
+<li>软件项目组制造的</li>
+<li>程序员编写代码实现</li>
+<li>项目经理组织实施的</li>
+</ul>
+</li>
+<li class="quiz">
+<p>与硬件产品相比 <span class="gap"></span> 。</p>
+<ul class="options">
+<li>软件会磨损</li>
+<li class="correct">软件会退化</li>
+<li>软件失效遵守盆形曲线</li>
+<li>软件可以用备用部件替换</li>
+</ul>
+</li>
+<li class="quiz">
+<p>软件工程是一种层次化的技术，支持软件工程的根基在于 <span class="gap"></span> 。</p>
+<ul class="options">
+<li>软件工程过程模型</li>
+<li>软件生命周期模型</li>
+<li class="correct">质量关注点</li>
+<li>软件工程工具</li>
+</ul>
+</li>
+<li class="quiz">
+<p>软件危机是指 <span class="gap"></span> 。</p>
+<ul class="options">
+<li>计算机病毒的出现</li>
+<li>利用计算机系统进行经济犯罪</li>
+<li>人们过分迷恋计算机系统</li>
+<li class="correct">软件开发和软件维护中出现的一系列问题</li>
+</ul>
+</li>
+<li class="quiz">
+<p>下列哪种做法符合软件工程师的职业道德 <span class="gap"></span> 。</p>
+<ul class="options">
+<li>把公司项目中完全由自己开发的模块封装为小软件，发布到网络牟利</li>
+<li>过于夸大自己的技术水平，从而得到一份超出自己能力范围的工作</li>
+<li class="correct">不在私人电脑上编辑公司的项目源码和文档</li>
+<li>在客户现场进行技术维护休息期间，在客户的电脑上打游戏</li>
+</ul>
+</li>
+<li class="quiz">
+<p>软件工程实践的一个重要原则是存在价值，是指<span class="gap"></span> 。</p>
+<ul class="options">
+<li>软件正常开发</li>
+<li>软件能够稳定运行</li>
+<li>软件具有足够的可靠性</li>
+<li class="correct">软件能够给用户提供价值</li>
+</ul>
+</li>
+<li class="quiz">
+<p>构成软件工程基础的是<span class="gap"></span> 。</p>
+<ul class="options">
+<li class="correct">过程</li>
+<li>方法</li>
+<li>工具</li>
+<li>设计</li>
+</ul>
+</li>
+<li class="quiz">
+<p>对软件的描述正确的是<span class="gap"></span> 。</p>
+<ul class="options">
+<li>软件是没有附加价值的产品</li>
+<li>软件质量依赖于程序员的个人水平</li>
+<li class="correct">具有技术和文化的双重属性</li>
+<li>软件测试是一项比较简单的工作</li>
+</ul>
+</li>
+<li class="quiz">
+<p>下列哪一项不是软件危机产生的原因<span class="gap"></span> 。</p>
+<ul class="options">
+<li>客观原因，软件本身特点是逻辑部件，且规模日趋庞大</li>
+<li>主观上忽视需求分析</li>
+<li>错误认为：软件开发 = 程序编写</li>
+<li class="correct">过分重视软件维护</li>
+</ul>
+</li>
+<li class="quiz">
+<p>下列哪一项不属于软件工程的发展阶段<span class="gap"></span> 。</p>
+<ul class="options">
+<li>对象工程</li>
+<li class="correct">作坊式工程</li>
+<li>过程工程</li>
+<li>构建工程</li>
+</ul>
+</li>
+<li class="quiz">
+<p>软件工程与计算机科学的区别错误的描述是<span class="gap"></span> 。</p>
+<ul class="options">
+<li>软件工程关注如何为用户实现价值</li>
+<li>计算机理论关注的是软件本身运行的原理，比如时间复杂度，空间复杂度，和算法的正确性</li>
+<li class="correct">软件工程对于某一种特定问题的正确解决方法将永远不会改变</li>
+<li>随着技术和用户需求的不断变化，软件开发人员必须时刻调整自己的开发以适应当前的需求。同时软件工程本身也处于不断的发展中</li>
+</ul>
+</li>
+<li class="quiz">
+<p>下列对软件的描述错误的是<span class="gap"></span> 。</p>
+<ul class="options">
+<li class="correct">软件交付的形式为可执行软件</li>
+<li>能够完成预定的功能和性能，并对相应数据进行加工的程序，及描述程序、操作的文档</li>
+<li>软件 = 程序 + 数据 + 文档，为了突出其功能和性能，可扩展为：软件 = 知识 + 程序 + 数据 + 文档</li>
+<li>软件的文档是用于记录软件的活动和中间制品，如需求规约、源程序等</li>
+</ul>
+</li>
+<li class="quiz fill">
+<p>什么是软件工程？ <span class="gap"></span></p>
+<blockquote>
+<p>（1）将系统化的、规范的、可量化的方法应用于软件的开发、运行和维护，即将工程化方法应用于软件。</p>
+<p>（2）在（1）中所述方法的研究。</p>
+</blockquote>
+</li>
+</ol>
+</div></details>
+<h1 id="软件过程模型"><a class="anchor" href="#软件过程模型">#</a> 软件过程模型</h1>
+<h2 id="软件过程概念"><a class="anchor" href="#软件过程概念">#</a> 软件过程概念</h2>
+<ul>
+<li>
+<p>软件生命周期</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7pnoeqg94j30gf08z3zb.jpg" alt="image-20221101152502039" /></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7pnztjy3lj30mg0acjsr.jpg" alt="" /></p>
+</li>
+<li>
+<p>软件过程</p>
+<p>**<span class="red"> 软件过程</span> ** 是在工作产品构建过程中，所需完成的工作<span class="red">活动、动作</span>和<span class="red">任务</span>的集合</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7po5x2cmnj30mv06p75p.jpg" alt="" /></p>
+<p>软件过程是保证软件产品成功开发的基石。我们通过评估软件组织的软件过程来评价其软件生产能力，成熟的软件过程意味着该组织具有较高的软件开发能力</p>
+</li>
+<li>
+<p>软件过程模型</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7po7h6ob9j30ly07ymyj.jpg" alt="" /></p>
+</li>
+<li>
+<p>能力成熟度模型</p>
+<p>评估软件过程主要存在三个流派：能力成熟度模型 <code>CMM</code> 、 <code>ISO 9000</code>  质量标准体系、信息技术软件过程评估 <code>SPICE</code> ，其中最重要的是能力成熟度模型 <code>CMM</code></p>
+<p><strong><span class="red">能力成熟度模型 CMM</span></strong></p>
+<ul>
+<li>Capability Maturity Model</li>
+<li>CMU-SEI</li>
+<li>迄今为止学术界和工业界公认的有关软件工程和管理实践的最好的软件过程评估模型</li>
+<li>为评估软件组织的生产能力提供了标准</li>
+<li>为提高软件组织的生产过程指明了方向</li>
+</ul>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7pok8mh29j30hq0axq47.jpg" alt="" /></p>
+<p>能力成熟度模型 <code>CMM</code>  将软件过程按照成熟度划分为 5 个等级，等级越高，说明软件生产能力越成熟，即软件开发能力越强</p>
+</li>
+</ul>
+<h2 id="传统软件过程模型"><a class="anchor" href="#传统软件过程模型">#</a> 传统软件过程模型</h2>
+<h3 id="瀑布模型"><a class="anchor" href="#瀑布模型">#</a> 瀑布模型</h3>
+<p><strong><span class="red">瀑布模型 (Waterfall model)</span></strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7pp67b51ij30h60a5mxm.jpg" alt="" /></p>
+<ul>
+<li>Winston Royce1970 年提出</li>
+<li><span class="red">第一个</span>软件过程模型</li>
+<li>规定了各项软件工程活动，以及它们自上而下，相互衔接的固 定次序，如同瀑布流水，逐级下落</li>
+<li>软件开发过程与软件生命周期一致</li>
+<li>也称<span class="red">经典生命周期模型</span></li>
+<li><span class="red">线性模型</span></li>
+<li>阶段间具有顺序性和依赖性</li>
+<li><span class="red">推迟实现</span>的观点：编码处于软件开发的中后期。强调需求分析和系统设计的重要性</li>
+<li>是一种使用广泛，以<span class="red">文档为驱动</span>的模型</li>
+<li>每个阶段都有与其相关联的里程碑和可交付产品</li>
+<li>每个阶段结束前完成文档审查，及早改正错误</li>
+<li>一直被用来规范软件开发活动</li>
+<li>很多其它模型都是在瀑布模型基础上的改进</li>
+</ul>
+<p><strong>实际（带反馈）的瀑布模型</strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7ppmjos14j30jt0armym.jpg" alt="" /></p>
+<p><strong><span class="red">瀑布模型的缺点</span></strong></p>
+<p><span class="purple">增加工作量</span></p>
+<p>各个阶段的划分完全固定，阶段之间产生大量的文档，极大地增加了工作量</p>
+<p><span class="red">早期错误发现晚</span></p>
+<p>早期的错误可能要等到开发后期的测试阶段才能发现，进而带来严重的后果</p>
+<p><span class="green">开发风险大</span></p>
+<p>由于开发模型是线性的，用户只有等到整个过程的末期才能见到开发成果，从而增加了开发的风险</p>
+<p><span class="blue">不适应需求变化</span></p>
+<p>不能反映实际的开发方式，软件开发需要迭代；无法适应需求不明确和需求的变化</p>
+<p><strong><span class="red">瀑布模型的适用场合</span></strong></p>
+<p>瀑布模型适用于系统需求明确且稳定、技术成熟、工程管理较严格的场合，如军工、航天、医疗</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7pr7w6zm5j30kw04a3z8.jpg" alt="" /></p>
+<p><strong><span class="red">V 模型（V-model）：瀑布模型的变种</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7pr9654bhj30hs097ab4.jpg" alt="" /></p>
+<p>处于顶端的是编码。该模型将测试的各个阶段和分析设计的各个阶段关联起来，单元测试验证详细设计系统测试验证总体设计验收测试验证需求分析</p>
+<p><strong><span class="red">V 模型：单元测试发现问题</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7prabqff9j30ho09cq3s.jpg" alt="" /></p>
+<p>如果在单元测试发现错误，则需要检查相应模块的详细设计，修改相应模块的代码，并重新进行单元测试</p>
+<p><strong><span class="red">V 模型：系统测试发现问题</span></strong></p>
+<p><img data-src="C:%5CUsers%5Clxyar%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221101173103941.png" alt="" /></p>
+<p>如果在系统测试中发现错误，则需要检查总体设计，检查可疑模块的详细设计，对错误模块进行代码修改，然后进行错误模块的单元测试，通过后再次进行系统测试</p>
+<p><strong><span class="red">V 模型：验收测试发现问题</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7prbhdnwkj30hv09awfe.jpg" alt="" /></p>
+<p>如果在验收测试中发现问题，则需要检查系统需求，然后检查系统总体设计，然后检查可疑模块的详细设计，对错误模块进行代码修改，然后进行错误模块的单元测试，单元测试通过后再次进行系统测试，系统测试通过后再次进行验收设置</p>
+<h3 id="原型模型prototype-model"><a class="anchor" href="#原型模型prototype-model">#</a> 原型模型（Prototype model）</h3>
+<p>也称为原型化模型、快速原型模型</p>
+<p><strong><span class="blue">原型（prototype）</span></strong></p>
+<p>一个部分开发的产品，使客户和开发人员能够对计划开发的系统的相关方面进行检查。</p>
+<p>📗举例 1</p>
+<p>图书借阅系统：主要界面</p>
+<p>📗举例 2</p>
+<p>智能家居系统：少量的室内信息监视和电器控制</p>
+<blockquote>
+<p>原型化目的</p>
+<ul>
+<li>明确并完善需求，如演示原型</li>
+<li>研究技术选择方案，如技术验证原型</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>原型结果</p>
+<ul>
+<li>抛弃原型</li>
+<li>把原型发展成最终产品</li>
+</ul>
+</blockquote>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rxy1yxj0j30ll0ak0u5.jpg" alt="" /></p>
+<ul>
+<li>
+<p>原型构建阶段开始于策划原型需求，然后构建原型系统、部署原型系统、基于原型系统和客户沟通、明确需求或验证方案。如果用户不满意，则修改原型需求、修改原型系统、重新部署原型系统、再次和客户沟通。经过多次迭代，直到用户满意</p>
+</li>
+<li>
+<p>由于原型构建处于真正的系统开发之前，为了满足软件进度要求，要求原型构建过程要快。因此原型模型也称为快速原型模型</p>
+</li>
+</ul>
+<p><strong><span class="red">原型模型的优缺点</span></strong></p>
+<p><strong>优点</strong></p>
+<p>减少需求不明确带来的风险</p>
+<p><strong>缺点</strong></p>
+<ul>
+<li>构造原型采用的技术和工具不一 定主流</li>
+<li>快速建立起来的系统加上连续的修改可能导致原型质量低下</li>
+<li>设计者在质量和原型中进行折中</li>
+<li>客户意识不到一些质量问题</li>
+</ul>
+<p><strong><span class="red">原型模型的适用场合</span></strong></p>
+<ul>
+<li>客户定义一个总体目标集，但是他们并不清楚系统的具体输入输出；或开发者不确定算法的效率、软件与操作系统是否兼容以及客户与计算机的交互方式</li>
+<li>此时，原型模型是很好的选择</li>
+</ul>
+<h3 id="增量模型incremental-model"><a class="anchor" href="#增量模型incremental-model">#</a> 增量模型（Incremental model）</h3>
+<p><strong><span class="blue">增量</span></strong>：满足用户需求的一个子集，能够完成一定功能、小而可用的软件</p>
+<p>⚠️区分：增量和原型都是系统的一部分，但是它们的构建原因和最终结局不同。原型构建是为了明确需求或验证方案，最终可能会被抛弃；而增量则是实际开发过程和最终系统的一部分</p>
+<p>🍏举例：</p>
+<p>文字处理处理软件：创建文本、组织文本、格式化文本</p>
+<img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h7ryex5j13j30it05mt9i.jpg">
+<ul>
+<li>
+<p>采用增量模型的软件开发，首先对整个系统进行需求分析和体系结构设计，然后根据增量的划分分别对每个增量进行设计、编码、测试、交付，从而形成每次发布</p>
+</li>
+<li>
+<p>增量开发允许一定程度的并行，每次发布都是在上一次发布的基础上增加新的增量。当所有的增量开发并发布完成，则形成系统最终产品</p>
+</li>
+<li>
+<p>为了保证每个增量都能正确集成到系统中，增量模型要求系统体系结构具有开放式结构</p>
+</li>
+</ul>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7ryh98qxij30ii0ahmyi.jpg" alt="" /></p>
+<ul>
+<li>如果在软件开发初期无法确定软件所有需求，则可以采用另一种方式进行增量开发</li>
+<li>不进行整个系统的需求分析和体系结构设计，而是针对每个增量分别进行需求分析、设计、编码、测试、交付，形成每次发布</li>
+<li>当所有增量开发完毕并成功集成，则形成系统最终产品</li>
+<li>由于没有进行整体的需求分析和系统体系结构设计，后面的增量有可能无法集成到前面的发布中，风险较大</li>
+</ul>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rynbhnn0j30in09r0u5.jpg" alt="" /></p>
+<p><strong><span class="red">增量的方式</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7rywq68efj30ii08fjsn.jpg" alt="" /></p>
+<div class="note warning">
+<p>实际使用中，常常是两种方式的结合</p>
+</div>
+<p><strong><span class="red">增量模型的特点</span></strong></p>
+<ul>
+<li>增量模型是一种非整体开发的模型，是一种进化式的开发过程</li>
+<li>增量模型从部分需求出发，先建立一个不完整的系统，通过测试运行这个系统 取得经验和反馈，进一步使系统扩充和完善</li>
+<li>如此反复进行，直至软件人员和用户对所设计的软件系统满意为止</li>
+<li>增量模型结合了原型模型的基本要素和迭代的特征，采用了基于时间的线性序列，每个线性序列都会输出该软件的一个 “增量”</li>
+<li><mark>每个增量的开发可用瀑布或快速原型模型</mark></li>
+</ul>
+<p><strong><span class="red">增量模型的优点</span></strong></p>
+<ul>
+<li>
+<p>增量概念的引入，不需要提供完整的需求，只 要有一个增量出现，开 发就可以进行；</p>
+</li>
+<li>
+<p>软件能够更早投入市场；</p>
+</li>
+<li>
+<p>在项目的初始阶段不需要投入太多的人力资源；</p>
+</li>
+<li>
+<p>产品逐步交付，软件开发能够较好地适应需求的变化；</p>
+</li>
+<li>
+<p>能够看到软件中间产品，提出改进意见，减少返工，降低开发风险；</p>
+</li>
+<li>
+<p>开放式体系结构，便于维护</p>
+</li>
+</ul>
+<p><strong><span class="red">增量模型的缺点</span></strong></p>
+<ul>
+<li>每个增量必须提供一些系统功能，这使得 开发者很难根据客户需求给出大小适合的 增量</li>
+<li>软件必须具备开放式体系结构（困难）</li>
+<li>易退化成边做边改的方式，使软件过程控制失去整体性</li>
+</ul>
+<p><strong><span class="red">增量模型的适用场合</span></strong></p>
+<p>适用于软件开发中需求可能发生变化、具有较大风险、或者希望尽早进入市场的项目</p>
+<h3 id="螺旋模型spiral-model"><a class="anchor" href="#螺旋模型spiral-model">#</a> 螺旋模型（Spiral model）</h3>
+<ul>
+<li>软件开发普遍存在风险
+<ul>
+<li>交付的产品用户不满意</li>
+<li>产品不能按时交付</li>
+<li>开发成本超过预算</li>
+<li>产品开发期间关键开发人员离职</li>
+<li>产品投入市场前竞争对手发布功能相近价格更低产品</li>
+<li>…</li>
+</ul>
+</li>
+<li><mark>把开发活动和风险管理结合起来控制风险</mark></li>
+</ul>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h7rzd5dmtcj309d0a2t9o.jpg" alt="" /></p>
+<ul>
+<li>
+<p>开发过程分成若干次迭代，每次迭代代表开发的一个阶段，对应模型中一条环线</p>
+</li>
+<li>
+<p>每次迭代分成四个方面的活动，对应笛卡 尔坐标的四个象限：</p>
+<ol>
+<li>确定本阶段目标，选定实施方案，弄 清项目开发的限制条件；</li>
+<li>评估所选方案，通过构造原型和风险 分析识别和消除风险；</li>
+<li>实施软件开发和验证；</li>
+<li>评价本阶段的工作成果，提出修正建 议，并计划下一阶段工作</li>
+</ol>
+</li>
+<li>
+<p>模型结合了瀑布模型和原型模型的特点</p>
+<p>如果将螺旋模型展开，它实际上是瀑布模型，其中每个阶段加入了原型化过程</p>
+</li>
+</ul>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h7rzhsrex8j30gv0b6q52.jpg" alt="" /></p>
+<p><strong><span class="red">螺旋模型的优点</span></strong></p>
+<ol>
+<li>螺旋模型强调原型的可扩充性和可修改性，原型的进化贯穿整个软件生存周期，这将有助于目标软件的适应能力，支持用户需求的动态变化</li>
+<li>原型可看作可执行的需求规格说明，易于为用户和开发人员共同理解，还可作为继续开发的基础，并为用户参与所有关键决策提供了方便</li>
+<li>螺旋模型为项目管理人员及时调整管理决策提供了方便，进而可降低开发风险</li>
+</ol>
+<p><strong><span class="red">螺旋模型的缺点</span></strong></p>
+<ul>
+<li>如果每次迭代的效率不高，致使迭代次数 过多，将会增加成本并推迟交付时间；</li>
+<li>使用该模型需要有相当丰富的风险评估经验和专门知识，要求开发队伍水平较高，否则会带来更大风险。</li>
+</ul>
+<p><strong><span class="red">螺旋模型的适用场合</span></strong></p>
+<ul>
+<li>适用于需求不明确或者需求可能发生变化的大型复杂的软件系统</li>
+<li>支持面向过程、面向对象等多种软件开发方法， 是一种具有广阔前景的模型</li>
+</ul>
+<h3 id="喷泉模型fountain-model"><a class="anchor" href="#喷泉模型fountain-model">#</a> 喷泉模型（Fountain model）</h3>
+<ul>
+<li>
+<p>喷泉模型是一种以用户需求为动力，以对象为驱动的模型，主要用于描述<mark>面向对象</mark>的软件开发过程</p>
+</li>
+<li>
+<p>软件开发早期定义对象，整个开发过程充实和扩充对象</p>
+</li>
+<li>
+<p>各个阶段使用统一的概念和表示方法，生命周期各阶段无缝连接</p>
+</li>
+<li>
+<p>各个开发步骤多次反复迭代</p>
+</li>
+</ul>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rznv08c2j308707jq33.jpg" alt="" /></p>
+<p><strong><span class="red">喷泉模型的优缺点及适用场合</span></strong></p>
+<p><strong><span class="purple">优点</span></strong></p>
+<p>喷泉模型的各个阶段没 有明显的界限，开发人 员可以同步进行开发， 可以提高软件项目开发 效率，节省开发时间， 适应于面向对象的软件 开发过程。</p>
+<p><strong><span class="grey">缺点</span></strong></p>
+<ul>
+<li>由于喷泉模型在各个开发阶段是重叠的，在开发过程中需要大量的开发人员，因此 不利于项目的管理。</li>
+<li>喷泉模型要求严格管理文档， 使得审核的难度加大，尤其是面对可能随时加入的各种信息、需求与资料的情况</li>
+</ul>
+<p><strong><span class="red">适用场合</span></strong></p>
+<p>适用于面向对象开发</p>
+<h2 id="现代软件过程模型"><a class="anchor" href="#现代软件过程模型">#</a> 现代软件过程模型</h2>
+<h3 id="基于构件的开发模型"><a class="anchor" href="#基于构件的开发模型">#</a> 基于构件的开发模型</h3>
+<ul>
+<li>Component-based development mode</li>
+<li>近年来得到广泛应用，改变大型软件开发方式</li>
+<li>考虑的焦点是<span class="red">集成</span>，而非实现</li>
+<li><span class="red">构件 / 组件（Component）</span>
+<ul>
+<li>系统中模块化的、可更换的部分</li>
+<li>实现特定的功能</li>
+<li>对实现进行封装，暴露一组接口</li>
+<li>例如：动态链接库（.dll），浏览器插件</li>
+</ul>
+</li>
+</ul>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h7rzwevo9zj30i809p0tw.jpg" alt="" /></p>
+<ol>
+<li>需求分析
+<ul>
+<li>与其它过程模型相同</li>
+</ul>
+</li>
+<li>构件分析
+<ul>
+<li>根据需求搜索构件</li>
+<li>如果没有完全匹配的构件，则需要修 改构件或者修改需求</li>
+</ul>
+</li>
+<li>系统设计
+<ul>
+<li>与其它过程模型不同</li>
+<li>考虑重用和集成</li>
+<li>如果没有可重用的构件，则设计新软件</li>
+</ul>
+</li>
+<li>开发集成
+<ul>
+<li>将构件集成到系统中</li>
+<li>开发新软件</li>
+</ul>
+</li>
+</ol>
+<p><strong><span class="red">基于构件的开发模型的优缺点</span></strong></p>
+<p><strong><span class="purple">优点</span></strong></p>
+<ul>
+<li>软件复用思想</li>
+<li>降低开发成本和风险， 加快开发进度，提高软件质量</li>
+</ul>
+<p><strong><span class="grey">缺点</span></strong></p>
+<ul>
+<li>模型复杂</li>
+<li>商业构件不能修改，会导致修改需求，进而导致系统不能完全符合客户需求</li>
+<li>无法完全控制所开发系统的演化</li>
+<li>项目划分的好坏直接影响项目结果的好坏</li>
+</ul>
+<p><strong><span class="red">适用场合</span></strong></p>
+<p>适用于系统之间有共性的情况</p>
+]]></content>
+      <categories>
+        <category>软件工程</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第3章 系统总线</title>
+    <url>/cs-core-courses/computerorganization/%E7%AC%AC3%E7%AB%A0%20%E7%B3%BB%E7%BB%9F%E6%80%BB%E7%BA%BF/</url>
+    <content><![CDATA[<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/b433819470946a20.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/922a368fe758221d.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/aa2587c871fc87ae.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/db72c18630ab5b28.png" alt="" /></p>
+<p><img data-src="https://s3.bmp.ovh/imgs/2022/10/26/2b52f7968bb136a3.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358a18a16f2c2beb1988d6d.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358a1d216f2c2beb198c9c6.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358a1e816f2c2beb198dc03.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358a1fb16f2c2beb198ed46.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358a21216f2c2beb19901b0.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358a22516f2c2beb199130b.png" alt="" /></p>
 ]]></content>
       <categories>
         <category>计算机科学核心课程</category>
@@ -2358,36 +3875,6 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
       </categories>
   </entry>
   <entry>
-    <title>第7章 指令系统</title>
-    <url>/cs-core-courses/computerorganization/%E7%AC%AC7%E7%AB%A0%20%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<p><img data-src="https://pic1.imgdb.cn/item/6358c52e16f2c2beb1c38f79.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c5a516f2c2beb1c40a47.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c5b816f2c2beb1c42399.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c5cb16f2c2beb1c43d49.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c5df16f2c2beb1c45858.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c5f416f2c2beb1c4775b.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c60a16f2c2beb1c49144.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c61c16f2c2beb1c4d22d.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c63116f2c2beb1c5039b.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c64516f2c2beb1c514b8.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c65a16f2c2beb1c52a97.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c66c16f2c2beb1c53baf.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c67d16f2c2beb1c54e9f.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c68f16f2c2beb1c560cb.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c6a116f2c2beb1c57834.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c6b316f2c2beb1c58a4e.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c6c916f2c2beb1c59ef0.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c6dc16f2c2beb1c5b386.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c6ed16f2c2beb1c5ce25.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c6ff16f2c2beb1c5ddab.png" alt="" /></p>
-<p><img data-src="https://pic1.imgdb.cn/item/6358c71316f2c2beb1c5f69b.png" alt="" /></p>
-]]></content>
-      <categories>
-        <category>计算机科学核心课程</category>
-        <category>计算机组成原理</category>
-      </categories>
-  </entry>
-  <entry>
     <title>第8章 CPU的结构和功能</title>
     <url>/cs-core-courses/computerorganization/%E7%AC%AC8%E7%AB%A0%20CPU%E7%9A%84%E7%BB%93%E6%9E%84%E5%92%8C%E5%8A%9F%E8%83%BD/</url>
     <content><![CDATA[<p><img data-src="https://pic1.imgdb.cn/item/635ccad016f2c2beb1857e08.jpg" alt="" /></p>
@@ -2435,6 +3922,36 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 <p><img data-src="https://s3.bmp.ovh/imgs/2022/10/29/87f7aa1ebb1f7168.png" alt="" /></p>
 <p><img data-src="https://pic1.imgdb.cn/item/635cfda116f2c2beb110b41c.png" alt="" /></p>
 <p><img data-src="https://pic1.imgdb.cn/item/635cfdbe16f2c2beb1111e0b.png" alt="" /></p>
+]]></content>
+      <categories>
+        <category>计算机科学核心课程</category>
+        <category>计算机组成原理</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第7章 指令系统</title>
+    <url>/cs-core-courses/computerorganization/%E7%AC%AC7%E7%AB%A0%20%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<p><img data-src="https://pic1.imgdb.cn/item/6358c52e16f2c2beb1c38f79.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c5a516f2c2beb1c40a47.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c5b816f2c2beb1c42399.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c5cb16f2c2beb1c43d49.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c5df16f2c2beb1c45858.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c5f416f2c2beb1c4775b.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c60a16f2c2beb1c49144.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c61c16f2c2beb1c4d22d.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c63116f2c2beb1c5039b.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c64516f2c2beb1c514b8.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c65a16f2c2beb1c52a97.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c66c16f2c2beb1c53baf.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c67d16f2c2beb1c54e9f.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c68f16f2c2beb1c560cb.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c6a116f2c2beb1c57834.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c6b316f2c2beb1c58a4e.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c6c916f2c2beb1c59ef0.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c6dc16f2c2beb1c5b386.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c6ed16f2c2beb1c5ce25.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c6ff16f2c2beb1c5ddab.png" alt="" /></p>
+<p><img data-src="https://pic1.imgdb.cn/item/6358c71316f2c2beb1c5f69b.png" alt="" /></p>
 ]]></content>
       <categories>
         <category>计算机科学核心课程</category>
