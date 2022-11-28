@@ -16640,7 +16640,7 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
       </categories>
   </entry>
   <entry>
-    <title>了解SEO基础</title>
+    <title>React</title>
     <url>/frontend/React/</url>
     <content><![CDATA[<h1 id="react入门"><a class="anchor" href="#react入门">#</a> React 入门</h1>
 <h3 id="官网"><a class="anchor" href="#官网">#</a> 官网</h3>
@@ -16858,7 +16858,7 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 <h2 id="组件实例对象的三大核心属性1state"><a class="anchor" href="#组件实例对象的三大核心属性1state">#</a> 组件实例对象的三大核心属性 1：state</h2>
 <h3 id="效果-3"><a class="anchor" href="#效果-3">#</a> 效果</h3>
 <p>点击鼠标，文字在” 今天天气很凉爽 “和” 今天天气很炎热 “之间切换</p>
-<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wNl8lRTclQkIlODQlRTQlQkIlQjYlRTUlQUUlOUUlRTQlQkUlOEIlRTQlQjglODklRTUlQTQlQTclRTUlQjElOUUlRTYlODAlQTdfc3RhdGUvMl9zdGF0ZSVFNyU5QSU4NCVFNyVBRSU4MCVFNSU4NiU5OSVFNiU5NiVCOSVFNSVCQyU4Ri5odG1s">https://github.com/60sAINT/React_demo/blob/master/react_basic/06_组件实例三大属性_state/2_state 的简写方式.html</span></p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wNl8lRTclQkIlODQlRTQlQkIlQjYlRTUlQUUlOUUlRTQlQkUlOEIlRTQlQjglODklRTUlQTQlQTclRTUlQjElOUUlRTYlODAlQTdfc3RhdGUvMl9zdGF0ZSVFNyU5QSU4NCVFNyVBRSU4MCVFNSU4NiU5OSVFNiU5NiVCOSVFNSVCQyU4Ri5odG1s">state 的简写方式</span></p>
 <h3 id="理解"><a class="anchor" href="#理解">#</a> 理解</h3>
 <ol>
 <li>state 是组件对象最重要的属性，值是对象（可以包含多个 key-value 的组合）</li>
@@ -16876,6 +16876,237 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 <li>状态数据，不能直接修改或更新</li>
 </ol>
 <h2 id="组件实例对象的三大核心属性2props"><a class="anchor" href="#组件实例对象的三大核心属性2props">#</a> 组件实例对象的三大核心属性 2：props</h2>
+<h3 id="效果-4"><a class="anchor" href="#效果-4">#</a> 效果</h3>
+<p>需求：自定义用来显示一个人员信息的组件</p>
+<ol>
+<li>姓名必须要指定，且为字符串类型</li>
+<li>性别为字符串类型，如果性别没有指定，默认为男</li>
+<li>年龄必须指定，且为数字类型</li>
+</ol>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8hemucwl3j304z04o0sm.jpg" alt="" /></p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wN18lRTclQkIlODQlRTQlQkIlQjYlRTUlQUUlOUUlRTQlQkUlOEIlRTQlQjglODklRTUlQTQlQTclRTUlQjElOUUlRTYlODAlQTcyX3Byb3BzLzJfcHJvcHMlRTclOUElODQlRTclQUUlODAlRTUlODYlOTklRTYlOTYlQjklRTUlQkMlOEYuaHRtbA==">props 的简写方式</span></p>
+<h3 id="理解-2"><a class="anchor" href="#理解-2">#</a> 理解</h3>
+<ol>
+<li>每个组件实例对象都会有 props（properties 的简写）属性</li>
+<li>组件标签的所有属性都会保存在 props 中</li>
+</ol>
+<h3 id="作用"><a class="anchor" href="#作用">#</a> 作用</h3>
+<ol>
+<li>通过标签属性从组件外向组件内传递变化的数据</li>
+<li>注意：组件内部不要修改 props 数据</li>
+</ol>
+<h3 id="编码操作"><a class="anchor" href="#编码操作">#</a> 编码操作</h3>
+<ol>
+<li>
+<p>内部读取某个属性值</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>name</pre></td></tr></table></figure></li>
+<li>
+<p>对 props 中的属性值进行类型限制的必要性限制</p>
+<p>使用 prop-types 库进行限制（需要引入 prop-types 库）</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre>Person<span class="token punctuation">.</span>propTypes <span class="token operator">=</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token literal-property property">name</span><span class="token operator">:</span> PropTypes<span class="token punctuation">.</span>string<span class="token punctuation">.</span>isRequired<span class="token punctuation">,</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token literal-property property">age</span><span class="token operator">:</span> PropTypes<span class="token punctuation">.</span>number</pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure></li>
+<li>
+<p>扩展属性：将对象的所有属性通过 props 传递</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token operator">&lt;</span>Person <span class="token punctuation">&#123;</span><span class="token operator">...</span>person<span class="token punctuation">&#125;</span><span class="token operator">/</span><span class="token operator">></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment">//person 是由数个键值对组成的对象</span></pre></td></tr></table></figure></li>
+<li>
+<p>默认属性值</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre>Person<span class="token punctuation">.</span>defaultProps <span class="token operator">=</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">18</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token literal-property property">sex</span><span class="token operator">:</span> <span class="token string">'男'</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure></li>
+<li>
+<p>组件类的构造函数</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token keyword">super</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token comment">// 打印所有属性</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="组件实例对象的三大核心属性3refs与事件处理"><a class="anchor" href="#组件实例对象的三大核心属性3refs与事件处理">#</a> 组件实例对象的三大核心属性 3：refs 与事件处理</h2>
+<h3 id="效果-5"><a class="anchor" href="#效果-5">#</a> 效果</h3>
+<p>需求：自定义组件，功能说明如下：</p>
+<ol>
+<li>点击按钮，提示第一个输入框中的值</li>
+<li>当第 2 个输入框失去焦点时，提示这个输入框中的值</li>
+</ol>
+<p>效果如下：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8iljn1sltj30jj0chaaa.jpg" alt="" /></p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby90cmVlL21hc3Rlci9yZWFjdF9iYXNpYy8wOF8lRTclQkIlODQlRTQlQkIlQjYlRTUlQUUlOUUlRTQlQkUlOEIlRTQlQjglODklRTUlQTQlQTclRTUlQjElOUUlRTYlODAlQTczX3JlZnM=">组件实例对象三大核心属性之 refs</span></p>
+<h3 id="理解-3"><a class="anchor" href="#理解-3">#</a> 理解</h3>
+<p>组件内的标签可以定义 ref 属性来标识自己，就相当于原生里的 id</p>
+<h3 id="编码"><a class="anchor" href="#编码">#</a> 编码</h3>
+<ol>
+<li>
+<p>字符串形式的 ref</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token operator">&lt;</span>input ref<span class="token operator">=</span><span class="token string">"input1"</span><span class="token operator">/</span><span class="token operator">></span></pre></td></tr></table></figure></li>
+<li>
+<p>回调形式的 ref</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token operator">&lt;</span>input ref<span class="token operator">=</span><span class="token punctuation">&#123;</span><span class="token punctuation">(</span><span class="token parameter">c</span><span class="token punctuation">)</span><span class="token operator">=></span><span class="token punctuation">&#123;</span><span class="token keyword">this</span><span class="token punctuation">.</span>input1 <span class="token operator">=</span> c<span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span><span class="token operator">/</span><span class="token operator">></span></pre></td></tr></table></figure></li>
+<li>
+<p>createRef 创建 ref 容器</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre>myRef <span class="token operator">=</span> React<span class="token punctuation">.</span><span class="token function">createRef</span><span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token operator">&lt;</span>input ref<span class="token operator">=</span><span class="token punctuation">&#123;</span><span class="token keyword">this</span><span class="token punctuation">.</span>myRef<span class="token punctuation">&#125;</span><span class="token operator">/</span><span class="token operator">></span></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="事件处理"><a class="anchor" href="#事件处理">#</a> 事件处理</h3>
+<ol>
+<li>通过 onXxx 属性指定事件处理函数（注意大小写）
+<ul>
+<li>React 使用的是自定义（合成）事件，而不是使用的原生 DOM 事件</li>
+<li>React 中的事件是通过事件委托方式处理的（委托给组件最外层的元素）</li>
+</ul>
+</li>
+<li>通过 event.target 得到发生事件的 DOM 元素对象</li>
+</ol>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wOV9yZWFjdCVFNCVCOCVBRCVFNyU5QSU4NCVFNCVCQSU4QiVFNCVCQiVCNiVFNSVBNCU4NCVFNyU5MCU4Ni8lRTQlQkElOEIlRTQlQkIlQjYlRTUlQTQlODQlRTclOTAlODYuaHRtbA==">React 中的事件处理</span></p>
+<h2 id="收集表单数据"><a class="anchor" href="#收集表单数据">#</a> 收集表单数据</h2>
+<h3 id="效果-6"><a class="anchor" href="#效果-6">#</a> 效果</h3>
+<p>需求：定义一个包含表单的组件</p>
+<p>输入用户名密码后，点击登录提示输入信息</p>
+<h3 id="理解-4"><a class="anchor" href="#理解-4">#</a> 理解</h3>
+<p>包含表单的组件分类</p>
+<ul>
+<li>
+<p>非受控组件</p>
+<p>页面里输入类 DOM 中的内容现用现取</p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8xMF9yZWFjdCVFNCVCOCVBRCVFNiU5NCVCNiVFOSU5QiU4NiVFOCVBMSVBOCVFNSU4RCU5NSVFNiU5NSVCMCVFNiU4RCVBRS8xXyVFOSU5RCU5RSVFNSU4RiU5NyVFNiU4RSVBNyVFNyVCQiU4NCVFNCVCQiVCNi5odG1s">非受控组件</span></p>
+</li>
+<li>
+<p>受控组件</p>
+<p>页面所有输入类的 DOM，比如 input 框，随着你的输入，就能把输入内容维护到状态里，需要用的时候直接从状态里取出来</p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8xMF9yZWFjdCVFNCVCOCVBRCVFNiU5NCVCNiVFOSU5QiU4NiVFOCVBMSVBOCVFNSU4RCU5NSVFNiU5NSVCMCVFNiU4RCVBRS8yXyVFNSU4RiU5NyVFNiU4RSVBNyVFNyVCQiU4NCVFNCVCQiVCNi5odG1s">受控组件</span></p>
+</li>
+</ul>
+<h2 id="组件的生命周期"><a class="anchor" href="#组件的生命周期">#</a> 组件的生命周期</h2>
+<h3 id="效果-7"><a class="anchor" href="#效果-7">#</a> 效果</h3>
+<p>需求：定义组件实现以下功能：</p>
+<ol>
+<li>让指定的文本做显示 / 隐藏的渐变动画</li>
+<li>从完全可见，到彻底消失，耗时 2s</li>
+<li>点击 “不活了” 按钮从界面中卸载组件</li>
+</ol>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8jowqx2efj30et085t8s.jpg" alt="" /></p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8xMl8lRTclQkIlODQlRTQlQkIlQjYlRTclOUElODQlRTclOTQlOUYlRTUlOTElQkQlRTUlOTElQTglRTYlOUMlOUYvMV8lRTUlQkMlOTUlRTUlODclQkElRTclOTQlOUYlRTUlOTElQkQlRTUlOTElQTglRTYlOUMlOUYuaHRtbA==">引入组件生命周期案例</span></p>
+<h3 id="理解-5"><a class="anchor" href="#理解-5">#</a> 理解</h3>
+<ol>
+<li>组件对象从创建到死亡会经历特定阶段</li>
+<li>React 组件对象包含一系列钩子函数（生命周期函数），在特定的时刻调用</li>
+<li>我们在定义组件时，在特定的生命周期回调函数中做特定的工作</li>
+</ol>
+<h3 id="生命周期流程图旧"><a class="anchor" href="#生命周期流程图旧">#</a> 生命周期流程图（旧）</h3>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8js9oagmij30t30n9wg7.jpg" alt="" /></p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8xMl8lRTclQkIlODQlRTQlQkIlQjYlRTclOUElODQlRTclOTQlOUYlRTUlOTElQkQlRTUlOTElQTglRTYlOUMlOUYvMl9yZWFjdCVFNyU5NCU5RiVFNSU5MSVCRCVFNSU5MSVBOCVFNiU5QyU5RiVFRiVCQyU4OCVFNiU5NyVBNyVFRiVCQyU4OS5odG1s">生命周期流程图（旧）</span></p>
+<p>生命周期的三个阶段（旧）</p>
+<ol>
+<li>
+<p>初始化阶段：由 ReactDOM.render () 触发 —— 初次渲染</p>
+<ol>
+<li>
+<p>constructor()</p>
+</li>
+<li>
+<p>componentWillMount()</p>
+</li>
+<li>
+<p>render()</p>
+</li>
+<li>
+<p><strong>componentDidMount()</strong> ====&gt; 常用</p>
+<p>一般在这个钩子中做一些初始化的事，例如：开启定时器、发送网络请求、订阅消息</p>
+</li>
+</ol>
+</li>
+<li>
+<p>更新阶段：由组件内部 this.setState () 或父组件重新 render 触发</p>
+<ol>
+<li>shouldComponentUpdate()</li>
+<li>componentWillUpdate()</li>
+<li>render () ====&gt; 必须使用的一个</li>
+<li>componentDidUpdate()</li>
+</ol>
+</li>
+<li>
+<p>卸载组件：由 ReactDOM.unmountComponentAtNode () 触发</p>
+<ol>
+<li>
+<p><strong>componentWillUnmount()</strong> ====&gt; 常用</p>
+<p>一般在这个钩子中做一些收尾的事，例如：关闭定时器、取消订阅消息</p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="生命周期流程图新"><a class="anchor" href="#生命周期流程图新">#</a> 生命周期流程图（新）</h3>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8ktamsg5jj31170pwgnv.jpg" alt="" /></p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8xMl8lRTclQkIlODQlRTQlQkIlQjYlRTclOUElODQlRTclOTQlOUYlRTUlOTElQkQlRTUlOTElQTglRTYlOUMlOUYvM19yZWFjdCVFNyU5NCU5RiVFNSU5MSVCRCVFNSU5MSVBOCVFNiU5QyU5RiVFRiVCQyU4OCVFNiU5NiVCMCVFRiVCQyU4OS5odG1s">生命周期流程图（新）</span></p>
+<p>生命周期的三个阶段（新）</p>
+<ol>
+<li>
+<p>初始化阶段：由 ReactDOM.render () 触发 —— 初次渲染</p>
+<ol>
+<li>
+<p>constructor()</p>
+</li>
+<li>
+<p><strong>getDerivedStateFromProps</strong></p>
+</li>
+<li>
+<p>render()</p>
+</li>
+<li>
+<p>componentDidMount () ====&gt; 常用</p>
+<p>一般在这个钩子中做一些初始化的事，例如：开启定时器、发送网络请求、订阅消息</p>
+</li>
+</ol>
+</li>
+<li>
+<p>更新阶段：由组件内部 this.setState () 或父组件重新 render 触发</p>
+<ol>
+<li>getDerivedStateFromProps</li>
+<li>shouldComponentUpdate()</li>
+<li>render()</li>
+<li>getSnapshotBeforeUpdate🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8xMl8lRTclQkIlODQlRTQlQkIlQjYlRTclOUElODQlRTclOTQlOUYlRTUlOTElQkQlRTUlOTElQTglRTYlOUMlOUYvNF9nZXRTbmFwc2hvdEJlZm9yZVVwZGF0ZSVFNyU5QSU4NCVFNCVCRCVCRiVFNyU5NCVBOCVFNSU5QyVCQSVFNiU5OSVBRi5odG1s">保持滚动条位置不动实例</span></li>
+<li>componentDidUpdate()</li>
+</ol>
+</li>
+<li>
+<p>卸载组件：由 ReactDOM.unmountComponentAtNode () 触发</p>
+<ol>
+<li>
+<p>componentWillUnmount () ====&gt; 常用</p>
+<p>一般在这个钩子中做一些收尾的事，例如：关闭定时器、取消订阅消息</p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="重要的钩子"><a class="anchor" href="#重要的钩子">#</a> 重要的钩子</h3>
+<ol>
+<li>render：初始化渲染或更新渲染调用</li>
+<li>componentDidMount：开启监听，发送 ajax 请求</li>
+<li>componentWillUnmount：做一些收尾工作，如：清理定时器</li>
+</ol>
+<h3 id="即将废弃的钩子"><a class="anchor" href="#即将废弃的钩子">#</a> 即将废弃的钩子</h3>
+<ol>
+<li>componentWillMount</li>
+<li>componentWillReceiveProps</li>
+<li>componentWillUpdate</li>
+</ol>
+<p>现在使用会出现警告，下一个大版本需要加上 <code>UNSAFE_</code> 前缀才能使用，以后可能会被彻底废弃，不建议使用</p>
+<h2 id="虚拟dom与dom-diffing算法"><a class="anchor" href="#虚拟dom与dom-diffing算法">#</a> 虚拟 DOM 与 DOM Diffing 算法</h2>
+<h3 id="验证diffing算法"><a class="anchor" href="#验证diffing算法">#</a> 验证 Diffing 算法</h3>
+<p>需求：验证虚拟 DOM Diffing 算法的存在</p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8xM19ET00lRTclOUElODREaWZmaW5nJUU3JUFFJTk3JUU2JUIzJTk1LzFfJUU5JUFBJThDJUU4JUFGJTgxRGlmZmluZyVFNyVBRSU5NyVFNiVCMyU5NS5odG1s">验证 Diffing 算法</span></p>
+<h3 id="key的作用"><a class="anchor" href="#key的作用">#</a> key 的作用</h3>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8xM19ET00lRTclOUElODREaWZmaW5nJUU3JUFFJTk3JUU2JUIzJTk1LzJfa2V5JUU3JTlBJTg0JUU0JUJEJTlDJUU3JTk0JUE4Lmh0bWw=">key 的作用</span></p>
+<h1 id="react应用基于react脚手架"><a class="anchor" href="#react应用基于react脚手架">#</a> react 应用（基于 react 脚手架）</h1>
+<h2 id="使用create-react-app创建react应用"><a class="anchor" href="#使用create-react-app创建react应用">#</a> 使用 create-react-app 创建 react 应用</h2>
+<h3 id="react脚手架"><a class="anchor" href="#react脚手架">#</a> react 脚手架</h3>
+<ol>
+<li>xxx 脚手架 ：用来帮助程序员快速创建一个基于 xxx 库的模板项目
+<ol>
+<li>包含了所有需要的配置（语法检查、jsx 编译、devServer...）</li>
+<li>下载好了所有相关的依赖</li>
+<li>可以直接运行一个简单的效果</li>
+</ol>
+</li>
+<li>react 提供了一个用于创建 react 项目的脚手架库：create-react-app</li>
+<li>项目的整体技术架构为：react + webpack + es6 + eslint</li>
+<li>使用脚手架开发的项目的特点：模块化，组件化，工程化</li>
+</ol>
+<h3 id="创建项目并启动"><a class="anchor" href="#创建项目并启动">#</a> 创建项目并启动</h3>
+<p>第一步，全局安装： <code>npm install -g create-react-app</code></p>
+<p>第二步，切换到想创项目的目录，使用命令： <code>create-react-app hello-react</code></p>
+<p>第三步，进入项目文件夹： <code>cd hello-react</code></p>
+<p>第四步，启动项目： <code>npm start</code></p>
 ]]></content>
       <categories>
         <category>Web前端</category>
