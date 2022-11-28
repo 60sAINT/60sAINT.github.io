@@ -15603,19 +15603,906 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 </ul>
 <p><strong><span class="red">概念 3. 设计模式</span></strong></p>
 <ul>
-<li>含义
+<li>
+<p>含义</p>
 <ul>
 <li>在给定上下文环境中一类共同问题的共同解决方案，减少重复求解的工作量</li>
 </ul>
 </li>
-<li>微观结构
+<li>
+<p>微观结构</p>
 <ul>
 <li>实体模式</li>
 <li>结构模式</li>
 <li>行为模式</li>
 </ul>
 </li>
+<li>
+<p>:📗设计模式举例 —— 抽象工厂</p>
+<p>抽象工厂模式：把产品子类进行分组，同组中的不同产品由同一个工厂子类的不同方法负责创建，从而减少了工厂子类的数量</p>
+<p><img data-src="https://pic4.zhimg.com/80/v2-ef2181145b4f411219a4ca495cef31ab_1440w.webp" alt="" /></p>
+</li>
 </ul>
+<p><strong><span class="red">概念 4. 模块化</span></strong></p>
+<ul>
+<li>
+<p>含义</p>
+<ul>
+<li>软件被划分为命名和功能相对独立的多个组件（通常称为模块），通过这 些组件的集成来满足问题的需求</li>
+</ul>
+</li>
+<li>
+<p>软件的模块性</p>
+<ul>
+<li>程序可被智能管理的单一属性</li>
+</ul>
+</li>
+<li>
+<p>模块化的理论依据</p>
+<ul>
+<li>基于人类解决问题的观测数据</li>
+</ul>
+</li>
+<li>
+<p>模块化和软件成本</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8cqwwiloyj316f0fpwg1.jpg" alt="" /></p>
+<p>模块划分得越细，单个模块所需要的代码行数就越少，但调度这些模块所需的代码就越来越多</p>
+</li>
+<li>
+<p>模块化设计标准</p>
+<ul>
+<li>模块化的分解性
+<ul>
+<li>可分解为子问题</li>
+</ul>
+</li>
+<li>模块化的组合性
+<ul>
+<li>组装可重用的组件</li>
+</ul>
+</li>
+<li>模块化的可理解性
+<ul>
+<li>可作为独立单元理解</li>
+</ul>
+</li>
+<li>模块化的连续性
+<ul>
+<li>需求小变化只影响单个模块</li>
+</ul>
+</li>
+<li>模块化的保护
+<ul>
+<li>模块内异常只影响自身</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">概念 5. 信息隐藏</span></strong></p>
+<ul>
+<li>模块化基本问题
+<ul>
+<li>如何分解软件系统以达最佳的模块划分</li>
+</ul>
+</li>
+<li>信息隐藏原则
+<ul>
+<li>模块应该具有彼此相互隐藏的特性</li>
+<li>即：模块定义和设计时应当保证模块内的信息（过程和数据）不可以被 不需要这些信息的其他模块访问</li>
+</ul>
+</li>
+<li>特点
+<ul>
+<li>抽象有助于定义构成软件的过程（或信息）实体</li>
+<li>信息隐藏原则定义和隐藏了模块内的过程细节和模块内的本地数据结构</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">概念 6. 功能独立</span></strong></p>
+<ul>
+<li>含义
+<ul>
+<li>每个模块只负责需求中特定的子功能，并且从程序结构的其他部分看，该模块具有简单的接口</li>
+</ul>
+</li>
+<li>好处
+<ul>
+<li>易于开发：功能被划分，接口被简化</li>
+<li>易于维护（和测试）：次生影响有限，错误传递减少，模块重用</li>
+</ul>
+</li>
+<li>定性衡量标准
+<ul>
+<li>内聚性：模块的功能相对强度</li>
+<li>耦合性：模块之间的相互依赖程度</li>
+<li>模块独立性强 = 高内聚低耦</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">概念 7. 精化</span></strong></p>
+<ul>
+<li>含义
+<ul>
+<li>逐步求精的过程</li>
+</ul>
+</li>
+<li>与抽象的关系
+<ul>
+<li>抽象使设计师确定过程和数据，但不局限于底层细节</li>
+<li>精化有助于设计者在设计过程中揭示底层细节</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">概念 8. 重构</span></strong></p>
+<ul>
+<li>含义
+<ul>
+<li>不改变组件功能和行为条件下，简化组件设计（或代码）的一种重组技术</li>
+</ul>
+</li>
+<li>方法
+<ul>
+<li>检查现有设计的冗余情况、未使用的设计元素、无效或不必要的算法、较差的构建方式或不恰当的数据结构，或任何其他可被更改从而优化设计的问题</li>
+</ul>
+</li>
+</ul>
+<h3 id="四类设计技术概要"><a class="anchor" href="#四类设计技术概要">#</a> 四类设计技术概要</h3>
+<p><strong><span class="red">哪四类设计技术？</span></strong></p>
+<ul>
+<li>数据设计</li>
+<li>架构设计</li>
+<li>接口设计</li>
+<li>组件设计</li>
+</ul>
+<h4 id="设计技术之一数据设计"><a class="anchor" href="#设计技术之一数据设计">#</a> 设计技术之一：数据设计</h4>
+<ul>
+<li>
+<p>含义</p>
+<ul>
+<li>数据设计（有时也被称为数据架构）构建高层抽象（客户 / 用户的数据视图）的数据模型、信息模型</li>
+</ul>
+</li>
+<li>
+<p>相关概念</p>
+<ul>
+<li>
+<p>数据建模</p>
+<p>数据字典、E-R 图、类图</p>
+</li>
+<li>
+<p>数据结构</p>
+<p>计算机存储、组织数据的方式</p>
+</li>
+<li>
+<p>数据库</p>
+<p>按照数据结构来组织、存储和管理数据的仓库</p>
+</li>
+<li>
+<p>数据仓库</p>
+</li>
+</ul>
+</li>
+<li>
+<p>组件级别的数据设计</p>
+<p>设计原则：</p>
+<ul>
+<li>应用于功能和行为系统分析的原则也应适用于数据设计</li>
+<li>所有的数据结构及其对应的操作都应该确定</li>
+<li>建立数据字典并在数据定义和程序设计中应用</li>
+<li>低层次的数据设计应该推迟到设计的后期过程</li>
+<li>数据结构的表示应该只对直接使用数据结构中数据的模块可见</li>
+<li>开发有用的数据结构及其对应操作的程序库</li>
+<li>软件设计和编程语言应该支持抽象数据类型的定义与实现</li>
+</ul>
+</li>
+<li>
+<p>概念数据模型</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8crqgpen1j30lx0j5q4c.jpg" alt="" /></p>
+</li>
+<li>
+<p>物理数据模型</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8crqyscivj30xg0lejud.jpg" alt="" /></p>
+</li>
+</ul>
+<h4 id="设计技术之二体系结构设计"><a class="anchor" href="#设计技术之二体系结构设计">#</a> 设计技术之二：体系结构设计</h4>
+<ul>
+<li>系统需要执行的函数功能组件集（如数据库、计算模块）</li>
+<li>组件之间通信、协同和合作的连接器</li>
+<li>组件集成构成系统的约束</li>
+<li>设计人员通过分析系统组成部分的已知特性，理解其整体特性的语义模型分析</li>
+</ul>
+<p><strong><span class="red">风格和模式简要分类 - 数据中心架构</span></strong></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8crvswj73j30rr0kj0ux.jpg" alt="" /></p>
+<p><strong><span class="red">风格和模式简要分类 - 数据流体系架构</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8cry25s99j313u0kpdip.jpg" alt="" /></p>
+<p><strong><span class="red">风格和模式简要分类 - 调用和返回架构</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8crzcmydhj30wm0l0q51.jpg" alt="" /></p>
+<p><strong><span class="red">风格和模式简要分类 - 层次架构</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8crzz0sjnj30md0ks75a.jpg" alt="" /></p>
+<p><strong><span class="red">风格和模式简要分类 - 面向对象架构</span></strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8cs0kk4nvj30qa0lf41j.jpg" alt="" /></p>
+<p><strong><span class="red">体系结构组织与细化</span></strong></p>
+<p>两个基本问题</p>
+<ul>
+<li>控制结构
+<ul>
+<li>在架构内部如何实现管理控制？是否有不同的控制架构存在？</li>
+</ul>
+</li>
+<li>数据传递
+<ul>
+<li>组件之间如何进行数据传递？数据流是否连续，或者传递给系统的数据对象是否零散？</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">部署设计</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8cs51halpj311y0jm0ya.jpg" alt="" /></p>
+<p><strong><span class="red">部署设计输出</span></strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8cs5ix2qoj31b008dmzj.jpg" alt="" /></p>
+<p><strong><span class="red">部署设计方法</span></strong></p>
+<ul>
+<li>一般方法
+<ul>
+<li>估计处理器需求</li>
+<li>估计安全传输的处理器需求</li>
+<li>可用性和可扩展性的复制服务</li>
+</ul>
+</li>
+<li>设计分析
+<ul>
+<li>识别瓶颈</li>
+<li>优化资源</li>
+<li>管理风险</li>
+</ul>
+</li>
+</ul>
+<h4 id="设计技术之三接口设计含界面设计"><a class="anchor" href="#设计技术之三接口设计含界面设计">#</a> 设计技术之三：接口设计（含界面设计）</h4>
+<ul>
+<li>高效用户界面设计有三条重要原则：
+<ul>
+<li>允许用户操作控制（用户为中心）</li>
+<li>减少用户记忆负担</li>
+<li>保持界面一致</li>
+</ul>
+</li>
+<li>环境分析确定了用户接口操作的物理结构和社会结构</li>
+</ul>
+<h4 id="设计技术之四组件设计"><a class="anchor" href="#设计技术之四组件设计">#</a> 设计技术之四：组件设计</h4>
+<ul>
+<li>面向过程的组件设计：函数与模块的设计</li>
+<li>面向对象的组件设计：类与操作的设计</li>
+</ul>
+<h2 id="面向过程的系统设计"><a class="anchor" href="#面向过程的系统设计">#</a> 面向过程的系统设计</h2>
+<h3 id="面向过程的总体设计"><a class="anchor" href="#面向过程的总体设计">#</a> 面向过程的总体设计</h3>
+<p><strong><span class="red">结构化的总体设计方法</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8cscqzrsbj318a0hbn2r.jpg" alt="" /></p>
+<p><strong><span class="red">在系统结构图中的模块</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8cse33hdnj311y0ar0u5.jpg" alt="" /></p>
+<ul>
+<li>
+<p>传入模块</p>
+<p>从下属模块取得数据，经过某些处理，再将其传送给上级模块。 它传送的数据流叫做逻辑输入数据流</p>
+</li>
+<li>
+<p>传出模块</p>
+<p>从上级模块获得数据，进行某些处理，再将其传送给下属模块。 它传送的数据流叫做逻辑输出数据流</p>
+</li>
+<li>
+<p>变换模块</p>
+<p>它从上级模块取得数据，进行特定的处理，转换成其它形式，再 传送回上级模块。它加工的数据流叫做变换数据流</p>
+</li>
+<li>
+<p>协调模块</p>
+<p>对所有下属模块进行协调和管理的模块</p>
+</li>
+</ul>
+<p><strong><span class="red">变换型系统结构图</span></strong></p>
+<ul>
+<li>变换型数据处理问题的工作过程大致分为三步，即取得数据，变换数据和给出数据</li>
+<li>相应于<span class="red">取得数据、变换数据、给出数据</span>，变换型系统结构图由输入、中心变换和输出等三部分组成</li>
+</ul>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8cshbia9hj30lz0b8wfk.jpg" alt="" /></p>
+<p><strong><span class="red">事务型系统结构图</span></strong></p>
+<p>它接受一项事务，根据事务处理的特点和性质，选择分派一个适当的处理单元， 然后给出结果。</p>
+<p>在事务型系统结构图中，<span class="yellow">事务中心模块</span>按所接受的事务的类型，选择某一事务处理模块执行。各<span class="yellow">事务处理模块</span>并列。 每个事务处理模块可能要调用若干个<span class="yellow">操作模块</span>，而操作模块又可能调用若干个<span class="yellow">细节模块</span></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8csiau2fgj30q30jl40q.jpg" alt="" /></p>
+<h3 id="变换与事务分析"><a class="anchor" href="#变换与事务分析">#</a> 变换与事务分析</h3>
+<p><strong><span class="red">变换分析</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8csst7wm0j30wk0fgacw.jpg" alt="" /></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8cstgxa5sj314c0t77ap.jpg" alt="" /></p>
+<p><strong><span class="red">变换分析注意事项</span></strong></p>
+<ul>
+<li>深度遍历模块设计
+<ul>
+<li>在选择模块设计的次序时，必须对一个模块的全部直接下属模块都设计完成之后，才能转向另一个模块的下层模块的设计</li>
+</ul>
+</li>
+<li>耦合与内聚
+<ul>
+<li>在设计下层模块时，应考虑模块的耦合和内聚问题，以提高初始结构图的质量</li>
+</ul>
+</li>
+<li>使用 “黑箱” 技术
+<ul>
+<li>在设计当前模块时，先把这个模块的所有下层模块定义成 “黑箱”，在设计中利用它们时，暂时不考虑其内部结构和实现。在这一步定义 好的 “黑箱”，在下一步就可以对它们进行设计和加工。这样，又会导致更多的 “黑箱”。最后，全部 “黑箱” 的内容和结构应完全被确定</li>
+</ul>
+</li>
+<li>控制直接下属模块数
+<ul>
+<li>在模块划分时，一个模块的直接下属模块一般在 5 个左右。如果直接下属模块超过 10 个，可设立中间层次</li>
+</ul>
+</li>
+<li>停止模块功能分解的情况
+<ul>
+<li>模块不能再细分为明显的子任务；</li>
+<li>分解成用户提供的模块或程序库的子程序；</li>
+<li>模块的界面是输入 / 输出设备传送的信息；</li>
+<li>模块不宜再分解得过小</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">事务分析</span></strong></p>
+<ul>
+<li>在很多软件应用中，存在某种作业数据流，它可以引发一个或多个 处理，这些处理能够完成该作业要求的功能。这种数据流就叫做事 务</li>
+<li>与变换分析一样，事务分析也是从分析数据流图开始，自顶向下， 逐步分解，建立系统结构图</li>
+</ul>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8csw8zub0j31050rygpk.jpg" alt="" /></p>
+<p><strong><span class="red">事务分析过程</span></strong></p>
+<ol>
+<li>
+<p>识别事务源</p>
+<p>利用数据流图和数据词典，从问题定义和需求分析的结果中，找出各种需要处理的事务。通常，事务来自物理输入装置。有时，设计人员还必须区别系统的输入、中 心加工和输出中产生的事务</p>
+</li>
+<li>
+<p>规定适当的事务型结构</p>
+<p>在确定了该数据流图具有事务型特征之后， 根据模块划分理论，建立适当的事务型结构</p>
+</li>
+<li>
+<p>识别各种事务和它们定义的操作</p>
+<p>从问题定义和需求分析中找出的事务及其操作所必需的全部信息，对于系统内部产生的事务，必须仔细地定义它们的操作</p>
+</li>
+<li>
+<p>注意利用公用模块</p>
+<p>在事务分析的过程中，如果不同事务的一 些中间模块可由具有类似的语法和语义的 若干个低层模块组成，则可以把这些低层模块构造成公用模块</p>
+</li>
+<li>
+<p>事务处理模块</p>
+<p>对每一事务，或对联系密切的一组事务， 建立一个事务处理模块；如果发现在系统 中有类似的事务，可以把它们组成一个事 务处理模块</p>
+</li>
+<li>
+<p>操作模块</p>
+<p>对事务处理模块规定它们全部的下层操作模块</p>
+</li>
+<li>
+<p>细节模块</p>
+<p>对操作模块规定它们的全部细节模块</p>
+</li>
+</ol>
+<p><strong><span class="red">混合结构分析</span></strong></p>
+<ul>
+<li>变换分析是软件系统结构设计的主要方法。 一般，一个大型的软件系统是变换型结构和事务型结构的混合结构</li>
+<li>所以，我们通常利用以<span class="red">变换分析为主、事务分析为辅</span>的方式进行软件结构设计</li>
+</ul>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8ct0bahyoj30yc0t2td3.jpg" alt="" /></p>
+<h3 id="面向过程的组件设计之流程图"><a class="anchor" href="#面向过程的组件设计之流程图">#</a> 面向过程的组件设计之流程图</h3>
+<p><strong><span class="red">结构化组件设计</span></strong></p>
+<ul>
+<li>组件级设计也称为过程设计、详细设计，位于数据设计、体系结构设计和接口设 计完成之后</li>
+<li>任何程序总可以用三种结构化的构成元素来设计和实现
+<ul>
+<li>顺序：任何算法规约中的核心处理步骤</li>
+<li>条件：允许根据逻辑情况选择处理的方式</li>
+<li>重复：提供了循环</li>
+</ul>
+</li>
+<li>详细设计工具可以分为以下三类：
+<ul>
+<li>图形设计符号：流程图、盒图等</li>
+<li>表格设计符号：决策表等</li>
+<li>程序设计语言：PDL 等</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">流程图（flow chart）</span></strong></p>
+<ul>
+<li>利用各种方块图形、线条及箭头等符号来表达解决问题的步骤及进行的顺序； 是算法的一种表示方式</li>
+<li>“标准作业流程”（SOP, Standard operating procedure）
+<ul>
+<li>企业界常用的一种作业方法， 其目的在使每一项作业流程均能清楚呈现，任何人只要看到流程图，便能一目了然， 有助于相关作业人员对整体工作流程的掌握</li>
+</ul>
+</li>
+<li>程序流程图 (program flow chart)
+<ul>
+<li>表示程序中的处理过程</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">制作流程图的优点</span></strong></p>
+<ul>
+<li>所有流程一目了然，工作人员能掌握全局</li>
+<li>更换人手时，按图索骥，容易上手</li>
+<li>所有流程在绘制时，很容易发现疏失之处，可适时予以调整更正，使各项作业更为严谨</li>
+</ul>
+<p><strong><span class="red">流程图的基本符号</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8cwx85r67j30xs0hm77j.jpg" alt="" /></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8cwxmpo0hj30ww0hadj5.jpg" alt="" /></p>
+<p><strong><span class="red">流程图的基本结构</span></strong></p>
+<ul>
+<li>
+<p>顺序结构</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8cwzh9hdlj30gz0g1t9s.jpg" alt="" /></p>
+</li>
+<li>
+<p>选择结构</p>
+<ul>
+<li>
+<p>二元选择结构（基本结构）</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8cwzyzyssj30zn0jygp4.jpg" alt="" /></p>
+</li>
+<li>
+<p>多重选择结构</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8cx0c6zapj312e0ic42k.jpg" alt="" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>循环结构</p>
+<ul>
+<li>
+<p>while-do 结构</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8cx0p51goj30ql0k5goq.jpg" alt="" /></p>
+</li>
+<li>
+<p>do-while 结构</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8cx13fesgj30uf0ha76d.jpg" alt="" /></p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong><span class="red">流程图绘制原则</span></strong></p>
+<ol>
+<li>
+<p>各项步骤有选择或决策结果，如 “可 / 否”、“通过 / 不通过” 或其他相对文字时，请检查校正流程是否有遗漏，以避免悬而未决的状况。</p>
+</li>
+<li>
+<p>流程图符号绘制排列顺序，为由上而下，由左而右。</p>
+</li>
+<li>
+<p>处理程序可用阿拉伯数字，从 1 开始，依处理程序排列顺序编号，并以文字依处理程序功能命名</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8cx28buwnj30ut0dgdhb.jpg" alt="" /></p>
+</li>
+<li>
+<p>相同流程图符号宜大小一致。</p>
+</li>
+<li>
+<p>路径符号宜避免互相交叉</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8cx3j66czj30r20dj0tw.jpg" alt="" /></p>
+</li>
+<li>
+<p>同一路径符号的指示箭头应只有一个</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8cx47po05j30mv0gfmyd.jpg" alt="" /></p>
+</li>
+<li>
+<p>开始符号在流程图中只能出现一次，但结束符号则不限。若流程图能一目了然，则开始符号和结束符号可省略。</p>
+</li>
+<li>
+<p>选择结构与重复结构的选择或决策条件，文字叙述应简明清晰，路径加注 “是”、“否” 或其它相对性文字指示说明。</p>
+</li>
+<li>
+<p>流程图中若有参考到其他已定义流程，可使用已定义处理程序符号，不必重复绘制</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8cx52hrwaj30eb09f0t9.jpg" alt="" /></p>
+</li>
+<li>
+<p>流程图若一页绘制不下，可以使用分级分页绘制方式，并在处理程序编号上表示其级别</p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8cx5j5kmfj30s40dwdh5.jpg" alt="" /></p>
+</li>
+</ol>
+<p><strong><span class="green">示例：输出 0~9 的数</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8cx6c0nl9j30q30kt407.jpg" alt="" /></p>
+<p><strong><span class="green">示例：输入 5 个实数，计算平均值，然后再打印该平均值</span></strong></p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8cx6vsby8j30cd0knjso.jpg" alt="" /></p>
+<p><strong><span class="green">示例：收邮件</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8cx7h2f46j30oo0pd0vq.jpg" alt="" /></p>
+<h3 id="面向过程的其他组件设计方法"><a class="anchor" href="#面向过程的其他组件设计方法">#</a> 面向过程的其他组件设计方法</h3>
+<p><strong><span class="red">盒图（N-S 图）</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8cxb4tgnhj31190ea75y.jpg" alt="" /></p>
+<p><span class="label danger">五种基本控制结构由五种图形构件表示</span></p>
+<p><strong><span class="red">盒图示例</span></strong></p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8cxc8p05kj30kw0codgq.jpg" alt="" /></p>
+<p><strong><span class="red">PDL (程序设计语言)</span></strong></p>
+<ul>
+<li>PDL 是一种用于描述功能模块的算法设计和加工细节的语言。称为程序设计语言。 它是一种伪码。</li>
+<li>伪码的语法规则分为 “外语法” 和 “内语法”。</li>
+<li>PDL 具有严格的关键字外语法，用于定义控制结构和数据结构，同时它的表示实际 操作和条件的内语法又是灵活自由的，可使用自然语言的词汇。</li>
+</ul>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8cxed15hmj31at0pajz2.jpg" alt="" /></p>
+<p><strong><span class="red">判定表（决策表）</span></strong></p>
+<ul>
+<li>
+<p>判定表用于表示程序的静态逻辑</p>
+</li>
+<li>
+<p>在判定表中的条件部分给出所有的两分支判断的列表，动作部分给出相应的处理</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8cxg1vyxkj30in0dh403.jpg" alt="" /></p>
+</li>
+<li>
+<p>要求将程序流程图中的多分支判断都改成两分支判断</p>
+</li>
+</ul>
+<p><strong><span class="red">无多分支流程图 —&gt; 判定图</span></strong></p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8cxgule16j31bc0la42x.jpg" alt="" /></p>
+<h2 id="面向对象的系统设计"><a class="anchor" href="#面向对象的系统设计">#</a> 面向对象的系统设计</h2>
+<p><strong><span class="red">面向对象设计的活动</span></strong></p>
+<p>面向对象设计活动包括：</p>
+<ul>
+<li>系统结构设计</li>
+<li>用例设计</li>
+<li>类设计</li>
+<li>数据库设计</li>
+<li>用户界面设计</li>
+</ul>
+<h3 id="面向对象的架构设计"><a class="anchor" href="#面向对象的架构设计">#</a> 面向对象的架构设计</h3>
+<p><strong><span class="red">面向对象设计活动之一：架构设计</span></strong></p>
+<ul>
+<li>架构设计的目的是要勾画出系统的总体结构，这项工作由经验丰富的架构设计师主持完成。</li>
+<li>输入：用例模型、分析模型。</li>
+<li>输出：物理结构、子系统及其接口、概要的设计类</li>
+</ul>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8cxqcv09wj30yt0mowgu.jpg" alt="" /></p>
+<p><strong><span class="red">架构设计第 1 步：构造系统的物理模型</span></strong></p>
+<ul>
+<li>首先用 UML 的配置图（部署图）描述系统的物理架构</li>
+<li>将需求分析阶段捕获的系统功能分配到这些物理节点上。</li>
+<li>配置图上可以显示计算节点的拓扑结构、硬件设备配置、通信路径、各个节点上运行的系统软件配置、应用软件配置。</li>
+<li>一个图书馆信息管理系统的物理模型如后图所示</li>
+</ul>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8cxsl64zjj312y0m0jwo.jpg" alt="" /></p>
+<p><strong><span class="red">架构设计第 2 步：设计子系统</span></strong></p>
+<ul>
+<li>对于一个复杂的软件系统来说，将其分解成若干个子系统，子系统内还可以继续划分子系统或包， 这种自顶向下、逐步细化的组织结构非常符合人类分析问题的思路。</li>
+<li>每个子系统与其它子系统之间应该定义接口，在接口上说明交互信息，注意这时还不要描述子系 统的内部实现。</li>
+<li>可用 UML 组件图表示</li>
+</ul>
+<ol>
+<li>
+<p>划分各个子系统的方式：</p>
+<ul>
+<li>按照功能划分，将相似的功能组织在一个子系统中；</li>
+<li>按照系统的物理布局划分，将在同一个物理区域内的软件组织为一个子系统；</li>
+<li>按照软件层次划分子系统，软件层次通常可划分为用户界面层、专用软件层、通用软件层、中间层和数 据层，见后图</li>
+</ul>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8cxuvopc8j31330lzn5e.jpg" alt="" /></p>
+</li>
+<li>
+<p>定义子系统之间的关系：</p>
+<p>划分子系统后，要确定子系统之间的关系。子系统之间的关系：</p>
+<ul>
+<li>“请求－服务” 关系， “请求” 子系统调用 “服务” 子系统， “服务” 子系统完成 一些服务，并且将结果返回给 “请求” 子系统。</li>
+<li>平等关系，每个子系统都可以调用其它子系统。</li>
+<li>如果子系统的内容相互有关联，就应该定义它们之间的依赖关系。在设计时，相关 的子系统之间应该定义接口，依赖关系应该指向接口而不要指向子系统的内容</li>
+</ul>
+<p>⚠️：</p>
+<p>如果两个子系统之间的关系过于密切，则说明一个子系统的变化 会导致另一个子系统变化，这种子系统理解和维护都会比较困难。</p>
+<p>解决子系统之间关系过于密切的办法基本上有两个：</p>
+<ul>
+<li>重新划分子系统，这种方法比较简单，将子系统的粒度减少，或者重新规划子系统 的内容，将相互依赖的元素划归到同一个子系统之中；</li>
+<li>定义子系统的接口，将依赖关系定义到接口上</li>
+</ul>
+</li>
+<li>
+<p>定义子系统的接口</p>
+<ul>
+<li>每个子系统的接口上定义了若干操作，体现了子系统的功能，而功能的具体实现方法应该是隐藏的，其他子系统只能通过接口间接地享受这个子系统提供的服务，不能直接操作它</li>
+</ul>
+</li>
+</ol>
+<p><strong><span class="red">架构设计第 3 步：非功能需求设计</span></strong></p>
+<ul>
+<li>分析阶段定义了整个系统的非功能需求，在设计阶段要研究这些需求，设计出可行的方案。</li>
+<li>非功能需求包括：
+<ul>
+<li>系统的安全性、错误监测和故障恢复、可移植性和通用性等等</li>
+</ul>
+</li>
+<li>具有共性的非功能需求一般设计在中间层和通用应用层，目的是充分利用已有构件，减少重新开发的工作量</li>
+</ul>
+<h3 id="面向对象的用例设计"><a class="anchor" href="#面向对象的用例设计">#</a> 面向对象的用例设计</h3>
+<p><strong><span class="red">面向对象设计活动之二：进一步细化用例</span></strong></p>
+<ul>
+<li>根据分析阶段产生的高层类图和交互图，由用例设计师研究已有的类，将它们 分配到相应的用例中。</li>
+<li>检查每个用例功能，依靠当前的类能否实现，同时检查每个用例的特殊需求 是否有合适的类来实现。</li>
+<li>细化每个用例的类图，描述实现用例的类及其类之间的相互关系，其中的通用 类和关键类可用粗线框区分，这些类将作为项目经理检查项目时的重点</li>
+</ul>
+<p><strong><span class="red">类</span></strong></p>
+<ul>
+<li>类是包含信息和影响信息行为的逻辑元素。类的符号是由三个格子的长方形组成，有时下面两个格子可以省略</li>
+<li>最顶部的格子包含类的名字，类的命名应尽量用应用领域中的术语，有明确的含义，以利于开发人员与用户的理解和交流。 中间的格子说明类的属性。最下面的格子是类的操作行为</li>
+</ul>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8cy3zdfglj30hs0dlmy8.jpg" alt="" /></p>
+<p><strong><span class="red">类间关系</span></strong></p>
+<p><img data-src="https://tva2.sinaimg.cn/large/006hWKQzly8h8cy56g30aj31en0n5aev.jpg" alt="" /></p>
+<p><strong><span class="red">分析类图</span></strong></p>
+<p><img data-src="C:%5CUsers%5Clxyar%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221121185610154.png" alt="" /></p>
+<p><strong><span class="red">如何找实体类？</span></strong></p>
+<ul>
+<li>实体类用于对必须存储的信息和相关行为进行建模</li>
+<li>实体类源于业务模型中的业务实体，但出于对系统结构的优化，可以在后续的过程中被分拆、合并</li>
+</ul>
+<p><strong><span class="red">如何找边界类？</span></strong></p>
+<ul>
+<li>参与者与用例之间应当建立边界类</li>
+<li>用例与用例之间如果有交互，应当为其建立边界类</li>
+<li>如果用例与系统边界之外的非人对象有交互，应当为其建立边界类</li>
+<li>在相关联的业务对象有明显的独立性要求，即它们可能在各自的领域内发展和变化，但 又希望互不影响时，也应当为它们建立边界类</li>
+</ul>
+<p><strong><span class="red">如何找控制类？</span></strong></p>
+<ul>
+<li>控制类来源于对用例场景中动词的分析和定义</li>
+<li>控制类主要起到协调对象的作用，例如从边界类通过控制类访问实体类，或者实体 类通过控制类访问另一个实体类。</li>
+<li>如果用例场景中的行为在执行步骤、执行要求或者执行结果上具有类似的特征，应 当合并或抽取超类</li>
+</ul>
+<p><strong><span class="red">细化用例步骤</span></strong></p>
+<ol>
+<li>
+<p>通过扫描用例中所有的交互图识别参与用例解决方案的类。在设计阶段完善类、属性和方法。例如，每个用例至少应该有一个控制 类，它通常没有属性而只有方法，它本身不完成什么具体的功能，只是起协调和控制作用</p>
+<p>📓每个类的方法都可以通过分析交互图得到，一般地检查所有的交互图发送给某个类的所有消息，这表明了该类必须定义的方法。例如 “借 书控制” 类向 “读者” 类发送 “检查读者（读者编号）” 消息，那么 “检查读者” 就作为 “读者” 类应该提供的方法</p>
+</li>
+<li>
+<p>添加属性的类型、方法的参数类型和方法的返回类型</p>
+</li>
+<li>
+<p>添加类之间的关系，包括关联、依赖、继承等</p>
+</li>
+</ol>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8cy9cjv0gj30yh0qp42m.jpg" alt="" /></p>
+<h3 id="面向对象的类设计类图"><a class="anchor" href="#面向对象的类设计类图">#</a> 面向对象的类设计 —— 类图</h3>
+<p><strong><span class="red">面向对象设计活动之三：详细设计一个类</span></strong></p>
+<ol>
+<li>
+<p>类图概要</p>
+<ul>
+<li>类图以反映类的结构 (属性、操作) 以及类之间的关系为主要目的，描述了软件系统的结构，是一种静态建模方法</li>
+<li>类图中的 “类” 与<span class="exturl" data-url="aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT0lRTklOUQlQTIlRTUlOTAlOTElRTUlQUYlQjklRTglQjElQTEmYW1wO3NwbT0xMDAxLjIxMDEuMzAwMS43MDIw">面向对象</span>语言中的 “类” 的概念是对应的，是对现实世界中的事物的抽象</li>
+</ul>
+</li>
+<li>
+<p>类图中的事物及解释</p>
+<ol>
+<li>
+<p>类</p>
+<ol>
+<li>从上到下分为三部分，分别是类名、属性和操作。类名是必须有的</li>
+<li>类如果有属性，则每一个属性必须有一个名字，另外还可以有其他的描述信息，如可见性、数据类型、缺省值等</li>
+<li>类如果有操作，则每一个操作也都有一个名字，其他可选的信息包括可见性、参数的名、参数类型、参数缺省值和操作的返回值的类型等</li>
+</ol>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118021054193.png" alt="" /></p>
+</li>
+<li>
+<p>接口</p>
+<p>一组操作的集合，只有操作的声明而没有实现</p>
+</li>
+<li>
+<p>抽象类</p>
+<p>不能被实例化的类，一般至少包含一个抽象操作</p>
+</li>
+<li>
+<p>模板类</p>
+<p>一种参数化的类，在编译时把模板参数绑定到不同的数据类型，从而产生不同的类</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118021110441.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzMyMDQ1,size_16,color_FFFFFF,t_70" alt="" /></p>
+</li>
+</ol>
+</li>
+<li>
+<p>类图中的关系及解释</p>
+<ol>
+<li>
+<p>关联关系</p>
+<p>描述了类的结构之间的关系。具有方向、名字、角色和多重性等信息。一般的关联关系语义较弱</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118021155963.png" alt="" /></p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118021534372.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzMyMDQ1,size_16,color_FFFFFF,t_70" alt="" /></p>
+<ul>
+<li>
+<p>关联可以是单向关联或双向关联</p>
+<ul>
+<li>
+<p>双向关联</p>
+<p>用带双箭头的实线或者无箭头的实线表示</p>
+<p>双方都知道或有对方的链接<img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8d462sa0oj30eh05qwej.jpg" alt="" /></p>
+</li>
+<li>
+<p>单向关联</p>
+<p>用一个带箭头的实线表示，箭头指向被关联的对象，即导航性</p>
+<p>A 拥有、链接或知道 B，B 不知道 A。 B 发生变化会影响 A，A 发生变化不影响 B<img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8d46uzfhnj30eh05974c.jpg" alt="" /></p>
+<p>📗：单向关联所生成的 Java 代码：</p>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">class</span> <span class="token class-name">A</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token class-name">B</span> b<span class="token punctuation">;</span><span class="token comment">//B 作为 A 的成员变量</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token keyword">int</span> a<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>    <span class="token class-name">A</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span><span class="token comment">// 构造函数</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    	b <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">B</span>（）<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token function">run</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="8"></td><td><pre>    	b<span class="token punctuation">.</span><span class="token function">doSomething</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="11"></td><td><pre><span class="token keyword">class</span> <span class="token class-name">B</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token class-name">B</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="13"></td><td><pre>    	…</pre></td></tr><tr><td data-num="14"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="15"></td><td><pre>    <span class="token function">doSomething</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="16"></td><td><pre>   		…</pre></td></tr><tr><td data-num="17"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="18"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li>
+<p>关联关系的多重性：表示可以有多少个对象参与该关联。例如，雇主（公司）可以雇佣多个雇员，表 示为 “0..n”；雇员只能被一家雇主雇佣，表示为 “1”<img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8d429ryk1j30ob04qgmc.jpg" alt="" /></p>
+</li>
+</ul>
+<p>也有两种语义较强，分别是聚合与组合</p>
+<ol>
+<li>
+<p>聚合关系</p>
+<p>特殊关联关系，指明一个聚集（整体）和组成部分之间的关系</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022555653.png" alt="" /></p>
+</li>
+<li>
+<p>组合关系</p>
+<p>语义更强的聚合，部分和整体具有相同的生命周期</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022543383.png" alt="" /></p>
+</li>
+</ol>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022041191.png" alt="" /></p>
+</li>
+<li>
+<p>泛化关系</p>
+<p>在面向对象中一般称为继承关系，存在于父类与子类、父接口与子接口之间</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022507583.png" alt="" /></p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022028792.png" alt="" /></p>
+</li>
+<li>
+<p>实现关系</p>
+<p>对应于类和接口之间的关系</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022735526.png" alt="" /></p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022208808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzMyMDQ1,size_16,color_FFFFFF,t_70" alt="" /></p>
+</li>
+<li>
+<p>依赖关系</p>
+<p>描述了一个类的变化对依赖于它的类产生影响的情况。有多种表现形式， 例如绑定 (bind)、友元 (friend) 等</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022243849.png" alt="" /></p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022312482.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzMyMDQ1,size_16,color_FFFFFF,t_70" alt="" /></p>
+</li>
+</ol>
+</li>
+<li>
+<p>类图与代码的映射</p>
+<ol>
+<li>
+<p>类的映射</p>
+<p><img data-src="https://img-blog.csdnimg.cn/2020011802232874.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzMyMDQ1,size_16,color_FFFFFF,t_70" alt="" /></p>
+</li>
+<li>
+<p>关联关系的映射</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022356557.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzMyMDQ1,size_16,color_FFFFFF,t_70" alt="" /></p>
+</li>
+<li>
+<p>泛化关系的映射</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022405603.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzMyMDQ1,size_16,color_FFFFFF,t_70" alt="" /></p>
+</li>
+<li>
+<p>实现关系的映射</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022413562.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzMyMDQ1,size_16,color_FFFFFF,t_70" alt="" /></p>
+</li>
+<li>
+<p>依赖关系的映射</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022420752.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzMyMDQ1,size_16,color_FFFFFF,t_70" alt="" /></p>
+</li>
+</ol>
+</li>
+<li>
+<p>类图例子</p>
+<ol>
+<li>
+<p>图形编辑器</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022431154.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzMyMDQ1,size_16,color_FFFFFF,t_70" alt="" /></p>
+</li>
+<li>
+<p>演出售票系统</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200118022440324.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzMyMDQ1,size_16,color_FFFFFF,t_70" alt="" /></p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="uml顺序图"><a class="anchor" href="#uml顺序图">#</a> UML 顺序图</h3>
+<ol>
+<li>
+<p>顺序图概要</p>
+<ul>
+<li>顺序图用来表示用例中的行为顺序。当执行一个用例行为时，顺序图中的每条消息对应了一个类操作或<span class="exturl" data-url="aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT0lRTclOEElQjYlRTYlODAlODElRTYlOUMlQkEmYW1wO3NwbT0xMDAxLjIxMDEuMzAwMS43MDIw">状态机</span>中引起转换的事件</li>
+<li>顺序图展示对象之间的交互，这些交互是指在场景或用例的事件流中发生的。 顺序图属于动态建模</li>
+<li>顺序图的重点在消息序列上，也就是说，描述消息是如何在对象间发送和接收的。表示了对象之间传送消息的时间顺序</li>
+<li>浏览顺序图的方法是：从上到下查看对象间交换的消息</li>
+</ul>
+</li>
+<li>
+<p>顺序图的组成</p>
+<ul>
+<li>对象</li>
+<li>生命线</li>
+<li>激活条</li>
+<li>消息</li>
+</ul>
+<ol>
+<li>
+<p>对象</p>
+<ul>
+<li>参与者和对象按照从左到右的顺序排列</li>
+<li>如果一个参与者，放在最左端。如果两个参与者（一般最多两个），就分列左右两端。启动这个用例的参与者一般排最左边；接收消息的参与者排 在最右端</li>
+<li>对象从左到右按照重要性排列或按照消息先后顺序排列</li>
+</ul>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8eaa4c7q3j317008b0u1.jpg" alt="" /></p>
+<p>对象的命名方式</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8eab82x6qj311i0id41h.jpg" alt="" /></p>
+</li>
+<li>
+<p>生命线</p>
+<ul>
+<li>生命线表示该用例中每个对象 的生命期，使用垂直的虚线表示</li>
+<li>对象默认的位置在图顶部，表示对象在此次交互之前已经存在；如果是在交互过程中由另外的对象所创建，则位于图中间某处</li>
+<li>对象生命期结束用注销符号 “×” 表示消亡点</li>
+</ul>
+</li>
+<li>
+<p>激活</p>
+<ul>
+<li>当一条消息被传递给某对象的时候，它会触 发该对象的某个操作（方法），这时该对象就被激活了</li>
+<li>当操作完成后，伴随一个消息箭头（可选） 离开对象的激活条，该对象的激活期也宣告结束</li>
+<li>去激活（Deactivation）表示该对象处于空闲状态，在等待消息</li>
+</ul>
+<p><img data-src="C:%5CUsers%5Clxyar%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221123133705062.png" alt="" /></p>
+</li>
+<li>
+<p>消息</p>
+<p><img data-src="https://img-blog.csdn.net/20180413151935959?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NoYWZ0Xw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="" /></p>
+<ol>
+<li>消息是用来说明顺序图中不同活动对象之间的通信。因此，消息可以激发某个操作、 创建或撤销某个对象</li>
+<li>在顺序图中，消息是由从一个对象的生命线指向另一个对象的生命线的直线箭头来 表示的，箭头上面还可以表明要发送的消息名及序号</li>
+</ol>
+<ul>
+<li>
+<p>简单消息</p>
+<ul>
+<li>
+<p>同步消息</p>
+<ul>
+<li>同步消息是消息中最常见的形式，通常用于过程调用（Procedure Call），所以该类消 息也称为调用消息</li>
+<li>调用者（caller）通过同步消息，调用被调 用者（callee）的一个操作或方法。注意方 法的输入参数 para 是调用者传递的。此时消 息名称通常就是被调用的那个方法的签名</li>
+</ul>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8f0fa6wcej30ap06u3ys.jpg" alt="" /></p>
+</li>
+<li>
+<p>异步消息</p>
+<ul>
+<li>异步消息表示发送消息的对象不用 等待接收者的回应，可以继续自己 的活动</li>
+<li>异步消息在某种程度上规定了发送 方和接收方的责任，即发送方只负 责将消息发送，至于接收方响不响 应或如何响应，发送方不需要知道。 对接收方来说，在接收到消息后它 既可以对消息进行处理，也可以什 么都不做</li>
+</ul>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8f0hsrmi5j308k04jt8l.jpg" alt="" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>反身消息</p>
+<ul>
+<li>在顺序图中，对象也可以将一条消 息发给自己，这就是反身消息；可理解为调用自己的方法</li>
+<li>如果一条消息只能作为反身消息， 说明该消息只能由对象自身触发</li>
+<li>该种方法可以被设置为 private， 因为只有属于同一个类的对象才能 调用它。在这种情况下，应该对顺 序图进行彻底的检查，以确定该方 法不需要被其他对象调用</li>
+</ul>
+<p><img data-src="C:%5CUsers%5Clxyar%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221123134941599.png" alt="" /></p>
+<p><span class="green">📗反身消息示例</span></p>
+<ul>
+<li>
+<p>带反身消息的情况</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8f0pfm36pj309e08jjrp.jpg" alt="" /></p>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">class</span> <span class="token class-name">Object1</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">oper1</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    	object2<span class="token punctuation">.</span><span class="token function">oper2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> </pre></td></tr><tr><td data-num="4"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    <span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">oper3</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    	…</pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="9"></td><td><pre><span class="token keyword">class</span> <span class="token class-name">Object2</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">oper2</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="11"></td><td><pre>        <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span></pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="13"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="14"></td><td><pre></pre></td></tr><tr><td data-num="15"></td><td><pre><span class="token keyword">class</span> <span class="token class-name">Test</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="16"></td><td><pre>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> main（<span class="token class-name">String</span> args<span class="token punctuation">[</span><span class="token punctuation">]</span>） <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="17"></td><td><pre>        <span class="token class-name">Object1</span> object1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object1</span>（）<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="18"></td><td><pre>        <span class="token class-name">Object2</span> object2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object2</span>（）<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="19"></td><td><pre>        object1<span class="token punctuation">.</span>oper1（）<span class="token punctuation">;</span><span class="token comment">// 调用 object2.oper2（）</span></pre></td></tr><tr><td data-num="20"></td><td><pre>        object1<span class="token punctuation">.</span>oper3（）<span class="token punctuation">;</span><span class="token comment">//object1 调用自身的方法</span></pre></td></tr><tr><td data-num="21"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="22"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure></li>
+<li>
+<p>反身消息位于嵌套的激活期上的情况</p>
+</li>
+</ul>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8f0sy4iqkj30ag09k3yx.jpg" alt="" /></p>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">class</span> <span class="token class-name">Object1</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token keyword">public</span> <span class="token keyword">void</span> oper1（）<span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>        object2<span class="token punctuation">.</span>oper2（）<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>        oper3（）<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token keyword">private</span> <span class="token keyword">void</span> oper3（）<span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    	…</pre></td></tr><tr><td data-num="8"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="9"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token keyword">class</span> <span class="token class-name">Object2</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="11"></td><td><pre>    <span class="token keyword">public</span> <span class="token keyword">void</span> oper2（）<span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="12"></td><td><pre>        …</pre></td></tr><tr><td data-num="13"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="14"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="15"></td><td><pre></pre></td></tr><tr><td data-num="16"></td><td><pre><span class="token keyword">class</span> <span class="token class-name">Test</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="17"></td><td><pre>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> main（<span class="token class-name">String</span> args<span class="token punctuation">[</span><span class="token punctuation">]</span>） <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="18"></td><td><pre>        <span class="token class-name">Object1</span> object1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object1</span>（）<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="19"></td><td><pre>        <span class="token class-name">Object2</span> object2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object2</span>（）<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="20"></td><td><pre>        object1<span class="token punctuation">.</span>oper1（）<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="21"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="22"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure></li>
+<li>
+<p>返回消息</p>
+<p>做题的时候，如果题目中没有明确要求 画出返回消息，一般可以不画。除非明确要 求了，或者题干中强调指出了某处有返回信 息，才需要画！</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8f0zdz1x6j30c1085jri.jpg" alt="" /></p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
 ]]></content>
       <categories>
         <category>软件工程</category>
@@ -15750,6 +16637,248 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
       <categories>
         <category>计算机科学核心课程</category>
         <category>计算机组成原理</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>了解SEO基础</title>
+    <url>/frontend/React/</url>
+    <content><![CDATA[<h1 id="react入门"><a class="anchor" href="#react入门">#</a> React 入门</h1>
+<h3 id="官网"><a class="anchor" href="#官网">#</a> 官网</h3>
+<ol>
+<li>英文官网：<span class="exturl" data-url="aHR0cHM6Ly9yZWFjdGpzLm9yZy8=">https://reactjs.org/</span></li>
+<li>中文官网：<span class="exturl" data-url="aHR0cHM6Ly9yZWFjdC5kb2NzY2hpbmEub3JnLw==">https://react.docschina.org/</span></li>
+</ol>
+<h3 id="介绍描述"><a class="anchor" href="#介绍描述">#</a> 介绍描述</h3>
+<ol>
+<li>用于动态构建用户界面的 JavaScript 库（只关注视图）</li>
+<li>由 Faceboook 开源</li>
+</ol>
+<h3 id="react的特点"><a class="anchor" href="#react的特点">#</a> React 的特点</h3>
+<ol>
+<li>
+<p>声明式编码</p>
+<p>命令式编程描述代码如何工作，告诉计算机一步步地执行、先做什么后做什么。比如去酒吧点一杯酒，指挥服务员：</p>
+<ul>
+<li>
+<p>从架子上取下一个玻璃杯；</p>
+</li>
+<li>
+<p>把杯子放在酒桶前；</p>
+</li>
+<li>
+<p>打开酒桶开关，直到酒杯满；</p>
+</li>
+<li>
+<p>把杯子递给顾客；</p>
+</li>
+</ul>
+<p>少一步都无法达到最终结果</p>
+<p>而声明式编程表明想要实现什么目的，应该做什么，但是不指定具体怎么做。比如声明式点一杯酒，只要告诉服务员：我要一杯酒即可。程序员只需指出需求，React 就能自动实现这些需求</p>
+</li>
+<li>
+<p>组件化编码</p>
+<p>把一个庞大的 HTML+CSS+JS 系统划分为一个个的模块</p>
+</li>
+<li>
+<p>React Native 编写原生应用</p>
+<p>只需 JS 就可编写一个 Android 或 iOS 应用软件</p>
+</li>
+<li>
+<p>高效（优秀的 Didding 算法）</p>
+</li>
+</ol>
+<h3 id="react高效的原因"><a class="anchor" href="#react高效的原因">#</a> React 高效的原因</h3>
+<p>比如有一个列表数据 <code>&lt;ul&gt;</code> ，当用户执行刷新操作时，Ajax 会重新从后台请求数据，即使新请求的数据和上次完全相同，DOM 也会被全部更新一遍并进行重新渲染</p>
+<p>React 可以先在本地生成<mark>虚拟 DOM</mark>，与更新前的虚拟 DOM 比较之后，再把发生改变的虚拟 DOM 更新到真实 DOM，不会像原生 JS 一样把所有的真实 DOM 全部重排渲染，减少了频繁的 DOM 操作</p>
+<p><img data-src="https://upload-images.jianshu.io/upload_images/12665637-89f2bf480abc1314.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/640/format/webp" alt="" /></p>
+<p>总结：</p>
+<ol>
+<li>使用虚拟（virtual）DOM，不总是直接操作页面真实 DOM</li>
+<li>DOM Diffing 算法，最小化页面重绘</li>
+</ol>
+<h2 id="react的基本使用"><a class="anchor" href="#react的基本使用">#</a> React 的基本使用</h2>
+<h3 id="效果"><a class="anchor" href="#效果">#</a> 效果</h3>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8bm3kyk06j309408zjrm.jpg" alt="" /></p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wMV9oZWxsb19yZWFjdC9oZWxsb19yZWFjdC5odG1s">React_demo/hello_react.html at master · 60sAINT/React_demo (github.com)</span></p>
+<h3 id="相关js库"><a class="anchor" href="#相关js库">#</a> 相关 js 库</h3>
+<ol>
+<li>
+<p>react.js：React 核心库</p>
+<p>引入 react 核心库后，从此全局多了一个 React 对象</p>
+</li>
+<li>
+<p>react-dom.js：提供操作 DOM 的 react 扩展库，扩展出 React 帮你操作 DOM 的功能</p>
+<p>引入 react-dom 后，从此全局又多了一个 ReactDom 对象</p>
+</li>
+<li>
+<p>babel.min.js：</p>
+<ol>
+<li>部分浏览器无法解析 ES6，该库把程序员写的 ES6 代码转成浏览器能解析的 ES5 代码</li>
+<li>React 写的实际是浏览器解析不了的 JSX 语法，该库则是解析 JSX 语法代码转为 JS 代码的库</li>
+</ol>
+</li>
+</ol>
+<h3 id="创建虚拟dom的两种方式"><a class="anchor" href="#创建虚拟dom的两种方式">#</a> 创建虚拟 DOM 的两种方式</h3>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8bo0hc4j0j30f40evq47.jpg" alt="" /></p>
+<ol>
+<li>纯 JS 方式（一般不用）🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wMl8lRTglOTklOUElRTYlOEIlOUZET00lRTclOUElODQlRTQlQjglQTQlRTclQTclOEQlRTUlODglOUIlRTUlQkIlQkElRTYlOTYlQjklRTUlQkMlOEYvMl8lRTQlQkQlQkYlRTclOTQlQThqcyVFNSU4OCU5QiVFNSVCQiVCQSVFOCU5OSU5QSVFNiU4QiU5RkRPTS5odG1s">React_demo/2_使用 js 创建虚拟 DOM.html at master・60sAINT/React_demo (github.com)</span></li>
+<li>JSX 方式🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wMl8lRTglOTklOUElRTYlOEIlOUZET00lRTclOUElODQlRTQlQjglQTQlRTclQTclOEQlRTUlODglOUIlRTUlQkIlQkElRTYlOTYlQjklRTUlQkMlOEYvMV8lRTQlQkQlQkYlRTclOTQlQThqc3glRTUlODglOUIlRTUlQkIlQkElRTglOTklOUElRTYlOEIlOUZET00uaHRtbA==">React_demo/1_使用 jsx 创建虚拟 DOM.html at master・60sAINT/React_demo (github.com)</span></li>
+</ol>
+<h3 id="虚拟dom与真实dom"><a class="anchor" href="#虚拟dom与真实dom">#</a> 虚拟 DOM 与真实 DOM</h3>
+<p>关于虚拟 DOM：</p>
+<ol>
+<li>本质是 Object 类型的对象（一般对象，不是数组对象、函数对象）</li>
+<li>虚拟 DOM 比较” 轻”，真实 DOM 比较” 重 “，因为虚拟 DOM 是 React 内部在用，无需真实 DOM 上那么多的属性</li>
+<li>虚拟 DOM 最终会被 React 转化为真实 DOM，呈现在页面上</li>
+</ol>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wMl8lRTglOTklOUElRTYlOEIlOUZET00lRTclOUElODQlRTQlQjglQTQlRTclQTclOEQlRTUlODglOUIlRTUlQkIlQkElRTYlOTYlQjklRTUlQkMlOEYvM18lRTglOTklOUElRTYlOEIlOUZET00lRTQlQjglOEUlRTclOUMlOUYlRTUlQUUlOUVET00uaHRtbA==">React_demo/3_虚拟 DOM 与真实 DOM.html at master・60sAINT/React_demo (github.com)</span></p>
+<h2 id="react-jsx"><a class="anchor" href="#react-jsx">#</a> React JSX</h2>
+<h3 id="jsx"><a class="anchor" href="#jsx">#</a> JSX</h3>
+<ol>
+<li>
+<p>全称 JavaScriptXML</p>
+</li>
+<li>
+<p>react 定义的一种类似于 XML 的<mark> JS 扩展语法</mark>：JS+XML</p>
+<p><span class="label info">XML</span> 早期用于存储和传输数据</p>
+<figure class="highlight xml"><figcaption data-lang="XML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>student</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>name</span><span class="token punctuation">></span></span>Tom<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>name</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>age</span><span class="token punctuation">></span></span>19<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>age</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>student</span><span class="token punctuation">></span></span></pre></td></tr></table></figure><p>因为结构比存储的数据多，所以后来更多使用 JSON 字符串</p>
+<figure class="highlight json"><figcaption data-lang="JSON"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token punctuation">&#123;</span><span class="token property">"name"</span><span class="token operator">:</span><span class="token string">"Tom"</span><span class="token punctuation">,</span><span class="token property">"age"</span><span class="token operator">:</span><span class="token number">19</span><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><p>存储简单方便，互相转化使用 parse 和 stringfy 方法也比较快</p>
+<p>JSON 用得比较多，但 XML 也不是完全不用了，比如在微信公众号服务器和开发者服务器之间的数据传输用的就是 XML</p>
+</li>
+<li>
+<p>本质是 <code>React.createElement(component, props, ...children)</code>  方法的语法糖</p>
+</li>
+<li>
+<p>作用：用来简化创建虚拟 DOM</p>
+<ul>
+<li>写法： <code>var ele = &lt;h1&gt;Hello JSX!&lt;/h1&gt;</code></li>
+<li>注意 1：它不是字符串，也不是 HTML/XML 标签</li>
+<li>注意 2：他最终产生的就是一个 JS 对象</li>
+</ul>
+</li>
+<li>
+<p>标签名任意：HTML 标签或其他标签</p>
+</li>
+</ol>
+<h3 id="jsx语法规则"><a class="anchor" href="#jsx语法规则">#</a> JSX 语法规则</h3>
+<ol>
+<li>
+<p>定义虚拟 DOM 时，不要写引号</p>
+</li>
+<li>
+<p>标签中混入 JS<mark> 表达式</mark>时要用 <code>&#123;&#125;</code></p>
+<p><span class="label success">表达式</span>：一个表达式会产生一个值，可以放在任何一个需要值的地方</p>
+<p>📗下面这些都是表达式</p>
+<ol>
+<li>
+<p>a（一个变量）</p>
+</li>
+<li>
+<p>a+b（运算表达式）</p>
+</li>
+<li>
+<p>demo (1)（函数调用表达式）</p>
+</li>
+<li>
+<p>arr.map ()（数组的 map 方法，用于加工数组，返回值为加工后数组）</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">]</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">let</span> result <span class="token operator">=</span> arr<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">num</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token keyword">return</span> num <span class="token operator">+</span> <span class="token number">1</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure></li>
+<li>
+<p><code>function test() &#123;&#125;</code> （定义一个函数，值就是函数本身）</p>
+</li>
+<li>
+<p>console.log (xxx)（输出表达式）</p>
+</li>
+</ol>
+<p><span class="label danger">语句 = 代码</span>：</p>
+<p>📗下面这些都是语句（代码）：</p>
+<ol>
+<li>if() {}</li>
+<li>for () {}</li>
+<li case="" :xxxx="">switch()</li>
+</ol>
+<p>⚠️标签之间的 <code>&#123;&#125;</code>  内只能写表达式，不能写语句</p>
+</li>
+<li>
+<p>样式的类名指定不要用 class，要用 className</p>
+</li>
+<li>
+<p>内联样式，要用 <code>style=&#123;&#123;key:value&#125;&#125;</code>  的形式去写</p>
+</li>
+<li>
+<p>虚拟 DOM 必须只有一个根标签</p>
+</li>
+<li>
+<p>标签必须闭合</p>
+</li>
+<li>
+<p>标签首字母</p>
+<ol>
+<li>小写字母开头，则将该标签转为 html 中同名元素，若 html 中无该标签对应的同名元素，则报错</li>
+<li>若大写字母开头，react 就去渲染对应的组件，若组件没有定义，则报错</li>
+</ol>
+</li>
+</ol>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby90cmVlL21hc3Rlci9yZWFjdF9iYXNpYy8wM19qc3glRTglQUYlQUQlRTYlQjMlOTUlRTglQTclODQlRTUlODglOTk=">React_demo/react_basic/03_jsx 语法规则 at master・60sAINT/React_demo (github.com)</span></p>
+<h3 id="jsx练习"><a class="anchor" href="#jsx练习">#</a> JSX 练习</h3>
+<p>需求：动态展示如下列表</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8bqh5b5ruj309r08c74f.jpg" alt="" /></p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wNF9qc3glRTUlQjAlOEYlRTclQkIlODMlRTQlQjklQTAvanN4JUU1JUIwJThGJUU3JUJCJTgzJUU0JUI5JUEwLmh0bWw=">React_demo/jsx 小练习.html at master・60sAINT/React_demo (github.com)</span></p>
+<h2 id="模块与组件-模块化与组件化的理解"><a class="anchor" href="#模块与组件-模块化与组件化的理解">#</a> 模块与组件、模块化与组件化的理解</h2>
+<h3 id="模块"><a class="anchor" href="#模块">#</a> 模块</h3>
+<ol>
+<li>理解：向外提供特定功能的 js 程序，一般<mark>就是一个 js 文件</mark></li>
+<li>为什么要拆成模块：随着业务逻辑增加，代码越来越多且复杂</li>
+<li>作用：复用 js，简化 js 的编写，提高 js 运行效率</li>
+</ol>
+<h3 id="组件"><a class="anchor" href="#组件">#</a> 组件</h3>
+<ol>
+<li>理解：用来实现局部功能效果的代码和资源的集合（html/css/js/image 等等）</li>
+<li>为什么：一个界面的功能更复杂</li>
+<li>作用：复用编码，简化项目编码，提高运行效率</li>
+</ol>
+<h3 id="模块化"><a class="anchor" href="#模块化">#</a> 模块化</h3>
+<p>当前应用的 js 都以模块来编写，这个应用就是一个模块化的应用</p>
+<h3 id="组件化"><a class="anchor" href="#组件化">#</a> 组件化</h3>
+<p>当前应用是以多组件的方式实现，这个应用就是一个组件化的应用</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8bwd8dkspj30ly0d3t9p.jpg" alt="" /></p>
+<p>Header 组件：头部 html、css、js、img、video、font... 等等所有的东西，只要是实现头部这块功能的全都带走，这些东西组合在一起就形成了头部组件</p>
+<h1 id="react面向组件编程"><a class="anchor" href="#react面向组件编程">#</a> React 面向组件编程</h1>
+<h2 id="基本理解和使用"><a class="anchor" href="#基本理解和使用">#</a> 基本理解和使用</h2>
+<h3 id="使用react开发者调试工具"><a class="anchor" href="#使用react开发者调试工具">#</a> 使用 React 开发者调试工具</h3>
+<p><img data-src="https://tva1.sinaimg.cn/large/006hWKQzly8h8bwvob7cjj31d30b7gn2.jpg" alt="" /></p>
+<h3 id="效果-2"><a class="anchor" href="#效果-2">#</a> 效果</h3>
+<p>函数式组件：</p>
+<p><img data-src="https://tva3.sinaimg.cn/large/006hWKQzly8h8bwwupa1oj30gb06nglx.jpg" alt="" /></p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wNV9yZWFjdCVFNCVCOCVBRCVFNSVBRSU5QSVFNCVCOSU4OSVFNyVCQiU4NCVFNCVCQiVCNi8xXyVFNSU4NyVCRCVFNiU5NSVCMCVFNSVCQyU4RiVFNyVCQiU4NCVFNCVCQiVCNi5odG1s">React_demo/1_函数式组件.html at master・60sAINT/React_demo (github.com)</span></p>
+<p>类式组件：</p>
+<p><img data-src="https://tva4.sinaimg.cn/large/006hWKQzly8h8gd1fx0ljj30gj06vdg4.jpg" alt="" /></p>
+<p>复杂组件：有状态 state 的组件，state 是组件实例对象里的属性</p>
+<p>就像人的状态影响行为，组件的状态驱动页面。组件的状态里存着数据，react 会拿着这个数据生成虚拟 DOM，进而转成真实 DOM 放在页面上，数据的改变就会驱动着页面的展示</p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wNV9yZWFjdCVFNCVCOCVBRCVFNSVBRSU5QSVFNCVCOSU4OSVFNyVCQiU4NCVFNCVCQiVCNi8yXyVFNyVCMSVCQiVFNSVCQyU4RiVFNyVCQiU4NCVFNCVCQiVCNi5odG1s">React_demo/2_类式组件.html at master・60sAINT/React_demo (github.com)</span></p>
+<h2 id="组件实例对象的三大核心属性1state"><a class="anchor" href="#组件实例对象的三大核心属性1state">#</a> 组件实例对象的三大核心属性 1：state</h2>
+<h3 id="效果-3"><a class="anchor" href="#效果-3">#</a> 效果</h3>
+<p>点击鼠标，文字在” 今天天气很凉爽 “和” 今天天气很炎热 “之间切换</p>
+<p>🔗<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLzYwc0FJTlQvUmVhY3RfZGVtby9ibG9iL21hc3Rlci9yZWFjdF9iYXNpYy8wNl8lRTclQkIlODQlRTQlQkIlQjYlRTUlQUUlOUUlRTQlQkUlOEIlRTQlQjglODklRTUlQTQlQTclRTUlQjElOUUlRTYlODAlQTdfc3RhdGUvMl9zdGF0ZSVFNyU5QSU4NCVFNyVBRSU4MCVFNSU4NiU5OSVFNiU5NiVCOSVFNSVCQyU4Ri5odG1s">https://github.com/60sAINT/React_demo/blob/master/react_basic/06_组件实例三大属性_state/2_state 的简写方式.html</span></p>
+<h3 id="理解"><a class="anchor" href="#理解">#</a> 理解</h3>
+<ol>
+<li>state 是组件对象最重要的属性，值是对象（可以包含多个 key-value 的组合）</li>
+<li>组件被称为” 状态机 “，通过更新组件的 state 来更新对应的页面显示（重新渲染组件）</li>
+</ol>
+<h3 id="强烈注意"><a class="anchor" href="#强烈注意">#</a> 强烈注意</h3>
+<ol>
+<li>组件中 render 方法中的 this 为组件实例对象</li>
+<li>组件自定义的方法中 this 为 undefined，如何解决？
+<ul>
+<li>强制绑定 this：通过函数对象的 ()</li>
+<li>箭头函数</li>
+</ul>
+</li>
+<li>状态数据，不能直接修改或更新</li>
+</ol>
+<h2 id="组件实例对象的三大核心属性2props"><a class="anchor" href="#组件实例对象的三大核心属性2props">#</a> 组件实例对象的三大核心属性 2：props</h2>
+]]></content>
+      <categories>
+        <category>Web前端</category>
       </categories>
   </entry>
 </search>
